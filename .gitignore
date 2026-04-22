@@ -1,0 +1,61 @@
+# ── Data ─────────────────────────────────────────────────────────────────────
+# Raw CT data — TBs of TIFFs; never commit, download via download_*.py scripts
+data/*
+!data/.gitkeep
+
+# ── Generated outputs ─────────────────────────────────────────────────────────
+predictions/*
+!predictions/.gitkeep
+filter_experiments/*
+!filter_experiments/.gitkeep
+models/*
+!models/.gitkeep
+
+# ── Python environment ────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+# Notebook outputs are stripped by nbstripout git filter (see .gitattributes)
+# Checkpoint files are local scratch — never commit
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Secrets / credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+anthropic_key.txt
+
+# ── Claude Code local memory (project-specific, not for public repos) ─────────
+.claude/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/settings.json
+.idea/
+
+# ── Large binary artefacts ────────────────────────────────────────────────────
+# Model weights — use Git LFS or a model registry if you need to version these
+*.pth
+*.pt
+*.onnx
+*.pkl
+*.h5
+*.hdf5
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+tmp/
+.cache/
