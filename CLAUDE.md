@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Build a generalizable pipeline to decipher ancient Greek from CT data of **any** Herculaneum scroll — including undeciphered segments with no prior labels. PHercParis4 (Scroll 1) is the development target. Full plan: [objective.md](objective.md).
+Build a generalizable pipeline to decipher ancient Greek from CT data of **any** Herculaneum scroll — including undeciphered segments with no prior labels. PHercParis4 (Scroll 1) is the development target. Full plan: [docs/objective.md](docs/objective.md).
 
 **4-stage pipeline:**
 1. **Ink detection** — 3D CNN trained on labelled segments → per-pixel ink probability map
@@ -13,8 +13,9 @@ Build a generalizable pipeline to decipher ancient Greek from CT data of **any**
 4. **Final transcription** — reconstruct line order from letter centroids → structured text with per-character confidence scores
 
 Two separate training tracks:
-- **Fragment track** (`vesuvius_ink_detection.ipynb`) — trained on Kaggle fragments with manual ink labels (65-layer Z-stacks)
-- **Segment track** (`segment_ink_detection.ipynb`) — trained on 11 PHercParis4 segments with pseudo-labels (33-layer Z-stacks, labels from prior GP-winner model)
+- **Fragment track** (`notebooks/fragment_ink_detection.ipynb`) — trained on Kaggle fragments with manual ink labels (65-layer Z-stacks)
+- **Segment track** (`notebooks/segment_ink_detection.ipynb`) — trained on up to 11 PHercParis4 segments with pseudo-labels (33-layer Z-stacks); uses all 11 locally, 3 on Kaggle
+- **Kaggle-only segment track** (`notebooks/kaggle_segment_train.ipynb`) — self-contained version of the segment track for Kaggle (no `src/segment_model.py` needed); downloads 4 smallest segments, time-budgeted at 7.5 h
 
 ## Environment
 
@@ -39,47 +40,75 @@ Widgets rendering in VS Code requires `ipywidgets` (already in requirements.txt)
 ```bash
 # --- Fragment track (Kaggle labelled fragments, 65-layer) ---
 # Download the 7 unlabelled scroll segments (~15 GB)
-python download_segments.py
+python scripts/downloading/download_segments.py
 
 # Run fragment-trained notebook
-jupyter notebook vesuvius_ink_detection.ipynb
+jupyter notebook notebooks/fragment_ink_detection.ipynb
 
 # Explore raw segment data interactively
-jupyter notebook visualize_segments.ipynb   # 3D viewer, MIPs, orthogonal projections
-jupyter notebook visualize_data.ipynb       # Z-stack browser, depth profiles, patch sampling
+jupyter notebook notebooks/visualize_segments.ipynb   # 3D viewer, MIPs, orthogonal projections
+jupyter notebook notebooks/visualize_data.ipynb       # Z-stack browser, depth profiles, patch sampling
 
 # --- Segment track (11 labelled PHercParis4 segments, 33-layer) ---
 # Labels are already in data/labelled_segments/{id}/ink_labels.tif
 # Download surface volumes for all 11 segments (~72 GB total):
-python download_labelled_segment.py --all
+python scripts/downloading/download_labelled_segment.py --all
 # Or pick specific segments (sorted smallest → largest):
-python download_labelled_segment.py --seg 20231221180251 20231031143852 20231016151002
+python scripts/downloading/download_labelled_segment.py --seg 20231221180251 20231031143852 20231016151002
 
 # Run segment-trained notebook (also works on Kaggle — first cell auto-downloads)
-jupyter notebook segment_ink_detection.ipynb
+jupyter notebook notebooks/segment_ink_detection.ipynb
+
+# Standalone Kaggle version (no segment_model.py required, 4 segments, 7.5 h budget):
+jupyter notebook notebooks/kaggle_segment_train.ipynb
 
 # After inference, experiment with Greek letter template matching:
-python experiment_filters.py --pred predictions/{segment_id}_prob.npy
+python src/experiment_filters.py --pred predictions/{segment_id}_prob.npy
 ```
 
 ## Notebook architecture
 
-### `vesuvius_ink_detection.ipynb` — Fragment track (65-layer inputs)
+### `notebooks/fragment_ink_detection.ipynb` — Fragment track (65-layer inputs)
 
 All hyperparameters live in the `CFG` dict in cell 1:
 
 ```python
 CFG = dict(
-    patch_size   = 224,
-    stride       = 112,
-    batch_size   = 8,
-    num_epochs   = 15,
-    lr           = 1e-4,
+    # Paths
+    train_dir   = Path('data/train'),
+    scroll_dir  = Path('data/scroll'),
+    model_dir   = Path('models'),
+    pred_dir    = Path('predictions'),
+
+    # Surface volume
+    z_start     = 0,
+    z_end       = 65,
+
+    # Patch extraction
+    patch_size  = 224,
+    stride      = 112,   # 50% overlap
+
+    # Training
+    batch_size  = 8,
+    num_epochs  = 15,
+    lr          = 1e-4,
     val_fragment = 'fragment1',
-    threshold    = 0.45,
-    min_cc_size  = 50,
-    z_start      = 0,
-    z_end        = 65,
+    seed        = 42,
+
+    # Inference
+    threshold   = 0.45,
+    min_cc_size = 50,
+
+    # Scroll segments for download/inference (~15 GB, 7 segments)
+    scroll_segments = [
+        '20230827161847',   # 5.73 GB — Grand Prize
+        '20230826170124',   # 2.35 GB
+        '20230820174948',   # 1.87 GB
+        '20230826135043',   # 1.55 GB
+        '20230828154913',   # 1.40 GB
+        '20230819093803',   # 1.15 GB
+        '20230504093154',   # 1.03 GB
+    ],
 )
 ```
 
@@ -100,18 +129,32 @@ CFG = dict(
 
 ### `segment_ink_detection.ipynb` — Segment track (33-layer inputs, Kaggle-compatible)
 
-Uses `segment_model.py` for all model/dataset logic. Hyperparameters live in `CFG` inside `segment_model.py`.
+Uses `segment_model.py` for all model/dataset logic. Hyperparameters live in `CFG` inside `segment_model.py` (`patch_size=256`, `patches_per_seg=400`, `batch_size=4`, `grad_accum=4`, `num_epochs=8`). On Kaggle uses 3 smallest segments (~11 GB); locally uses all 11.
 
-| Cells | Purpose |
+| Section | Purpose |
 |---|---|
 | 1 | Auto-detect Kaggle vs local; download missing segments from S3 |
-| 2 | Imports + CFG overrides |
+| 2 | Imports + CFG overrides (sets `val_segment` to smallest) |
 | 3 | Build `SegmentStreamDataset` (one segment in RAM at a time) |
 | 4 | `SegmentInkNet` + AdamW + CosineAnnealingLR |
 | 5 | Training loop (AMP + gradient accumulation) → `models/best_segment_model.pth` |
 | 6 | Training curves |
-| 7 | Tiled sliding-window inference |
+| 7 | Tiled sliding-window inference → `predictions/{seg}_prob.npy`, `.tif` |
 | 8 | Visualization: CT / prediction / label / overlay / diff |
+
+### `kaggle_segment_train.ipynb` — Self-contained Kaggle segment training
+
+Fully self-contained (no `segment_model.py` needed). Designed for Kaggle GPU sessions with a hard 7.5-hour training budget. Downloads 4 smallest segments (~15.7 GB). Saves checkpoints every epoch.
+
+| Section | Purpose |
+|---|---|
+| 1 | Paths, CFG (`patch_size=256`, `patches_per_seg=800`, `num_epochs=60`, `max_train_hours=7.5`) |
+| 2 | Download 4 smallest segments from S3 |
+| 3 | Inline `SegmentInkNet` + `SegmentStreamDataset` + loss definitions |
+| 4 | Time-budgeted training → `best_segment_model.pth`, `last_segment_model.pth`, `training_history.json` |
+| 5 | Training curves (loss + F0.5 + LR) → `models/training_curves.png` |
+| 6 | Inference on val segment → `predictions/{seg}_prob.npy`, `.tif` |
+| 7 | Visualization: CT / prediction / label / overlay / diff → `predictions/{seg}_vis.png` |
 
 ## Models
 
@@ -169,6 +212,9 @@ data/
 models/
   best_model.pth                  # fragment-track best (val F0.5)
   best_segment_model.pth          # segment-track best (val F0.5)
+  last_segment_model.pth          # segment-track last epoch (kaggle_segment_train only)
+  training_history.json           # per-epoch metrics (kaggle_segment_train only)
+  training_curves.png             # loss + F0.5 + LR curves (kaggle_segment_train only)
 predictions/
   {segment_id}_prob.npy           # raw float32 probability map
   {segment_id}_prob.tif           # same as uint8 TIFF

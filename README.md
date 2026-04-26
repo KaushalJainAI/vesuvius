@@ -12,6 +12,15 @@ The Herculaneum scrolls were carbonized by the eruption of Mount Vesuvius in 79 
 
 ---
 
+## Documentation
+
+Comprehensive guides and project details:
+
+- [Project Objectives](docs/objective.md) — Success metrics, constraints, and long-term goals.
+- [Data Description](docs/data_description.md) — Detailed breakdown of CT scans, surface volumes, and label formats.
+
+---
+
 ## Pipeline overview
 
 ```
@@ -27,7 +36,7 @@ CT scan (65 or 33-layer Z-stack TIFF)
   └─ per-component bbox + area + centroid
          │
          ▼
- Stage 3: Letter Recognition (experiment_filters.py)
+ Stage 3: Letter Recognition (src/experiment_filters.py)
   └─ normalize component to 64×64
   └─ NCC + IoU vs 24 Greek uppercase templates
   └─ ranked top-K letter guesses + pseudo-confidence
@@ -65,10 +74,10 @@ Uses manual ink annotations from the [Vesuvius Challenge Kaggle competition](htt
 
 ```bash
 # Download 7 unlabelled PHercParis4 scroll segments for inference (~15 GB)
-python download_segments.py
+python scripts/downloading/download_segments.py
 
 # Train + infer
-jupyter notebook vesuvius_ink_detection.ipynb
+jupyter notebook notebooks/fragment_ink_detection.ipynb
 ```
 
 ### 2b. Segment track (11 labelled PHercParis4 segments, 33-layer Z-stacks)
@@ -77,16 +86,16 @@ Uses pseudo-labels (outputs of prior Grand Prize winner model). Labels are alrea
 
 ```bash
 # View available segments and their sizes:
-python download_labelled_segment.py
+python scripts/downloading/download_labelled_segment.py
 
 # Download specific segments (start with the 3 smallest, ~11 GB):
-python download_labelled_segment.py --seg 20231221180251 20231031143852 20231016151002
+python scripts/downloading/download_labelled_segment.py --seg 20231221180251 20231031143852 20231016151002
 
 # Or download all 11 (~72 GB):
-python download_labelled_segment.py --all
+python scripts/downloading/download_labelled_segment.py --all
 
-# Train + infer (also works on Kaggle — see Kaggle section below)
-jupyter notebook segment_ink_detection.ipynb
+# Train + infer
+jupyter notebook notebooks/segment_ink_detection.ipynb
 ```
 
 ### 3. Experiment with Greek letter filters
@@ -94,13 +103,13 @@ jupyter notebook segment_ink_detection.ipynb
 After inference produces a probability map:
 
 ```bash
-python experiment_filters.py --pred predictions/20231221180251_prob.npy
+python src/experiment_filters.py --pred predictions/20231221180251_prob.npy
 
 # Restrict to a specific region:
-python experiment_filters.py --pred predictions/20231221180251_prob.npy --crop 1000,3000,500,2500
+python src/experiment_filters.py --pred predictions/20231221180251_prob.npy --crop 1000,3000,500,2500
 
 # Adjust sensitivity:
-python experiment_filters.py --pred predictions/20231221180251_prob.npy --threshold 0.45 --min-size 80
+python src/experiment_filters.py --pred predictions/20231221180251_prob.npy --threshold 0.45 --min-size 80
 ```
 
 Outputs to `filter_experiments/`:
@@ -114,8 +123,8 @@ Outputs to `filter_experiments/`:
 
 The segment notebook auto-detects Kaggle and adjusts paths and download targets accordingly.
 
-1. Upload `segment_model.py` to your Kaggle notebook as a utility script (or add it to `/kaggle/working/`).
-2. Open `segment_ink_detection.ipynb` — cell 1 will automatically download the 3 smallest segments (~11 GB, fits within Kaggle's 20 GB `/kaggle/working` limit).
+1. Upload `src/segment_model.py` to your Kaggle notebook as a utility script (or add it to `/kaggle/working/`).
+2. Open `notebooks/segment_ink_detection.ipynb` — cell 1 will automatically download the 3 smallest segments (~11 GB, fits within Kaggle's 20 GB `/kaggle/working` limit).
 3. To use more segments, edit `SEGMENTS_TO_USE` in cell 1.
 
 > **Note:** Kaggle's `/kaggle/working` disk cap is ~20 GB. With 3 segments you get ~11 GB of surface volumes + ~81 MB labels. Training on all 11 requires a Kaggle Dataset upload (offline).
@@ -126,15 +135,18 @@ The segment notebook auto-detects Kaggle and adjusts paths and download targets 
 
 | File | Description |
 |---|---|
-| `vesuvius_ink_detection.ipynb` | Fragment-track notebook: train on Kaggle fragments, infer on scroll segments |
-| `segment_ink_detection.ipynb` | Segment-track notebook: train on 11 labelled PHercParis4 segments, Kaggle-compatible |
-| `segment_model.py` | Shared module: `SegmentInkNet`, `SegmentStreamDataset`, loss, inference — imported by the segment notebook and filter script |
-| `experiment_filters.py` | CLI: extract Greek letter candidates from a probability map and rank against templates |
-| `download_segments.py` | Download 7 unlabelled PHercParis4 scroll segments (65-layer, ~15 GB) |
-| `download_labelled_segment.py` | Download 11 labelled segment surface volumes (33-layer, ~72 GB total) |
-| `visualize_segments.ipynb` | Interactive 3D viewer: MIPs, orthogonal projections for scroll segments |
-| `visualize_data.ipynb` | Z-stack browser, depth profiles, patch sampling for fragments |
-| `objective.md` | Full project goals, constraints, and success metrics |
+| `notebooks/fragment_ink_detection.ipynb` | Fragment track: train on Kaggle fragments (ground-truth labels), infer on PHercParis4 scroll segments → ink probability maps |
+| `notebooks/segment_ink_detection.ipynb` | Segment-track notebook: train on 11 labelled PHercParis4 segments, Kaggle-compatible |
+| `notebooks/kaggle_segment_train.ipynb` | Self-contained segment training for Kaggle (no `src/segment_model.py` needed) |
+| `src/segment_model.py` | Shared module: `SegmentInkNet`, `SegmentStreamDataset`, loss, inference |
+| `src/experiment_filters.py` | CLI: extract Greek letter candidates from a probability map and rank against templates |
+| `scripts/downloading/download_segments.py` | Download 7 unlabelled PHercParis4 scroll segments (65-layer, ~15 GB) |
+| `scripts/downloading/download_labelled_segment.py` | Download 11 labelled segment surface volumes (33-layer, ~72 GB total) |
+| `scripts/downloading/download_fragments.py` | Download competition fragment data |
+| `notebooks/visualize_segments.ipynb` | Interactive 3D viewer: MIPs, orthogonal projections for scroll segments |
+| `notebooks/visualize_data.ipynb` | Z-stack browser, depth profiles, patch sampling for fragments |
+| `docs/objective.md` | Full project goals, constraints, and success metrics |
+| `docs/data_description.md` | Detailed explanation of the Vesuvius datasets |
 
 ---
 
@@ -213,7 +225,7 @@ The `AdaptiveAvgPool3d` at the end means the model accepts any Z depth — swap 
 
 ## Key hyperparameters (segment track)
 
-Defined in `segment_model.py` → `CFG` dict:
+Defined in `src/segment_model.py` → `CFG` dict:
 
 | Parameter | Default | Description |
 |---|---|---|
@@ -232,7 +244,7 @@ Defined in `segment_model.py` → `CFG` dict:
 ## Known limitations
 
 - **Pseudo-labels are noisy.** The segment-track labels are outputs of a prior model — training ceiling is bounded by that model's quality. Treat trained weights as a starting point, not ground truth.
-- **Filter confidences are not calibrated.** `experiment_filters.py` uses normalized cross-correlation against a single serif font. Scores rank letters within a component but are not probabilities — use them to shortlist candidates for human review or LLM disambiguation.
+- **Filter confidences are not calibrated.** `scripts/experiment_filters.py` uses normalized cross-correlation against a single serif font. Scores rank letters within a component but are not probabilities — use them to shortlist candidates for human review or LLM disambiguation.
 - **33-layer vs 65-layer mismatch.** The two training tracks use different Z depths. Mixing data requires either resampling Z or using the adaptive pooling path.
 - **Scroll script vs modern Greek font.** Herculaneum scrolls use a specific majuscule writing style. Template matching against a modern font will miss highly stylized letterforms — this is a known gap for Stage 3.
 
