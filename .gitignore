@@ -2,6 +2,9 @@
 # Raw CT data — TBs of TIFFs; never commit, download via download_*.py scripts
 data/*
 !data/.gitkeep
+!data/labelled_segments/
+data/labelled_segments/*
+!data/labelled_segments/SEGMENT_MAP.md
 
 # ── Generated outputs ─────────────────────────────────────────────────────────
 predictions/*
