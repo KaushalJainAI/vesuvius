@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg:          #F5EDD8;
+  --bg-surface:  #EDE0BE;
+  --bg-elevated: #F9F3E5;
+  --border:      #C8B88A;
+  --border-light:#DDD0AA;
+  --text:        #1C0F05;
+  --text-mid:    #5C3D20;
+  --text-muted:  #8B6840;
+  --accent:      #8B1A1A;
+  --accent-light:#B02828;
+  --gold:        #8B6914;
+  --gold-light:  #C9A840;
+  --olive:       #4A5E3A;
+  --shadow-warm: rgba(92,60,20,0.15);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(139,108,64,0.05) 3px, rgba(139,108,64,0.05) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 7px, rgba(139,108,64,0.03) 7px, rgba(139,108,64,0.03) 8px);
+  color: var(--text);
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+#root { width: 100%; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Selection */
+::selection { background: rgba(139,26,26,0.15); color: var(--accent); }
+
+/* Utility classes */
+.font-serif { font-family: 'Playfair Display', Georgia, serif; }
+.font-mono  { font-family: 'JetBrains Mono', monospace; }
+
+/* Papyrus card style */
+.card-papyrus {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-light);
+  box-shadow: 0 2px 12px var(--shadow-warm), inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+/* Worn stamp style */
+.stamp {
+  border: 2.5px solid currentColor;
+  border-radius: 50%;
+  position: relative;
+}
+.stamp::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+/* Greek watermark text */
+.greek-watermark {
+  font-family: 'Playfair Display', serif;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(139,105,20,0.12);
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Upload drop zone active state */
+.drop-active {
+  background: rgba(139,26,26,0.05) !important;
+  border-color: var(--accent) !important;
+}
+
+/* Torn edge divider */
+.torn-edge {
+  position: relative;
+}
+.torn-edge::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: var(--bg);
+  clip-path: polygon(0 60%, 2% 20%, 4% 80%, 6% 30%, 8% 70%, 10% 10%, 12% 60%, 14% 40%, 16% 80%, 18% 20%, 20% 65%, 22% 35%, 24% 75%, 26% 15%, 28% 55%, 30% 40%, 32% 80%, 34% 25%, 36% 65%, 38% 45%, 40% 85%, 42% 20%, 44% 60%, 46% 40%, 48% 70%, 50% 30%, 52% 75%, 54% 15%, 56% 60%, 58% 45%, 60% 80%, 62% 25%, 64% 65%, 66% 35%, 68% 75%, 70% 20%, 72% 55%, 74% 40%, 76% 80%, 78% 30%, 80% 65%, 82% 45%, 84% 85%, 86% 20%, 88% 60%, 90% 35%, 92% 70%, 94% 25%, 96% 65%, 98% 40%, 100% 70%, 100% 100%, 0 100%);
+}

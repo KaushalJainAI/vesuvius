@@ -63,3 +63,26 @@ desktop.ini
 *.log
 tmp/
 .cache/
+
+# ── Caches and Testing ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── AI Tools ──────────────────────────────────────────────────────────────────
+.gemini/
+.cursor/
+
+# ── Web Frontend (Node.js) ────────────────────────────────────────────────────
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/*.local
+web/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
