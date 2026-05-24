@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Updated end-to-end pipeline</title>
+  <desc id="desc">An end-to-end project pipeline from CT scan and virtual unwrapping to ink detection and review interface.</desc>
+  <rect width="1600" height="900" fill="#f7f4ee"/>
+  <text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1f2927">End-to-end project pipeline</text>
+  <text x="82" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#59625f">Raw scroll volume to model-assisted review</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#42514d"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="110" y="245" width="210" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="215" y="306" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">micro-CT</text>
+    <text x="215" y="345" text-anchor="middle" font-size="19" fill="#59625f">3D TIF slices</text>
+
+    <rect x="390" y="245" width="210" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="495" y="306" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Preprocess</text>
+    <text x="495" y="345" text-anchor="middle" font-size="19" fill="#59625f">Denoise, enhance</text>
+
+    <rect x="670" y="245" width="210" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="775" y="306" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Geometry</text>
+    <text x="775" y="345" text-anchor="middle" font-size="19" fill="#59625f">Point cloud, normals</text>
+
+    <rect x="950" y="245" width="210" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="1055" y="306" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Unwrap</text>
+    <text x="1055" y="345" text-anchor="middle" font-size="19" fill="#59625f">Seed, trace, correct</text>
+
+    <rect x="1230" y="245" width="210" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="1335" y="306" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Ink model</text>
+    <text x="1335" y="345" text-anchor="middle" font-size="19" fill="#59625f">Probability map</text>
+
+    <rect x="310" y="540" width="260" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="440" y="600" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Candidates</text>
+    <text x="440" y="640" text-anchor="middle" font-size="19" fill="#59625f">Letters and strips</text>
+
+    <rect x="670" y="540" width="260" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="800" y="600" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Inference</text>
+    <text x="800" y="640" text-anchor="middle" font-size="19" fill="#59625f">Provisional reading</text>
+
+    <rect x="1030" y="540" width="260" height="150" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="1160" y="600" text-anchor="middle" font-size="26" font-weight="700" fill="#202b29">Review UI</text>
+    <text x="1160" y="640" text-anchor="middle" font-size="19" fill="#59625f">Human inspection</text>
+  </g>
+
+  <g stroke="#42514d" stroke-width="5" marker-end="url(#arrow)">
+    <line x1="330" y1="320" x2="370" y2="320"/>
+    <line x1="610" y1="320" x2="650" y2="320"/>
+    <line x1="890" y1="320" x2="930" y2="320"/>
+    <line x1="1170" y1="320" x2="1210" y2="320"/>
+    <path d="M1335 405 C1335 500, 440 455, 440 525" fill="none"/>
+    <line x1="585" y1="615" x2="650" y2="615"/>
+    <line x1="945" y1="615" x2="1010" y2="615"/>
+  </g>
+
+  <rect x="300" y="760" width="1000" height="66" rx="8" fill="#22312e"/>
+  <text x="800" y="802" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">This is the story to show: preparation first, prediction second, review last.</text>
+</svg>

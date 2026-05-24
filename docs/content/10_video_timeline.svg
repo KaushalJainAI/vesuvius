@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Updated three minute evaluator video timeline</title>
+  <desc id="desc">A seven-stage timeline for the final three minute demo video.</desc>
+  <rect width="1600" height="900" fill="#fbfaf7"/>
+  <text x="80" y="100" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#202b29">3-minute demo video flow</text>
+  <text x="82" y="150" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#5c6663">Opening identity, upstream geometry, ink model, review demo, and impact</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#243330"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line x1="120" y1="410" x2="1480" y2="410" stroke="#243330" stroke-width="8" stroke-linecap="round"/>
+
+    <g transform="translate(60 275)">
+      <circle cx="70" cy="135" r="32" fill="#202b29"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">1</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">0:00-0:08</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Title card</text>
+    </g>
+
+    <g transform="translate(275 275)">
+      <circle cx="70" cy="135" r="32" fill="#cf5644"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">2</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">0:08-0:25</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Problem</text>
+    </g>
+
+    <g transform="translate(490 275)">
+      <circle cx="70" cy="135" r="32" fill="#b98d3d"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">3</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">0:25-0:45</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Why hard</text>
+    </g>
+
+    <g transform="translate(705 275)">
+      <circle cx="70" cy="135" r="32" fill="#52756d"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">4</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">0:45-1:25</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Unwrapping</text>
+      <text x="70" y="273" text-anchor="middle" font-size="19" fill="#5c6663">pipeline</text>
+    </g>
+
+    <g transform="translate(920 275)">
+      <circle cx="70" cy="135" r="32" fill="#2f4d56"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">5</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">1:25-1:58</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Ink model</text>
+      <text x="70" y="273" text-anchor="middle" font-size="19" fill="#5c6663">results</text>
+    </g>
+
+    <g transform="translate(1135 275)">
+      <circle cx="70" cy="135" r="32" fill="#69624f"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">6</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">1:58-2:35</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Review</text>
+      <text x="70" y="273" text-anchor="middle" font-size="19" fill="#5c6663">demo</text>
+    </g>
+
+    <g transform="translate(1350 275)">
+      <circle cx="70" cy="135" r="32" fill="#222b29"/>
+      <text x="70" y="144" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">7</text>
+      <text x="70" y="210" text-anchor="middle" font-size="23" font-weight="700" fill="#202b29">2:35-3:00</text>
+      <text x="70" y="245" text-anchor="middle" font-size="19" fill="#5c6663">Results</text>
+      <text x="70" y="273" text-anchor="middle" font-size="19" fill="#5c6663">impact</text>
+    </g>
+  </g>
+
+  <rect x="180" y="670" width="1240" height="112" rx="8" fill="#eef0ec" stroke="#d7d8d0"/>
+  <text x="800" y="716" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#202b29">Main rule</text>
+  <text x="800" y="753" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#4e5a57">Show the chain: prepare the scroll, predict candidate ink, then review the evidence.</text>
+</svg>

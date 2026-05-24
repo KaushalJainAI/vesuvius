@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Preprocessing toolkit</title>
+  <desc id="desc">A summary of denoising and enhancement methods used before virtual unwrapping and ink prediction.</desc>
+  <rect width="1600" height="900" fill="#f8f6f1"/>
+  <text x="80" y="95" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#202b29">Preprocessing toolkit</text>
+  <text x="82" y="145" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#5d6663">Cleaning and enhancing the CT volume before surface work</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="250" width="310" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="155" y="305" font-size="30" font-weight="700" fill="#cf5644">Gaussian</text>
+    <text x="155" y="350" font-size="22" fill="#3a4542">Reduces high-frequency</text>
+    <text x="155" y="382" font-size="22" fill="#3a4542">scan noise</text>
+
+    <rect x="480" y="250" width="310" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="515" y="305" font-size="30" font-weight="700" fill="#b98d3d">Non-local means</text>
+    <text x="515" y="350" font-size="22" fill="#3a4542">Averages similar patterns</text>
+    <text x="515" y="382" font-size="22" fill="#3a4542">while preserving structure</text>
+
+    <rect x="840" y="250" width="310" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="875" y="305" font-size="30" font-weight="700" fill="#52756d">Wavelet</text>
+    <text x="875" y="350" font-size="22" fill="#3a4542">Separates signal and noise</text>
+    <text x="875" y="382" font-size="22" fill="#3a4542">in frequency space</text>
+
+    <rect x="1200" y="250" width="310" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="1235" y="305" font-size="30" font-weight="700" fill="#2f4d56">CLAHE</text>
+    <text x="1235" y="350" font-size="22" fill="#3a4542">Improves local contrast</text>
+    <text x="1235" y="382" font-size="22" fill="#3a4542">and faint detail visibility</text>
+
+    <rect x="300" y="515" width="420" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="335" y="570" font-size="30" font-weight="700" fill="#69624f">Frangi filter</text>
+    <text x="335" y="615" font-size="22" fill="#3a4542">Enhances line-like papyrus fibers</text>
+    <text x="335" y="647" font-size="22" fill="#3a4542">and layer boundaries</text>
+
+    <rect x="880" y="515" width="420" height="170" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="915" y="570" font-size="30" font-weight="700" fill="#202b29">Result</text>
+    <text x="915" y="615" font-size="22" fill="#3a4542">Cleaner evidence for tracing,</text>
+    <text x="915" y="647" font-size="22" fill="#3a4542">unwrapping, and later ink detection</text>
+  </g>
+</svg>

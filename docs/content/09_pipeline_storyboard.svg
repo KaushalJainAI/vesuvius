@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vesuvius project pipeline storyboard</title>
+  <desc id="desc">A simple five-stage visual workflow from CT scan data to provisional reading review.</desc>
+  <rect width="1600" height="900" fill="#f7f4ee"/>
+  <text x="80" y="95" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1e2726">From scroll volume to reviewable text evidence</text>
+  <text x="82" y="145" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#59625f">A demonstration-focused view of the complete project workflow</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#4a5b56"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(80 245)" filter="url(#shadow)">
+      <rect width="240" height="330" rx="8" fill="#ffffff" stroke="#d7d0c5"/>
+      <circle cx="120" cy="105" r="58" fill="#394541"/>
+      <path d="M74 115 C100 50, 149 50, 166 115 C135 95, 105 95, 74 115 Z" fill="#c7bba8"/>
+      <rect x="58" y="170" width="124" height="15" fill="#8d7960"/>
+      <rect x="58" y="195" width="124" height="15" fill="#b89f78"/>
+      <text x="120" y="250" text-anchor="middle" font-size="24" font-weight="700" fill="#1e2726">1. CT scan</text>
+      <text x="120" y="286" text-anchor="middle" font-size="17" fill="#59625f">Non-destructive scan</text>
+      <text x="120" y="310" text-anchor="middle" font-size="17" fill="#59625f">of a fragile scroll</text>
+    </g>
+
+    <line x1="350" y1="410" x2="455" y2="410" stroke="#4a5b56" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(480 245)" filter="url(#shadow)">
+      <rect width="240" height="330" rx="8" fill="#ffffff" stroke="#d7d0c5"/>
+      <rect x="56" y="54" width="128" height="128" fill="#222f2d"/>
+      <path d="M67 155 C94 112, 122 168, 154 84 C170 104, 172 142, 181 162" fill="none" stroke="#f3c34f" stroke-width="12" stroke-linecap="round"/>
+      <text x="120" y="250" text-anchor="middle" font-size="24" font-weight="700" fill="#1e2726">2. Ink map</text>
+      <text x="120" y="286" text-anchor="middle" font-size="17" fill="#59625f">Model highlights</text>
+      <text x="120" y="310" text-anchor="middle" font-size="17" fill="#59625f">probable ink regions</text>
+    </g>
+
+    <line x1="750" y1="410" x2="855" y2="410" stroke="#4a5b56" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(880 245)" filter="url(#shadow)">
+      <rect width="240" height="330" rx="8" fill="#ffffff" stroke="#d7d0c5"/>
+      <rect x="44" y="74" width="152" height="90" fill="#efe9dc" stroke="#b8aa98"/>
+      <path d="M58 124 H184" stroke="#b8aa98" stroke-width="2"/>
+      <text x="63" y="114" font-size="38" font-weight="700" fill="#2c3532">A B G</text>
+      <rect x="54" y="88" width="46" height="50" fill="none" stroke="#cc5140" stroke-width="5"/>
+      <rect x="106" y="88" width="42" height="50" fill="none" stroke="#cc5140" stroke-width="5"/>
+      <rect x="153" y="88" width="34" height="50" fill="none" stroke="#cc5140" stroke-width="5"/>
+      <text x="120" y="250" text-anchor="middle" font-size="24" font-weight="700" fill="#1e2726">3. Candidates</text>
+      <text x="120" y="286" text-anchor="middle" font-size="17" fill="#59625f">Letters and text strips</text>
+      <text x="120" y="310" text-anchor="middle" font-size="17" fill="#59625f">are isolated for review</text>
+    </g>
+
+    <line x1="1150" y1="410" x2="1255" y2="410" stroke="#4a5b56" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1280 245)" filter="url(#shadow)">
+      <rect width="240" height="330" rx="8" fill="#ffffff" stroke="#d7d0c5"/>
+      <rect x="52" y="60" width="136" height="112" fill="#293331"/>
+      <path d="M70 138 C92 92, 121 151, 150 82 C164 102, 169 128, 178 150" fill="none" stroke="#f3c34f" stroke-width="10" stroke-linecap="round"/>
+      <rect x="64" y="184" width="112" height="12" rx="6" fill="#5f766f"/>
+      <rect x="64" y="208" width="82" height="12" rx="6" fill="#b7a36f"/>
+      <text x="120" y="250" text-anchor="middle" font-size="24" font-weight="700" fill="#1e2726">4. Review</text>
+      <text x="120" y="286" text-anchor="middle" font-size="17" fill="#59625f">Model-assisted,</text>
+      <text x="120" y="310" text-anchor="middle" font-size="17" fill="#59625f">provisional reading</text>
+    </g>
+  </g>
+
+  <rect x="220" y="690" width="1160" height="92" rx="8" fill="#23312f"/>
+  <text x="800" y="729" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#ffffff">Evaluator takeaway</text>
+  <text x="800" y="763" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#d8dedc">The project turns difficult CT data into visual evidence that humans can inspect, compare, and improve.</text>
+</svg>

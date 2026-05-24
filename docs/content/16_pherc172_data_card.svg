@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">PHerc. 172 data card</title>
+  <desc id="desc">A concise data card for the PHerc. 172 scroll described in the project presentation.</desc>
+  <rect width="1600" height="900" fill="#f9f7f2"/>
+  <text x="80" y="95" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#202b29">Development scroll data</text>
+  <text x="82" y="145" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#5b6461">PHerc. 172, Bodleian Library scroll</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="120" y="240" width="580" height="420" rx="8" fill="#202b29"/>
+    <circle cx="410" cy="385" r="105" fill="#3a4642"/>
+    <path d="M320 405 C352 300, 462 280, 504 405 C438 370, 380 370, 320 405 Z" fill="#b99f75"/>
+    <text x="410" y="575" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">Carbonized Herculaneum papyrus</text>
+
+    <rect x="780" y="240" width="700" height="420" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+    <text x="830" y="310" font-size="34" font-weight="700" fill="#202b29">PHerc. 172 metadata</text>
+    <text x="830" y="370" font-size="25" fill="#3d4845">ID: 20241024131838</text>
+    <text x="830" y="420" font-size="25" fill="#3d4845">Scanning site: Diamond Light Source</text>
+    <text x="830" y="470" font-size="25" fill="#3d4845">Resolution: 7.91 micrometer</text>
+    <text x="830" y="520" font-size="25" fill="#3d4845">Energy: 53 keV</text>
+    <text x="830" y="570" font-size="25" fill="#3d4845">Format: high-resolution 3D X-ray micro-CT TIF slices</text>
+    <text x="830" y="620" font-size="25" fill="#3d4845">Fragments: labelled broken fragments for training/testing</text>
+  </g>
+
+  <text x="800" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#202b29">Use this card when explaining the upstream pipeline before ink prediction.</text>
+</svg>

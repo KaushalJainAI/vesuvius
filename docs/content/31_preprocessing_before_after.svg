@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Before and after denoising</title>
+  <desc id="desc">A side-by-side comparison of before denoising and after denoising images from the project PPT.</desc>
+  <rect width="1600" height="900" fill="#f8f5ee"/>
+  <text x="80" y="88" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#202b29">Preprocessing result</text>
+  <text x="82" y="136" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#59625f">Denoising makes the scroll structure cleaner before tracing and ink detection</text>
+
+  <rect x="95" y="210" width="660" height="555" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+  <text x="425" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#cf5644">Before denoising</text>
+  <image href="21_before_denoising.png" x="180" y="305" width="490" height="405" preserveAspectRatio="xMidYMid meet"/>
+
+  <rect x="845" y="210" width="660" height="555" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+  <text x="1175" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#2f4d56">After denoising</text>
+  <image href="22_after_denoising.png" x="930" y="305" width="490" height="405" preserveAspectRatio="xMidYMid meet"/>
+
+  <rect x="300" y="802" width="1000" height="48" rx="8" fill="#202b29"/>
+  <text x="800" y="834" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Use this before the VC3D section to show why preprocessing matters.</text>
+</svg>

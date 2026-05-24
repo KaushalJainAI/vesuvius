@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pipeline before ink prediction</title>
+  <desc id="desc">A visual workflow showing how raw scroll CT data is prepared before ink prediction.</desc>
+  <rect width="1600" height="900" fill="#f8f5ee"/>
+  <text x="80" y="92" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1f2927">Before ink prediction: making the scroll usable</text>
+  <text x="82" y="142" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#5b6461">The hard first step is geometric preparation, not just running a model</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#42514d"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <g transform="translate(75 260)">
+      <rect width="230" height="300" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <circle cx="115" cy="92" r="52" fill="#2b3431"/>
+      <path d="M73 101 C90 55, 136 44, 157 101 C126 87, 101 88, 73 101 Z" fill="#bba47d"/>
+      <text x="115" y="205" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2927">1. Scroll</text>
+      <text x="115" y="242" text-anchor="middle" font-size="17" fill="#59625f">Carbonized papyrus</text>
+    </g>
+
+    <g transform="translate(355 260)">
+      <rect width="230" height="300" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="58" y="50" width="114" height="115" fill="#2f3a37"/>
+      <g stroke="#c7d1ce" stroke-width="2">
+        <line x1="70" y1="68" x2="160" y2="68"/>
+        <line x1="70" y1="90" x2="160" y2="90"/>
+        <line x1="70" y1="112" x2="160" y2="112"/>
+        <line x1="70" y1="134" x2="160" y2="134"/>
+      </g>
+      <text x="115" y="205" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2927">2. micro-CT</text>
+      <text x="115" y="242" text-anchor="middle" font-size="17" fill="#59625f">TIF slice volume</text>
+    </g>
+
+    <g transform="translate(635 260)">
+      <rect width="230" height="300" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="50" y="54" width="130" height="105" fill="#ebe6da"/>
+      <path d="M62 137 C92 80, 128 148, 170 75" fill="none" stroke="#52756d" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="78" cy="92" r="5" fill="#cf5644"/>
+      <circle cx="143" cy="119" r="5" fill="#cf5644"/>
+      <text x="115" y="205" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2927">3. Preprocess</text>
+      <text x="115" y="242" text-anchor="middle" font-size="17" fill="#59625f">Denoise and enhance</text>
+    </g>
+
+    <g transform="translate(915 260)">
+      <rect width="230" height="300" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <g fill="#2f4d56">
+        <circle cx="73" cy="92" r="5"/>
+        <circle cx="96" cy="68" r="5"/>
+        <circle cx="121" cy="86" r="5"/>
+        <circle cx="146" cy="62" r="5"/>
+        <circle cx="166" cy="101" r="5"/>
+        <circle cx="105" cy="126" r="5"/>
+        <circle cx="145" cy="139" r="5"/>
+      </g>
+      <g stroke="#b98d3d" stroke-width="5" stroke-linecap="round">
+        <line x1="74" y1="92" x2="96" y2="68"/>
+        <line x1="96" y1="68" x2="121" y2="86"/>
+        <line x1="121" y1="86" x2="146" y2="62"/>
+        <line x1="121" y1="86" x2="105" y2="126"/>
+        <line x1="146" y1="62" x2="166" y2="101"/>
+      </g>
+      <text x="115" y="205" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2927">4. Geometry</text>
+      <text x="115" y="242" text-anchor="middle" font-size="17" fill="#59625f">Point cloud and normals</text>
+    </g>
+
+    <g transform="translate(1195 260)">
+      <rect width="230" height="300" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="43" y="58" width="144" height="86" fill="#eee8db" stroke="#b9aa98"/>
+      <path d="M55 121 C82 80, 114 139, 162 75" fill="none" stroke="#cf5644" stroke-width="6" stroke-linecap="round"/>
+      <path d="M55 121 L175 121" stroke="#2f4d56" stroke-width="4"/>
+      <text x="115" y="205" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2927">5. Unwrap</text>
+      <text x="115" y="242" text-anchor="middle" font-size="17" fill="#59625f">Trace, correct, extend</text>
+    </g>
+  </g>
+
+  <g stroke="#42514d" stroke-width="5" marker-end="url(#arrow)">
+    <line x1="320" y1="410" x2="340" y2="410"/>
+    <line x1="600" y1="410" x2="620" y2="410"/>
+    <line x1="880" y1="410" x2="900" y2="410"/>
+    <line x1="1160" y1="410" x2="1180" y2="410"/>
+  </g>
+
+  <rect x="260" y="690" width="1080" height="78" rx="8" fill="#22312e"/>
+  <text x="800" y="739" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Only after this preparation can ink prediction and reading become meaningful.</text>
+</svg>

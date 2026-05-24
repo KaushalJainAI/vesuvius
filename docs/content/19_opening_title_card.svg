@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Opening title card</title>
+  <desc id="desc">Opening title card with project title, team members, mentor, department, and college details.</desc>
+  <rect width="1600" height="900" fill="#f8f5ee"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#202b29"/>
+  <rect x="64" y="64" width="1472" height="772" rx="10" fill="#f8f5ee"/>
+
+  <image href="18_pec_logo.png" x="110" y="105" width="112" height="112" preserveAspectRatio="xMidYMid meet"/>
+  <text x="248" y="137" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#202b29">Punjab Engineering College (Deemed to be University), Chandigarh</text>
+  <text x="248" y="178" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#59625f">Computer Science Engineering (Data Science) Branch</text>
+  <text x="248" y="214" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#59625f">Major Project II</text>
+
+  <text x="110" y="330" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#202b29">Geometric Virtual Unwrapping and Volumetric Ink Detection</text>
+  <text x="110" y="386" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#202b29">of Carbonized Herculaneum Papyrus via X-ray Micro-Tomography</text>
+
+  <line x1="110" y1="438" x2="1490" y2="438" stroke="#cfc5b6" stroke-width="3"/>
+
+  <text x="110" y="505" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#2f4d56">Project Members</text>
+  <text x="110" y="554" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#202b29">Arnav Vikas Garg (22106060)</text>
+  <text x="110" y="594" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#202b29">Sunit Mehta (22106059)</text>
+  <text x="110" y="634" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#202b29">Sumeet Kumar Panda (22106048)</text>
+  <text x="110" y="674" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#202b29">Kaushal Jain (22106045)</text>
+
+  <text x="920" y="505" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#2f4d56">Under the Supervision of</text>
+  <text x="920" y="558" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#202b29">Dr. Trilok Chand</text>
+  <text x="920" y="600" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#59625f">Professor, Department of Computer Science and Engineering</text>
+
+  <rect x="920" y="662" width="456" height="62" rx="8" fill="#202b29"/>
+  <text x="1148" y="703" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Evaluator Demo Video</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vesuvius project fact sheet</title>
+  <desc id="desc">A concise fact sheet explaining the problem, contribution, demo, and evaluator takeaway.</desc>
+  <rect width="1600" height="900" fill="#f8f6f1"/>
+  <text x="80" y="95" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#1f2927">Project fact sheet</text>
+  <text x="82" y="145" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#59615f">Vesuvius Scroll Decipherment Pipeline</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(90 230)">
+      <rect width="670" height="190" rx="8" fill="#ffffff" stroke="#d7d0c6"/>
+      <text x="34" y="52" font-size="30" font-weight="700" fill="#cf5644">Problem</text>
+      <text x="34" y="92" font-size="24" fill="#26312f">Herculaneum scrolls cannot be safely opened.</text>
+      <text x="34" y="128" font-size="24" fill="#26312f">CT scans help, but the ink is almost invisible.</text>
+    </g>
+
+    <g transform="translate(840 230)">
+      <rect width="670" height="190" rx="8" fill="#ffffff" stroke="#d7d0c6"/>
+      <text x="34" y="52" font-size="30" font-weight="700" fill="#52756d">Contribution</text>
+      <text x="34" y="92" font-size="24" fill="#26312f">An end-to-end prototype from CT volume</text>
+      <text x="34" y="128" font-size="24" fill="#26312f">to unwrapping, ink evidence, and review.</text>
+    </g>
+
+    <g transform="translate(90 485)">
+      <rect width="670" height="190" rx="8" fill="#ffffff" stroke="#d7d0c6"/>
+      <text x="34" y="52" font-size="30" font-weight="700" fill="#b98d3d">Demo</text>
+      <text x="34" y="92" font-size="24" fill="#26312f">Show preprocessing, unwrapping, ink views,</text>
+      <text x="34" y="128" font-size="24" fill="#26312f">candidate review, and model output.</text>
+    </g>
+
+    <g transform="translate(840 485)">
+      <rect width="670" height="190" rx="8" fill="#ffffff" stroke="#d7d0c6"/>
+      <text x="34" y="52" font-size="30" font-weight="700" fill="#2f4d56">Evaluator takeaway</text>
+      <text x="34" y="92" font-size="24" fill="#26312f">The project makes hidden evidence visible,</text>
+      <text x="34" y="128" font-size="24" fill="#26312f">reviewable, and easier to improve.</text>
+    </g>
+  </g>
+
+  <text x="800" y="800" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2927">Use careful wording: candidate, provisional, model-assisted, not yet verified.</text>
+</svg>

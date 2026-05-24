@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">VC3D virtual unwrapping workflow</title>
+  <desc id="desc">A workflow showing seed, trace, correct, and extend steps for virtual unwrapping.</desc>
+  <rect width="1600" height="900" fill="#faf8f3"/>
+  <text x="80" y="95" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#202b29">Virtual unwrapping workflow</text>
+  <text x="82" y="145" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#5d6663">VC3D helps turn a curled 3D scroll surface into a flat reviewable segment</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L12,7 L2,12 Z" fill="#4a5753"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <g transform="translate(110 255)">
+      <rect width="285" height="360" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="55" y="60" width="175" height="135" fill="#ede6d9"/>
+      <circle cx="105" cy="126" r="13" fill="#cf5644"/>
+      <circle cx="158" cy="102" r="13" fill="#cf5644"/>
+      <text x="142" y="264" text-anchor="middle" font-size="30" font-weight="700" fill="#202b29">Seeding</text>
+      <text x="142" y="306" text-anchor="middle" font-size="20" fill="#5d6663">Mark reliable</text>
+      <text x="142" y="334" text-anchor="middle" font-size="20" fill="#5d6663">surface starts</text>
+    </g>
+
+    <g transform="translate(480 255)">
+      <rect width="285" height="360" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="55" y="60" width="175" height="135" fill="#ede6d9"/>
+      <path d="M67 150 C94 90, 135 174, 202 78" fill="none" stroke="#52756d" stroke-width="8" stroke-linecap="round"/>
+      <text x="142" y="264" text-anchor="middle" font-size="30" font-weight="700" fill="#202b29">Tracing</text>
+      <text x="142" y="306" text-anchor="middle" font-size="20" fill="#5d6663">Follow papyrus</text>
+      <text x="142" y="334" text-anchor="middle" font-size="20" fill="#5d6663">surface paths</text>
+    </g>
+
+    <g transform="translate(850 255)">
+      <rect width="285" height="360" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="55" y="60" width="175" height="135" fill="#ede6d9"/>
+      <path d="M67 154 C100 90, 124 166, 196 82" fill="none" stroke="#b7b0a4" stroke-width="8" stroke-linecap="round"/>
+      <path d="M67 134 C100 80, 128 151, 203 70" fill="none" stroke="#cf5644" stroke-width="6" stroke-linecap="round"/>
+      <text x="142" y="264" text-anchor="middle" font-size="30" font-weight="700" fill="#202b29">Correction</text>
+      <text x="142" y="306" text-anchor="middle" font-size="20" fill="#5d6663">Tune parameters</text>
+      <text x="142" y="334" text-anchor="middle" font-size="20" fill="#5d6663">or scrub in 2D</text>
+    </g>
+
+    <g transform="translate(1220 255)">
+      <rect width="285" height="360" rx="8" fill="#fff" stroke="#d8d1c6"/>
+      <rect x="48" y="66" width="188" height="124" fill="#ede6d9"/>
+      <path d="M60 151 C91 103, 127 164, 184 82" fill="none" stroke="#2f4d56" stroke-width="7" stroke-linecap="round"/>
+      <path d="M78 91 H214 M78 122 H214 M78 153 H214" stroke="#b98d3d" stroke-width="4"/>
+      <text x="142" y="264" text-anchor="middle" font-size="30" font-weight="700" fill="#202b29">Extension</text>
+      <text x="142" y="306" text-anchor="middle" font-size="20" fill="#5d6663">Grow the surface</text>
+      <text x="142" y="334" text-anchor="middle" font-size="20" fill="#5d6663">into an unwrapped segment</text>
+    </g>
+  </g>
+
+  <g stroke="#4a5753" stroke-width="5" marker-end="url(#arrow)">
+    <line x1="420" y1="435" x2="455" y2="435"/>
+    <line x1="790" y1="435" x2="825" y2="435"/>
+    <line x1="1160" y1="435" x2="1195" y2="435"/>
+  </g>
+
+  <text x="800" y="755" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#202b29">Evaluator message: the project handles the geometry needed before any ink model can be useful.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">VC3D correction before and after</title>
+  <desc id="desc">A side-by-side comparison of before correction and after correction screenshots from VC3D.</desc>
+  <rect width="1600" height="900" fill="#f8f5ee"/>
+  <text x="80" y="88" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#202b29">VC3D correction result</text>
+  <text x="82" y="136" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#59625f">Tracing errors are corrected before the surface is extended and unwrapped</text>
+
+  <rect x="80" y="205" width="700" height="560" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+  <text x="430" y="262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#cf5644">Before correction</text>
+  <image href="25_vc3d_before_correction.png" x="145" y="305" width="570" height="405" preserveAspectRatio="xMidYMid meet"/>
+
+  <rect x="820" y="205" width="700" height="560" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+  <text x="1170" y="262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#2f4d56">After correction</text>
+  <image href="26_vc3d_after_correction.png" x="885" y="305" width="570" height="405" preserveAspectRatio="xMidYMid meet"/>
+
+  <rect x="280" y="802" width="1040" height="48" rx="8" fill="#202b29"/>
+  <text x="800" y="834" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Use this to show the practical human-in-the-loop correction step.</text>
+</svg>
