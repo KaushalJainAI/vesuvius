@@ -19,7 +19,9 @@ The Grand Prize winning team (Nader / Farritor / Schilliger, 2023) used a **Time
 | [docs/objective.md](docs/objective.md) | Pipeline stages, success metrics, constraints, and improvement targets |
 | [docs/data_description.md](docs/data_description.md) | CT scans, surface volumes, Z-layers, label formats — no prior knowledge assumed |
 | [docs/initial_model.md](docs/initial_model.md) | Baseline `SegmentInkNet` architecture, known weaknesses, comparison to target |
+| [docs/production_research_pipeline.md](docs/production_research_pipeline.md) | Reproducible training, inference, and run-comparison commands |
 | [plan/model_improvement.md](plan/model_improvement.md) | Full improvement roadmap: CNN V2 → TimeSformer, with rationale and priority table |
+| [plan/decipher_pipeline.md](plan/decipher_pipeline.md) | Current LLM deciphering pipeline plus alternate script-driven workflow |
 
 ---
 
@@ -152,7 +154,9 @@ The segment notebook auto-detects Kaggle and adjusts paths and download targets.
 | `docs/objective.md` | Full project goals, pipeline stages, success metrics |
 | `docs/data_description.md` | Detailed explanation of CT data, labels, and data layout |
 | `docs/initial_model.md` | Baseline `SegmentInkNet` architecture and known weaknesses |
+| `docs/production_research_pipeline.md` | Script-first training, inference, and run summary workflow |
 | `plan/model_improvement.md` | Improvement roadmap: CNN V2 → TimeSformer |
+| `plan/decipher_pipeline.md` | Deciphering flow, commands, outputs, and alternate scripts |
 
 ---
 

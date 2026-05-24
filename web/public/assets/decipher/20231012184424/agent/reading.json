@@ -1,0 +1,978 @@
+{
+  "seg_id": "20231012184424",
+  "genre": "Theological / providence-and-piety treatise",
+  "candidate_authors": [
+    "Philodemus, On Piety",
+    "Philodemus, On the Gods"
+  ],
+  "lexical_signals": [
+    "ΔΕ",
+    "ΜΕΝ",
+    "ΤΗΣ",
+    "ΣΟΦΙΑ",
+    "ΠΟΛΙΣ",
+    "ΡΥΘΜΟΣ",
+    "ΤΩΝ",
+    "ΖΩΗ"
+  ],
+  "lexical_signal_details": [
+    {
+      "greek": "ΔΕ",
+      "english": "but",
+      "topic": "function",
+      "score": 1.0,
+      "strip_id": 5
+    },
+    {
+      "greek": "ΜΕΝ",
+      "english": "on the one hand",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 3
+    },
+    {
+      "greek": "ΤΗΣ",
+      "english": "of the (fem. gen.)",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 3
+    },
+    {
+      "greek": "ΣΟΦΙΑ",
+      "english": "wisdom",
+      "topic": "philosophy",
+      "score": 0.6,
+      "strip_id": 4
+    },
+    {
+      "greek": "ΠΟΛΙΣ",
+      "english": "city",
+      "topic": "history",
+      "score": 0.6,
+      "strip_id": 4
+    },
+    {
+      "greek": "ΡΥΘΜΟΣ",
+      "english": "rhythm",
+      "topic": "music",
+      "score": 0.5,
+      "strip_id": 2
+    },
+    {
+      "greek": "ΤΩΝ",
+      "english": "of the (gen. pl.)",
+      "topic": "function",
+      "score": 0.45,
+      "strip_id": 0
+    },
+    {
+      "greek": "ΖΩΗ",
+      "english": "life",
+      "topic": "human",
+      "score": 0.45,
+      "strip_id": 0
+    }
+  ],
+  "historical_context": "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
+  "confidence_band": "speculative",
+  "mean_confidence": 0.272,
+  "n_letters_total": 37,
+  "top_letters": [
+    "Ϲ",
+    "Ι",
+    "Ο",
+    "Ν",
+    "Ε",
+    "Α",
+    "Ρ",
+    "Μ"
+  ],
+  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a theological / providence-and-piety treatise. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "interpretation": [
+    "This segment (20231012184424) preserves 37 letter positions across 6 strips. The most-anchored letters are Ϲ Ι Ο Ν Ε Α, distributed roughly evenly through the column. Mean per-letter confidence is 0.27, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
+    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΔΕ, ΜΕΝ, ΤΗΣ, ΣΟΦΙΑ, ΠΟΛΙΣ. This pulls the genre prior toward Theological / providence-and-piety treatise, with Philodemus, On Piety, Philodemus, On the Gods as the most plausible authors.",
+    "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
+    "The passage likely defends the Epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and Stoic accounts of providence."
+  ],
+  "caveats": [
+    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
+    "0 of 6 strips returned no letters at all.",
+    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
+    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+  ],
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "annotated_image_path": "agent/strip_00_annotated.png",
+      "enhanced_image_path": "agent/strip_00_enhanced.png",
+      "letters_text": "ϹΟΝΕ",
+      "n_letters": 4,
+      "mean_confidence": 0.246,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            741,
+            132,
+            95,
+            87
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            846,
+            45,
+            1166,
+            339
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1656,
+            43,
+            317,
+            341
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1808,
+            0,
+            730,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "greek_letters": "ϹΟΝΕ",
+          "matches": [
+            {
+              "greek": "ΤΩΝ",
+              "english": "of the (gen. pl.)",
+              "topic": "function",
+              "score": 0.45
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.45
+            },
+            {
+              "greek": "ΖΩΗ",
+              "english": "life",
+              "topic": "human",
+              "score": 0.45
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ϹΟΝΕ. Plausible lexical hits: ΤΩΝ. Consistent with theological register.",
+      "interpretation": "The letter span ϹΟΝΕ clusters around what may be the words ΤΩΝ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "annotated_image_path": "agent/strip_01_annotated.png",
+      "enhanced_image_path": "agent/strip_01_enhanced.png",
+      "letters_text": "ΝΕΑΙΡΜϹ",
+      "n_letters": 7,
+      "mean_confidence": 0.274,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            110,
+            305,
+            274
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            96,
+            47,
+            741,
+            337
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            453,
+            0,
+            1326,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            728,
+            54,
+            260,
+            276
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 4,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1859,
+            0,
+            1741,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3118,
+            0,
+            197,
+            53
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 6,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3452,
+            54,
+            148,
+            276
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "greek_letters": "ΝΕΙΑ",
+          "matches": [
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            4,
+            5
+          ],
+          "greek_letters": "ΡΜ",
+          "matches": []
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            6
+          ],
+          "greek_letters": "Ϲ",
+          "matches": [
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΝΕΑΙΡΜϹ. Plausible lexical hits: ΜΕΝ, ΔΕ. Consistent with theological register.",
+      "interpretation": "The letter span ΝΕΑΙΡΜϹ clusters around what may be the words ΜΕΝ, ΔΕ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "annotated_image_path": "agent/strip_02_annotated.png",
+      "enhanced_image_path": "agent/strip_02_enhanced.png",
+      "letters_text": "ΙΥΡΗΜϹΟΤ",
+      "n_letters": 8,
+      "mean_confidence": 0.277,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            460,
+            0,
+            361,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 2,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1438,
+            0,
+            492,
+            314
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1494,
+            0,
+            219,
+            305
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1582,
+            0,
+            463,
+            314
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1862,
+            0,
+            556,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2363,
+            26,
+            448,
+            358
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2469,
+            0,
+            459,
+            337
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 7,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3225,
+            0,
+            375,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0
+          ],
+          "greek_letters": "Ι",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            2,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "greek_letters": "ΡΥΗΜϹΟ",
+          "matches": [
+            {
+              "greek": "ΡΥΘΜΟΣ",
+              "english": "rhythm",
+              "topic": "music",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            7
+          ],
+          "greek_letters": "Τ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΙΥΡΗΜϹΟΤ. Plausible lexical hits: ΡΥΘΜΟΣ. Consistent with theological register.",
+      "interpretation": "The letter span ΙΥΡΗΜϹΟΤ clusters around what may be the words ΡΥΘΜΟΣ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "annotated_image_path": "agent/strip_03_annotated.png",
+      "enhanced_image_path": "agent/strip_03_enhanced.png",
+      "letters_text": "ΜϹΟΝΕΑΙ",
+      "n_letters": 7,
+      "mean_confidence": 0.292,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            99,
+            61,
+            313,
+            310
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            190,
+            67,
+            224,
+            303
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            993,
+            0,
+            884,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1599,
+            0,
+            816,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2039,
+            0,
+            736,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2690,
+            14,
+            224,
+            370
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2813,
+            0,
+            341,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1
+          ],
+          "greek_letters": "ΜϹ",
+          "matches": [
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "greek_letters": "ΟΝΕΑΙ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΜϹΟΝΕΑΙ. Plausible lexical hits: ΜΕΝ. Consistent with theological register.",
+      "interpretation": "The letter span ΜϹΟΝΕΑΙ clusters around what may be the words ΜΕΝ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "annotated_image_path": "agent/strip_04_annotated.png",
+      "enhanced_image_path": "agent/strip_04_enhanced.png",
+      "letters_text": "ϹΟΑΙΠΡ",
+      "n_letters": 6,
+      "mean_confidence": 0.281,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            69,
+            113,
+            315
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            650,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            357,
+            0,
+            583,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            575,
+            0,
+            428,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Π",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1106,
+            54,
+            260,
+            276
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 5,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2634,
+            0,
+            628,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "greek_letters": "ϹΟΑΙΠ",
+          "matches": [
+            {
+              "greek": "ΣΟΦΙΑ",
+              "english": "wisdom",
+              "topic": "philosophy",
+              "score": 0.6
+            },
+            {
+              "greek": "ΠΟΛΙΣ",
+              "english": "city",
+              "topic": "history",
+              "score": 0.6
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            5
+          ],
+          "greek_letters": "Ρ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ϹΟΑΙΠΡ. Plausible lexical hits: ΣΟΦΙΑ. Consistent with theological register.",
+      "interpretation": "The letter span ϹΟΑΙΠΡ clusters around what may be the words ΣΟΦΙΑ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "annotated_image_path": "agent/strip_05_annotated.png",
+      "enhanced_image_path": "agent/strip_05_enhanced.png",
+      "letters_text": "ΝΕΑΙΠ",
+      "n_letters": 5,
+      "mean_confidence": 0.246,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            66,
+            561,
+            288
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            680,
+            0,
+            580,
+            335
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            734,
+            216,
+            64,
+            38
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2177,
+            35,
+            579,
+            282
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        },
+        {
+          "index": 4,
+          "char": "Π",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3202,
+            34,
+            398,
+            350
+          ],
+          "word_index": 3,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0
+          ],
+          "greek_letters": "Ν",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            2,
+            1
+          ],
+          "greek_letters": "ΑΕ",
+          "matches": [
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 1.0
+            }
+          ]
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            3
+          ],
+          "greek_letters": "Ι",
+          "matches": []
+        },
+        {
+          "word_index": 3,
+          "char_indices": [
+            4
+          ],
+          "greek_letters": "Π",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΝΕΑΙΠ. Plausible lexical hits: ΔΕ. Consistent with theological register.",
+      "interpretation": "The letter span ΝΕΑΙΠ clusters around what may be the words ΔΕ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

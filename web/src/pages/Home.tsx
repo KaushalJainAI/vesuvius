@@ -1,292 +1,272 @@
-import { useState } from 'react'
+import { useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowRight, Layers, Database, Upload, BookOpen, Microscope, FileText } from 'lucide-react'
-import { ScrollSVG } from '@/components/artifacts/ScrollSVG'
+import { ArrowRight, Database, FileText, Layers, Microscope } from 'lucide-react'
 import { GreekLetterBg } from '@/components/artifacts/GreekWatermark'
-import { UploadZone } from '@/components/upload/UploadZone'
+import { ScrollSVG } from '@/components/artifacts/ScrollSVG'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { useManifest } from '@/hooks/useManifest'
 import { formatBytes } from '@/lib/utils'
+import type { Manifest } from '@/types/segment'
 
-const STEPS = [
-  { roman: 'I',   icon: Microscope, title: 'CT Scan',        desc: '33 X-ray tomographic slices capture the compressed papyrus layers in 3D.' },
-  { roman: 'II',  icon: Upload,     title: 'Ink Detection',  desc: 'A 3D convolutional network identifies ink deposits invisible to the naked eye.' },
-  { roman: 'III', icon: BookOpen,   title: 'Letter Isolation', desc: 'Connected-component analysis extracts individual Greek letter candidates.' },
-  { roman: 'IV',  icon: FileText,   title: 'Transcription',  desc: 'Letters are ranked by confidence and assembled into readable ancient text.' },
+const DEMO_SEGMENT_ID = '20231221180251'
+
+const REVIEW_METHOD = [
+  { roman: 'I', icon: Microscope, title: 'Volume survey', desc: 'Review the available CT preview and segment dimensions before selecting a record.' },
+  { roman: 'II', icon: Database, title: 'Ink evidence', desc: 'Inspect the enhanced probability image and label overlay included with the prepared record.' },
+  { roman: 'III', icon: Layers, title: 'Candidate marks', desc: 'Compare extracted character candidates with their recorded confidence values.' },
+  { roman: 'IV', icon: FileText, title: 'Reading note', desc: 'Review provisional model-assisted text separately from verified catalogue metadata.' },
 ]
+
+function maxLettersForScale(manifest: Manifest | null): number {
+  return Math.max(1, ...(manifest?.segments.map(seg => seg.letters.length) ?? [8]))
+}
+
+function segmentReviewNote(id: string): string {
+  if (id === DEMO_SEGMENT_ID) return 'recommended demo'
+  if (id === '20231016151002' || id === '20230702185753') return 'archive - weak visual crop'
+  return 'research record'
+}
 
 export function Home() {
   const { manifest, loading } = useManifest()
   const navigate = useNavigate()
-  const [uploading, setUploading] = useState(false)
-  const [uploadDone, setUploadDone] = useState(false)
+  const demoSegment = manifest?.segments.find(seg => seg.id === DEMO_SEGMENT_ID)
+  const summary = useMemo(() => {
+    const segments = manifest?.segments ?? []
+    const totalSize = segments.reduce((sum, seg) => sum + seg.sizeMb, 0)
+    const maxLayers = segments.reduce((max, seg) => Math.max(max, seg.layers), 0)
+    const totalLetters = segments.reduce((sum, seg) => sum + seg.letters.length, 0)
+    const labelled = segments.filter(seg => seg.realLabel).length
 
-  const handleUpload = (_files: { name: string; size: number; type: string }[]) => {
-    setUploading(true)
-    setTimeout(() => { setUploading(false); setUploadDone(true) }, 2200)
-  }
+    return {
+      rows: [
+        { n: segments.length ? String(segments.length) : '11', label: 'segment records' },
+        { n: totalSize ? formatBytes(totalSize) : '72 GB', label: 'prepared volume data' },
+        { n: maxLayers ? String(maxLayers) : '33', label: 'z-layers listed' },
+        { n: totalLetters ? String(totalLetters) : '88', label: 'candidate characters' },
+      ],
+      labelled,
+      totalSize,
+    }
+  }, [manifest])
 
   return (
     <div className="min-h-screen pt-14">
-
-      {/* ── HERO ── */}
-      <section className="relative overflow-hidden torn-edge"
-        style={{ background: 'linear-gradient(160deg, #F0E5CC 0%, #E8D8B0 60%, #F0E5CC 100%)', paddingBottom: 64 }}
+      <section
+        className="relative overflow-hidden torn-edge"
+        style={{ background: 'linear-gradient(160deg, #F2E8D0 0%, #E9DBB8 70%, #F5EDD8 100%)', paddingBottom: 44 }}
       >
         <GreekLetterBg />
-
-        {/* Decorative top-left corner ornament */}
-        <div className="absolute top-8 left-8 w-20 h-20 opacity-20 pointer-events-none" aria-hidden>
-          <svg viewBox="0 0 80 80" fill="none">
-            <path d="M4 4 L4 40 M4 4 L40 4" stroke="#8B6914" strokeWidth="1.5" />
-            <path d="M4 14 L14 4" stroke="#8B6914" strokeWidth="0.8" />
-            <circle cx="4" cy="4" r="3" fill="#8B6914" />
-          </svg>
-        </div>
-        <div className="absolute top-8 right-8 w-20 h-20 opacity-20 pointer-events-none rotate-90" aria-hidden>
-          <svg viewBox="0 0 80 80" fill="none">
-            <path d="M4 4 L4 40 M4 4 L40 4" stroke="#8B6914" strokeWidth="1.5" />
-            <circle cx="4" cy="4" r="3" fill="#8B6914" />
-          </svg>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-6 pt-16 pb-8 flex flex-col lg:flex-row items-center gap-12">
-
-          {/* Left: text */}
-          <div className="flex-1 min-w-0">
-            <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-              {/* Stamp badge */}
-              <div className="inline-flex items-center gap-2 mb-6">
-                <div className="stamp w-10 h-10 flex items-center justify-center text-xs font-mono font-bold"
-                  style={{ color: 'var(--accent)', borderColor: 'var(--accent)' }}>
-                  79<br/>AD
-                </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-12 pb-8">
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55 }}
+            className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] gap-6 lg:gap-8 items-stretch"
+          >
+            <div className="card-papyrus rounded-lg p-6 lg:p-7">
+              <div className="flex flex-wrap items-center gap-2 mb-5">
                 <span className="text-xs font-mono uppercase tracking-widest" style={{ color: 'var(--text-muted)' }}>
-                  PHercParis4 · Scroll 1 · Herculaneum
+                  PHercParis4
+                </span>
+                <span className="h-px w-8" style={{ background: 'var(--border)' }} />
+                <span className="text-xs font-mono" style={{ color: 'var(--text-muted)' }}>
+                  Herculaneum papyrus segment catalogue
                 </span>
               </div>
 
-              <h1 className="font-serif text-5xl lg:text-6xl font-bold leading-tight mb-4"
-                style={{ color: 'var(--text)' }}>
-                Read the<br />
-                <em className="not-italic" style={{ color: 'var(--accent)' }}>Unreadable.</em>
+              <h1 className="font-serif text-3xl lg:text-4xl font-bold leading-tight mb-4" style={{ color: 'var(--text)' }}>
+                PHercParis4 Segment Review
               </h1>
-              <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-mid)', maxWidth: 480 }}>
-                A 2,000-year-old papyrus scroll, carbonized by Vesuvius. Upload CT scan data and watch a
-                neural network decipher ancient Greek — letter by letter.
+              <p className="text-base leading-relaxed mb-6" style={{ color: 'var(--text-mid)', maxWidth: 660 }}>
+                A research review workspace for prepared PHercParis4 segment records, enhanced ink evidence,
+                and provisional Greek readings. Each reading is shown with uncertainty so visual evidence and
+                interpretation stay separate.
               </p>
 
-              <div className="flex flex-wrap gap-3">
-                <button
-                  onClick={() => document.getElementById('upload-section')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all active:scale-95"
-                  style={{ background: 'var(--accent)', color: '#fff', boxShadow: '0 4px 16px rgba(139,26,26,0.35)' }}
-                >
-                  <Upload size={16} /> Upload Scroll Data
-                </button>
-                <button
-                  onClick={() => document.getElementById('segments-section')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm border transition-all"
-                  style={{ color: 'var(--text-mid)', borderColor: 'var(--border)', background: 'rgba(255,255,255,0.4)' }}
-                >
-                  Browse Segments <ArrowRight size={15} />
-                </button>
-              </div>
-
-              {/* Stat bar */}
-              <div className="flex gap-6 mt-10">
-                {[
-                  { n: '11', label: 'Segments' },
-                  { n: '72 GB', label: 'CT Data' },
-                  { n: '33', label: 'Z-layers' },
-                  { n: '0.24M', label: 'Params' },
-                ].map(({ n, label }) => (
-                  <div key={label} className="text-center">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-px mb-6" style={{ background: 'var(--border-light)' }}>
+                {summary.rows.map(({ n, label }) => (
+                  <div key={label} className="px-3 py-3" style={{ background: 'var(--bg-elevated)' }}>
                     <p className="font-serif font-bold text-xl" style={{ color: 'var(--text)' }}>{n}</p>
-                    <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{label}</p>
+                    <p className="text-[11px] font-mono uppercase tracking-wide" style={{ color: 'var(--text-muted)' }}>{label}</p>
                   </div>
                 ))}
               </div>
-            </motion.div>
-          </div>
 
-          {/* Right: scroll illustration */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.9, delay: 0.2 }}
-            className="flex-shrink-0 animate-drift"
-          >
-            <ScrollSVG className="w-[220px] lg:w-[280px] drop-shadow-2xl" />
+              <div className="flex flex-wrap gap-3">
+                <button
+                  onClick={() => navigate(`/viewer/${DEMO_SEGMENT_ID}`)}
+                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all active:scale-95"
+                  style={{ background: 'var(--accent)', color: '#fff' }}
+                >
+                  Open evaluator demo <ArrowRight size={15} />
+                </button>
+                <button
+                  onClick={() => document.getElementById('segments-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all active:scale-95"
+                  style={{ background: 'rgba(92,60,20,0.08)', color: 'var(--text-mid)', border: '1px solid var(--border-light)' }}
+                >
+                  Browse records
+                </button>
+              </div>
+            </div>
+
+            <div className="card-papyrus rounded-lg p-5 flex flex-col justify-between gap-5">
+              <div>
+                <p className="text-xs font-mono uppercase tracking-widest mb-3" style={{ color: 'var(--text-muted)' }}>
+                  Manuscript preview
+                </p>
+                <div className="min-h-[210px] flex items-center justify-center rounded-md" style={{ background: 'rgba(92,60,20,0.06)' }}>
+                  <ScrollSVG className="w-[190px] drop-shadow-xl" />
+                </div>
+              </div>
+              <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+                <div>
+                  <dt className="text-xs font-mono uppercase" style={{ color: 'var(--text-muted)' }}>Accession</dt>
+                  <dd className="font-medium" style={{ color: 'var(--text)' }}>PHercParis4</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-mono uppercase" style={{ color: 'var(--text-muted)' }}>Status</dt>
+                  <dd className="font-medium" style={{ color: 'var(--text)' }}>review set</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-mono uppercase" style={{ color: 'var(--text-muted)' }}>Labels</dt>
+                  <dd className="font-medium" style={{ color: 'var(--text)' }}>{summary.labelled} available</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-mono uppercase" style={{ color: 'var(--text-muted)' }}>Readings</dt>
+                  <dd className="font-medium" style={{ color: 'var(--text)' }}>provisional</dd>
+                </div>
+              </dl>
+            </div>
           </motion.div>
         </div>
       </section>
 
-      {/* ── HOW IT WORKS ── */}
-      <section className="py-20 px-6" style={{ background: 'var(--bg)' }}>
+      <section className="py-16 px-6" style={{ background: 'var(--bg)' }}>
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-xs font-mono uppercase tracking-widest mb-2" style={{ color: 'var(--text-muted)' }}>The Pipeline</p>
-            <h2 className="font-serif text-3xl font-bold" style={{ color: 'var(--text)' }}>From X-rays to Ancient Greek</h2>
+          <div className="mb-8">
+            <p className="text-xs font-mono uppercase tracking-widest mb-2" style={{ color: 'var(--text-muted)' }}>Review Method</p>
+            <h2 className="font-serif text-2xl font-bold" style={{ color: 'var(--text)' }}>How records are inspected</h2>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {STEPS.map((step, i) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px" style={{ background: 'var(--border-light)' }}>
+            {REVIEW_METHOD.map((step, i) => (
               <motion.div
                 key={step.roman}
-                initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }} transition={{ delay: i * 0.1 }}
-                className="card-papyrus rounded-2xl p-5 relative overflow-hidden"
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.06 }}
+                className="p-5"
+                style={{ background: 'var(--bg-elevated)' }}
               >
-                {/* Large Roman numeral watermark */}
-                <div className="absolute top-2 right-3 font-serif font-bold text-6xl leading-none pointer-events-none select-none"
-                  style={{ color: 'rgba(139,105,20,0.07)' }}>
-                  {step.roman}
-                </div>
-                <div className="w-10 h-10 rounded-xl flex items-center justify-center mb-4"
-                  style={{ background: 'rgba(139,26,26,0.1)', border: '1px solid rgba(139,26,26,0.2)' }}>
-                  <step.icon size={20} style={{ color: 'var(--accent)' }} />
+                <div className="flex items-center justify-between mb-4">
+                  <span className="font-serif font-bold" style={{ color: 'var(--accent)' }}>{step.roman}</span>
+                  <step.icon size={18} style={{ color: 'var(--text-muted)' }} />
                 </div>
                 <p className="font-serif font-semibold text-base mb-2" style={{ color: 'var(--text)' }}>{step.title}</p>
                 <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>{step.desc}</p>
-
-                {i < STEPS.length - 1 && (
-                  <div className="hidden lg:block absolute -right-3 top-1/2 -translate-y-1/2 z-10">
-                    <ArrowRight size={16} style={{ color: 'var(--border)' }} />
-                  </div>
-                )}
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── UPLOAD ── */}
-      <section id="upload-section" className="py-20 px-6 relative overflow-hidden"
-        style={{ background: 'linear-gradient(180deg, var(--bg) 0%, var(--bg-surface) 100%)' }}>
-        <div className="absolute inset-0 pointer-events-none" aria-hidden>
-          <div className="absolute top-0 left-0 right-0 h-px" style={{ background: 'var(--border-light)' }} />
-        </div>
-
-        <div className="max-w-2xl mx-auto">
-          <div className="text-center mb-8">
-            <p className="text-xs font-mono uppercase tracking-widest mb-2" style={{ color: 'var(--text-muted)' }}>Unknown Scroll</p>
-            <h2 className="font-serif text-3xl font-bold mb-3" style={{ color: 'var(--text)' }}>Upload Your Scroll Data</h2>
-            <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-              Drop your own surface volume TIFFs or NumPy arrays. The pipeline runs locally — no data leaves your machine.
-            </p>
-          </div>
-
-          {!uploadDone ? (
-            <UploadZone onUpload={handleUpload} />
-          ) : (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}
-              className="card-papyrus rounded-2xl p-8 text-center"
-            >
-              {/* Animated stamp */}
-              <motion.div
-                initial={{ scale: 0, rotate: -15 }} animate={{ scale: 1, rotate: -3 }}
-                transition={{ type: 'spring', stiffness: 200, damping: 18, delay: 0.1 }}
-                className="inline-flex flex-col items-center justify-center w-24 h-24 rounded-full border-4 mb-4"
-                style={{ borderColor: 'var(--olive)', color: 'var(--olive)' }}
-              >
-                <span className="font-serif font-bold text-2xl leading-none">✓</span>
-                <span className="text-xs font-mono mt-1">LOADED</span>
-              </motion.div>
-              <p className="font-serif text-xl font-semibold mb-2" style={{ color: 'var(--text)' }}>Files received</p>
-              <p className="text-sm mb-5" style={{ color: 'var(--text-muted)' }}>Select a sample segment below to see how decipherment works, then run your own data locally.</p>
-              <button onClick={() => setUploadDone(false)}
-                className="text-sm underline" style={{ color: 'var(--text-muted)' }}>
-                Upload different files
-              </button>
-            </motion.div>
-          )}
-
-          {uploading && (
-            <div className="mt-4 text-center text-sm" style={{ color: 'var(--text-muted)' }}>
-              <motion.span animate={{ opacity: [1, 0.4, 1] }} transition={{ repeat: Infinity, duration: 1.2 }}>
-                Processing…
-              </motion.span>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ── SEGMENTS GRID ── */}
-      <section id="segments-section" className="py-20 px-6" style={{ background: 'var(--bg)' }}>
+      <section id="segments-section" className="py-16 px-6" style={{ background: 'var(--bg)' }}>
         <div className="max-w-5xl mx-auto">
-          <div className="flex items-end justify-between mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
             <div>
-              <p className="text-xs font-mono uppercase tracking-widest mb-1" style={{ color: 'var(--text-muted)' }}>Sample Data</p>
-              <h2 className="font-serif text-3xl font-bold" style={{ color: 'var(--text)' }}>11 Labelled Segments</h2>
+              <p className="text-xs font-mono uppercase tracking-widest mb-1" style={{ color: 'var(--text-muted)' }}>Segment Catalogue</p>
+              <h2 className="font-serif text-2xl font-bold" style={{ color: 'var(--text)' }}>
+                {manifest?.segments.length ?? 11} PHercParis4 segment records
+              </h2>
             </div>
-            <span className="text-xs font-mono" style={{ color: 'var(--text-muted)' }}>~72 GB · PHercParis4</span>
+            <span className="text-xs font-mono" style={{ color: 'var(--text-muted)' }}>
+              {manifest ? `~${formatBytes(summary.totalSize)}` : '~72 GB'} / prepared segment metadata
+            </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {demoSegment && (
+            <motion.button
+              initial={{ opacity: 0, y: 8 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              onClick={() => navigate(`/viewer/${demoSegment.id}`)}
+              className="group text-left rounded-lg p-5 mb-5 cursor-pointer transition-all active:scale-[0.995]"
+              style={{ background: 'var(--bg-elevated)', border: '1.5px solid var(--accent)', boxShadow: '0 10px 30px rgba(92,60,20,0.10)' }}
+            >
+              <div className="flex flex-wrap items-start justify-between gap-3 mb-2">
+                <div>
+                  <p className="text-xs font-mono uppercase tracking-widest mb-1" style={{ color: 'var(--accent)' }}>Recommended evaluator segment</p>
+                  <p className="font-serif font-bold text-xl" style={{ color: 'var(--text)' }}>{demoSegment.label}</p>
+                  <p className="text-sm mt-1" style={{ color: 'var(--text-mid)' }}>
+                    Best prepared record for review: complete segment evidence, six readable strip crops, and model comparison.
+                  </p>
+                </div>
+                <ArrowRight size={18} className="group-hover:translate-x-0.5 transition-transform" style={{ color: 'var(--accent)' }} />
+              </div>
+              <div className="flex flex-wrap gap-2 text-[11px] font-mono">
+                <span className="px-2 py-1 rounded" style={{ background: 'rgba(139,26,26,0.08)', color: 'var(--accent)' }}>79 candidate positions</span>
+                <span className="px-2 py-1 rounded" style={{ background: 'rgba(92,60,20,0.08)', color: 'var(--text-muted)' }}>2 model readings</span>
+                <span className="px-2 py-1 rounded" style={{ background: 'rgba(92,60,20,0.08)', color: 'var(--text-muted)' }}>speculative, not final</span>
+              </div>
+            </motion.button>
+          )}
+
+          <div className="grid grid-cols-1 gap-3">
             {loading
-              ? Array.from({ length: 6 }, (_, i) => <Skeleton key={i} className="h-40 rounded-2xl" />)
+              ? Array.from({ length: 6 }, (_, i) => <Skeleton key={i} className="h-28 rounded-lg" />)
               : manifest?.segments.map((seg, i) => (
                 <motion.button
                   key={seg.id}
-                  initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }} transition={{ delay: i * 0.04 }}
+                  initial={{ opacity: 0, y: 8 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.03 }}
                   onClick={() => navigate(`/viewer/${seg.id}`)}
-                  className="card-papyrus group text-left rounded-2xl p-5 cursor-pointer transition-all hover:-translate-y-0.5 active:scale-[0.99]"
-                  style={{ boxShadow: '0 2px 12px rgba(92,60,20,0.1)' }}
+                  className="group text-left rounded-lg p-4 cursor-pointer transition-all active:scale-[0.995]"
+                  style={{ background: 'var(--bg-elevated)', border: '1px solid var(--border-light)' }}
                 >
-                  <div className="flex items-start justify-between mb-2">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <p className="font-serif font-semibold text-base" style={{ color: 'var(--text)' }}>{seg.label}</p>
-                        {seg.realLabel && (
-                          <span className="text-xs px-1.5 py-0.5 rounded font-mono"
-                            style={{ background: 'rgba(74,94,58,0.12)', color: 'var(--olive)', border: '1px solid rgba(74,94,58,0.25)' }}>
-                            labels ✓
-                          </span>
-                        )}
+                  <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_auto] gap-4 items-start">
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-center gap-2 mb-1">
+                        <p className="font-serif font-semibold text-lg break-words" style={{ color: 'var(--text)' }}>{seg.label}</p>
+                        <span className="text-xs font-mono break-all" style={{ color: 'var(--text-muted)' }}>{seg.id}</span>
                       </div>
-                      <p className="text-xs font-mono mt-0.5" style={{ color: 'var(--text-muted)' }}>{seg.id}</p>
+                      <p className="text-sm leading-snug" style={{ color: 'var(--text-mid)' }}>{seg.description}</p>
                     </div>
-                    <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform mt-0.5 shrink-0"
-                      style={{ color: 'var(--text-muted)' }} />
+
+                    <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-x-4 gap-y-2 text-xs min-w-0">
+                      <span style={{ color: 'var(--text-muted)' }}><Database size={11} className="inline mr-1" />{formatBytes(seg.sizeMb)}</span>
+                      <span style={{ color: 'var(--text-muted)' }}><Layers size={11} className="inline mr-1" />{seg.layers} layers</span>
+                      <span style={{ color: 'var(--text-muted)' }}>{seg.width.toLocaleString()} x {seg.height.toLocaleString()} px</span>
+                      <span style={{ color: 'var(--text-muted)' }}>{seg.letters.length} candidate chars</span>
+                    </div>
+
+                    <div className="flex lg:flex-col items-start lg:items-end gap-2">
+                      <span className="text-[11px] font-mono px-2 py-1 rounded border" style={{ color: seg.realLabel ? 'var(--olive)' : 'var(--text-muted)', borderColor: 'var(--border-light)' }}>
+                        {seg.realLabel ? 'label overlay available' : 'no label overlay'}
+                      </span>
+                      <span className="text-[11px] font-mono px-2 py-1 rounded border" style={{
+                        color: seg.id === DEMO_SEGMENT_ID ? 'var(--accent)' : 'var(--text-muted)',
+                        borderColor: 'var(--border-light)',
+                      }}>
+                        {segmentReviewNote(seg.id)}
+                      </span>
+                      <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform mt-1" style={{ color: 'var(--text-muted)' }} />
+                    </div>
                   </div>
-
-                  <p className="text-sm leading-snug mb-4 line-clamp-2" style={{ color: 'var(--text-mid)' }}>
-                    {seg.description}
-                  </p>
-
-                  <div className="flex items-center gap-4 text-xs" style={{ color: 'var(--text-muted)' }}>
-                    <span className="flex items-center gap-1"><Database size={11} /> {formatBytes(seg.sizeMb)}</span>
-                    <span className="flex items-center gap-1"><Layers size={11} /> {seg.layers} Z</span>
-                    <span>{seg.letters.length} letters</span>
-                  </div>
-
-                  {/* Bottom accent bar */}
-                  <div className="mt-4 h-0.5 rounded-full"
-                    style={{
-                      background: `linear-gradient(90deg, var(--accent) 0%, transparent ${Math.min(100, (seg.letters.length / 8) * 100)}%)`,
-                      opacity: 0.35,
-                    }}
-                  />
+                  <div className="mt-3 h-px" style={{ background: `linear-gradient(90deg, var(--accent) 0%, var(--accent) ${Math.min(100, (seg.letters.length / maxLettersForScale(manifest)) * 100)}%, var(--border-light) 0%)`, opacity: 0.45 }} />
                 </motion.button>
               ))}
           </div>
         </div>
       </section>
 
-      {/* ── FOOTER ── */}
-      <footer className="py-10 px-6 text-center border-t" style={{ borderColor: 'var(--border-light)' }}>
-        <div className="font-serif text-2xl tracking-widest mb-2 opacity-20" style={{ color: 'var(--text)' }}>
-          ΑΒΓΔΕΖΗΘΙΚ
-        </div>
+      <footer className="py-8 px-6 text-center border-t" style={{ borderColor: 'var(--border-light)' }}>
         <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-          Built for the{' '}
-          <a href="https://scrollprize.org" target="_blank" rel="noreferrer"
-            className="underline underline-offset-2" style={{ color: 'var(--text-mid)' }}>
-            Vesuvius Challenge
-          </a>
-          {' '} · PHercParis4 · 79 AD
+          PHercParis4 prepared segment review interface
         </p>
       </footer>
     </div>

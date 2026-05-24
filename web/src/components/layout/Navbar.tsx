@@ -42,15 +42,6 @@ export function Navbar() {
         >
           Segments
         </Link>
-        <a
-          href="https://scrollprize.org"
-          target="_blank"
-          rel="noreferrer"
-          className="px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all"
-          style={{ color: 'var(--text-muted)' }}
-        >
-          Challenge ↗
-        </a>
       </div>
     </nav>
   )

@@ -1,0 +1,815 @@
+{
+  "strip_model": "openai/gpt-5.5:reasoning-low",
+  "segment_model": "openai/gpt-5.5:reasoning-low",
+  "segment": {
+    "probable_genre": "Fragment of Greek philosophical argument",
+    "lexical_signals": [
+      "ΡΗΜΕΝΩΝ",
+      "ΠΡΟϹ",
+      "ΜΗΤΕ ... ΜΗΤΕ",
+      "ΜΗΤΗΡ"
+    ],
+    "historical_context": "PHercParis4 belongs to the Herculaneum papyrus context, where philosophical prose is a strong prior. This segment, however, should be presented as an argument-shaped fragment rather than as a secure attribution.",
+    "candidate_authors": [
+      "Philodemus / Epicurean prose context",
+      "Herculaneum philosophical roll",
+      "attribution not secure"
+    ],
+    "overall_paraphrase": "A damaged philosophical prose fragment appears to continue an argument already in progress. The strongest clues are a reference to things previously said, a possible “with regard to / against” phrase, and a repeated “neither ... nor ...” construction. The passage probably narrows or rejects alternatives rather than telling a narrative story. Attribution remains open, but the Herculaneum context makes Epicurean philosophical prose a plausible setting.",
+    "confidence_band": "speculative"
+  },
+  "strips": [
+    {
+      "strip_id": 0,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ρ",
+          "alternates": [
+            "Ψ",
+            "Ε",
+            "Ϲ"
+          ],
+          "confidence": 0.4,
+          "is_word_boundary": false,
+          "note": "left edge/upper bowl incomplete; rho only slightly favoured"
+        },
+        {
+          "index": 1,
+          "principal": "Η",
+          "alternates": [
+            "Π",
+            "Μ",
+            "Θ"
+          ],
+          "confidence": 0.35,
+          "is_word_boundary": false,
+          "note": "verticals are broken; eta/pi/mu remain competitive"
+        },
+        {
+          "index": 2,
+          "principal": "Μ",
+          "alternates": [
+            "Θ",
+            "Ψ"
+          ],
+          "confidence": 0.36,
+          "is_word_boundary": false,
+          "note": "central strokes blurred, but broad majuscule form favours mu"
+        },
+        {
+          "index": 3,
+          "principal": "Ε",
+          "alternates": [
+            "Ρ",
+            "Ζ",
+            "Μ"
+          ],
+          "confidence": 0.3,
+          "is_word_boundary": false,
+          "note": "weak transverse traces; epsilon is partly lexical"
+        },
+        {
+          "index": 4,
+          "principal": "Ν",
+          "alternates": [
+            "Μ",
+            "Η",
+            "Π"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "letter shape not cleanly separated from neighbouring ink"
+        },
+        {
+          "index": 5,
+          "principal": "Ω",
+          "alternates": [
+            "Θ",
+            "Μ"
+          ],
+          "confidence": 0.34,
+          "is_word_boundary": false,
+          "note": "rounded lower form suggests omega, though theta/mu templates are close"
+        },
+        {
+          "index": 6,
+          "principal": "Ν",
+          "alternates": [
+            "Ψ",
+            "Θ",
+            "Ε"
+          ],
+          "confidence": 0.22,
+          "is_word_boundary": true,
+          "note": "terminal reading very uncertain; final nu inferred from probable participial ending"
+        }
+      ],
+      "word_divisions": [
+        "ΡΗΜΕΝΩΝ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΡΗΜΕΝΩΝ",
+          "english": "of things said / mentioned, if the beginning of ΕΙΡΗΜΕΝΩΝ is lost",
+          "certainty": "low",
+          "x_norm_start": 0.01,
+          "x_norm_end": 0.52,
+          "confidence": 0.34
+        }
+      ],
+      "paraphrase_en": "The strip probably preserves the end of a genitive plural participial expression, perhaps '[of the things] said/mentioned'. Any larger sense depends on lost context to the left and right.",
+      "caveats": "The ink is highly discontinuous and the reading ΡΗΜΕΝΩΝ is largely guided by the plausible -ΜΕΝΩΝ ending rather than by secure letter-shapes throughout."
+    },
+    {
+      "strip_id": 1,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ψ",
+            "Ν",
+            "Ε"
+          ],
+          "confidence": 0.38,
+          "is_word_boundary": true,
+          "note": "Isolated left-hand trace; may be final of a preceding word rather than a complete letter."
+        },
+        {
+          "index": 1,
+          "principal": "Π",
+          "alternates": [
+            "Η",
+            "Ι",
+            "Τ"
+          ],
+          "confidence": 0.27,
+          "is_word_boundary": false,
+          "note": "Reading as Π is mainly contextual for possible ΠΡΟϹ; shape is weak."
+        },
+        {
+          "index": 2,
+          "principal": "Ρ",
+          "alternates": [
+            "Ν",
+            "Δ",
+            "Α"
+          ],
+          "confidence": 0.25,
+          "is_word_boundary": false,
+          "note": "Central stroke/loop damaged; Ρ is uncertain."
+        },
+        {
+          "index": 3,
+          "principal": "Ο",
+          "alternates": [
+            "Θ",
+            "Ω",
+            "Η"
+          ],
+          "confidence": 0.31,
+          "is_word_boundary": false,
+          "note": "Rounded/closed trace could be Ο, Θ, or Ω."
+        },
+        {
+          "index": 4,
+          "principal": "Ϲ",
+          "alternates": [
+            "Χ",
+            "Ι",
+            "Μ"
+          ],
+          "confidence": 0.26,
+          "is_word_boundary": true,
+          "note": "Possible lunate sigma if the group is ΠΡΟϹ, but the form is not secure."
+        },
+        {
+          "index": 5,
+          "principal": "Θ",
+          "alternates": [
+            "Α",
+            "Ω"
+          ],
+          "confidence": 0.38,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 6,
+          "principal": "Μ",
+          "alternates": [
+            "Η",
+            "Ω",
+            "Ν"
+          ],
+          "confidence": 0.3,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 7,
+          "principal": "Θ",
+          "alternates": [
+            "Μ",
+            "Ψ"
+          ],
+          "confidence": 0.32,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 8,
+          "principal": "Χ",
+          "alternates": [
+            "Κ",
+            "Ψ"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "Oblique crossing or broken branching trace."
+        },
+        {
+          "index": 9,
+          "principal": "Α",
+          "alternates": [
+            "Λ",
+            "Δ",
+            "Χ"
+          ],
+          "confidence": 0.18,
+          "is_word_boundary": false,
+          "note": "Very weak right-hand trace."
+        },
+        {
+          "index": 10,
+          "principal": "Χ",
+          "alternates": [
+            "Κ",
+            "Ψ"
+          ],
+          "confidence": 0.3,
+          "is_word_boundary": true,
+          "note": "Right edge trace; broad X-like crossing but damaged."
+        }
+      ],
+      "word_divisions": [
+        "Μ",
+        "ΠΡΟϹ",
+        "ΘΜΘΧΑΧ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΠΡΟϹ",
+          "english": "toward; against; with regard to",
+          "certainty": "low",
+          "x_norm_start": 0.15,
+          "x_norm_end": 0.39,
+          "confidence": 0.42
+        }
+      ],
+      "paraphrase_en": "The only possible lexical foothold is ΠΡΟϹ, ‘toward/against/with regard to’. The surrounding traces are too uncertain to yield a continuous sense: perhaps ‘[... ] toward/with regard to [something or someone]’.",
+      "caveats": "The strip is extremely damaged and most letter-forms are blob-level guesses; ΠΡΟϹ is a contextual possibility, not a secure reading."
+    },
+    {
+      "strip_id": 2,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Υ",
+            "Ψ",
+            "Θ"
+          ],
+          "confidence": 0.28,
+          "is_word_boundary": false,
+          "note": "left-edge trace; broad white mass does not securely separate into one letter"
+        },
+        {
+          "index": 1,
+          "principal": "Θ",
+          "alternates": [
+            "Ρ",
+            "Ψ",
+            "Η"
+          ],
+          "confidence": 0.24,
+          "is_word_boundary": false,
+          "note": "round/vertical trace; rho reading is possible but not visually secure"
+        },
+        {
+          "index": 2,
+          "principal": "Μ",
+          "alternates": [
+            "Η",
+            "Ν",
+            "Θ"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "upright strokes may belong to mu/eta-type forms or damage"
+        },
+        {
+          "index": 3,
+          "principal": "Μ",
+          "alternates": [
+            "Η",
+            "Ω"
+          ],
+          "confidence": 0.25,
+          "is_word_boundary": false,
+          "note": "fragmentary central strokes; segmentation uncertain"
+        },
+        {
+          "index": 4,
+          "principal": "Θ",
+          "alternates": [
+            "Ϲ",
+            "Ψ",
+            "Μ"
+          ],
+          "confidence": 0.21,
+          "is_word_boundary": false,
+          "note": "consensus lunate sigma is possible, but template support favours a damaged rounded/complex form"
+        },
+        {
+          "index": 5,
+          "principal": "Π",
+          "alternates": [
+            "Ω",
+            "Ο"
+          ],
+          "confidence": 0.4,
+          "is_word_boundary": false,
+          "note": "one of the clearer positions, though the right leg/top bar are damaged"
+        },
+        {
+          "index": 6,
+          "principal": "Ο",
+          "alternates": [
+            "Θ",
+            "Μ",
+            "Η"
+          ],
+          "confidence": 0.27,
+          "is_word_boundary": false,
+          "note": "rounded trace; omicron/theta distinction not secure"
+        },
+        {
+          "index": 7,
+          "principal": "Τ",
+          "alternates": [
+            "Ζ",
+            "Ι",
+            "Ε"
+          ],
+          "confidence": 0.23,
+          "is_word_boundary": false,
+          "note": "thin central trace may be only part of a larger damaged character"
+        },
+        {
+          "index": 8,
+          "principal": "Ν",
+          "alternates": [
+            "Θ",
+            "Δ",
+            "Α"
+          ],
+          "confidence": 0.22,
+          "is_word_boundary": false,
+          "note": "nu is partly contextual from the consensus; visible shape could be theta/delta-like damage"
+        },
+        {
+          "index": 9,
+          "principal": "Υ",
+          "alternates": [
+            "Ξ",
+            "Τ"
+          ],
+          "confidence": 0.34,
+          "is_word_boundary": false,
+          "note": "isolated right-hand trace; upsilon only slightly preferred"
+        }
+      ],
+      "word_divisions": [],
+      "recognized_words": [],
+      "paraphrase_en": "No secure connected meaning can be recovered from this strip; it preserves only ambiguous majuscule traces, perhaps with a damaged ΠΟΤΝ- sequence but not enough to identify a word.",
+      "caveats": "The strip is heavily fragmented and the proposed letters are mostly blob-level readings with no defensible word division."
+    },
+    {
+      "strip_id": 3,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ψ",
+            "Θ",
+            "Ρ"
+          ],
+          "confidence": 0.45,
+          "is_word_boundary": false,
+          "note": "left edge fragmentary; reading supported mainly by the ΜΗΤΕ sequence"
+        },
+        {
+          "index": 1,
+          "principal": "Η",
+          "alternates": [
+            "Θ",
+            "Ε"
+          ],
+          "confidence": 0.5,
+          "is_word_boundary": false,
+          "note": "uprights/crossbar are poorly separated"
+        },
+        {
+          "index": 2,
+          "principal": "Τ",
+          "alternates": [
+            "Ι",
+            "Δ"
+          ],
+          "confidence": 0.56,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 3,
+          "principal": "Ε",
+          "alternates": [
+            "Θ",
+            "Μ",
+            "Ω"
+          ],
+          "confidence": 0.42,
+          "is_word_boundary": true,
+          "note": "letter-end strokes are weak but Ε gives the best contextual reading"
+        },
+        {
+          "index": 4,
+          "principal": "Μ",
+          "alternates": [
+            "Η",
+            "Θ",
+            "Ν"
+          ],
+          "confidence": 0.48,
+          "is_word_boundary": false,
+          "note": "Μ/Η ambiguity from merged vertical strokes"
+        },
+        {
+          "index": 5,
+          "principal": "Η",
+          "alternates": [
+            "Θ",
+            "Ρ",
+            "Μ"
+          ],
+          "confidence": 0.5,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 6,
+          "principal": "Τ",
+          "alternates": [
+            "Ϲ",
+            "Μ",
+            "Α"
+          ],
+          "confidence": 0.47,
+          "is_word_boundary": false,
+          "note": "top/vertical relation is damaged"
+        },
+        {
+          "index": 7,
+          "principal": "Ε",
+          "alternates": [
+            "Ο",
+            "Θ"
+          ],
+          "confidence": 0.4,
+          "is_word_boundary": true,
+          "note": "chosen over Ο chiefly because it completes a second ΜΗΤΕ"
+        },
+        {
+          "index": 8,
+          "principal": "Κ",
+          "alternates": [
+            "Χ",
+            "Α"
+          ],
+          "confidence": 0.5,
+          "is_word_boundary": false,
+          "note": "angular rightward strokes favour Κ"
+        },
+        {
+          "index": 9,
+          "principal": "Μ",
+          "alternates": [
+            "Ν",
+            "Η",
+            "Ω"
+          ],
+          "confidence": 0.39,
+          "is_word_boundary": false,
+          "note": "central-right blob is broad and not securely letter-shaped"
+        },
+        {
+          "index": 10,
+          "principal": "Ν",
+          "alternates": [
+            "Μ",
+            "Η"
+          ],
+          "confidence": 0.28,
+          "is_word_boundary": false,
+          "note": "very uncertain residual strokes"
+        },
+        {
+          "index": 11,
+          "principal": "Ε",
+          "alternates": [],
+          "confidence": 0.23,
+          "is_word_boundary": true,
+          "note": "far-right trace only"
+        }
+      ],
+      "word_divisions": [
+        "ΜΗΤΕ",
+        "ΜΗΤΕ",
+        "ΚΜΝΕ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΜΗΤΕ",
+          "english": "neither; nor",
+          "certainty": "medium",
+          "x_norm_start": 0.01,
+          "x_norm_end": 0.22,
+          "confidence": 0.62
+        },
+        {
+          "greek": "ΜΗΤΕ",
+          "english": "neither; nor",
+          "certainty": "medium",
+          "x_norm_start": 0.24,
+          "x_norm_end": 0.5,
+          "confidence": 0.55
+        }
+      ],
+      "paraphrase_en": "The strip probably preserves the correlative negative phrase “neither ... nor ...”. The following traces may begin another word, but they are not securely readable.",
+      "caveats": "The reading depends heavily on contextual ΜΗΤΕ repetition; several individual blobs are damaged and have competitive Μ/Η/Θ and Ε/Ο alternatives."
+    },
+    {
+      "strip_id": 4,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Θ",
+            "Ν"
+          ],
+          "confidence": 0.32,
+          "is_word_boundary": false,
+          "note": "left-edge trace is clipped and could be non-letter ink/noise"
+        },
+        {
+          "index": 1,
+          "principal": "Θ",
+          "alternates": [
+            "Μ",
+            "Ω",
+            "Η"
+          ],
+          "confidence": 0.28,
+          "is_word_boundary": false,
+          "note": "round/vertical components are fragmented; not a secure theta"
+        },
+        {
+          "index": 2,
+          "principal": "Α",
+          "alternates": [
+            "Δ",
+            "Μ"
+          ],
+          "confidence": 0.31,
+          "is_word_boundary": false,
+          "note": "small triangular trace, alpha/delta not separable"
+        },
+        {
+          "index": 3,
+          "principal": "Δ",
+          "alternates": [
+            "Π",
+            "Λ"
+          ],
+          "confidence": 0.33,
+          "is_word_boundary": false,
+          "note": "angular lower-left mass favours delta only weakly"
+        },
+        {
+          "index": 4,
+          "principal": "Κ",
+          "alternates": [
+            "Ε",
+            "Ν"
+          ],
+          "confidence": 0.34,
+          "is_word_boundary": false,
+          "note": "right-hand strokes suggest kappa but could be broken epsilon/nu"
+        },
+        {
+          "index": 5,
+          "principal": "Μ",
+          "alternates": [
+            "Θ",
+            "Ω"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "broad blob with no clear internal diagonals"
+        },
+        {
+          "index": 6,
+          "principal": "Θ",
+          "alternates": [
+            "Μ",
+            "Ν"
+          ],
+          "confidence": 0.25,
+          "is_word_boundary": false,
+          "note": "isolated blob; letter value very uncertain"
+        },
+        {
+          "index": 7,
+          "principal": "Μ",
+          "alternates": [
+            "Δ",
+            "Κ"
+          ],
+          "confidence": 0.35,
+          "is_word_boundary": false,
+          "note": "template support for mu, but image is over-thick and damaged"
+        },
+        {
+          "index": 8,
+          "principal": "Ψ",
+          "alternates": [
+            "Θ",
+            "Φ"
+          ],
+          "confidence": 0.3,
+          "is_word_boundary": false,
+          "note": "possible vertical with side traces; psi/phi/theta ambiguity remains high"
+        },
+        {
+          "index": 9,
+          "principal": "Δ",
+          "alternates": [
+            "Ν",
+            "Χ"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": true,
+          "note": "terminal angular trace, not enough for a secure word ending"
+        }
+      ],
+      "word_divisions": [
+        "ΜΘΑΔΚΜΘΜΨΔ"
+      ],
+      "recognized_words": [],
+      "paraphrase_en": "No defensible Greek word can be extracted from this strip. The visible sequence is best treated as a damaged run of isolated letter-like traces rather than a readable phrase.",
+      "caveats": "Ink is highly discontinuous and the template probabilities are low; all letter values are provisional and no lexical reading is secure."
+    },
+    {
+      "strip_id": 5,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ε",
+            "Γ",
+            "Κ"
+          ],
+          "confidence": 0.36,
+          "is_word_boundary": false,
+          "note": "left edge damaged; broad strokes could also be read as Ε-like fragmentation"
+        },
+        {
+          "index": 1,
+          "principal": "Η",
+          "alternates": [
+            "Α",
+            "Μ",
+            "Θ"
+          ],
+          "confidence": 0.41,
+          "is_word_boundary": false,
+          "note": "verticals and cross-stroke are incomplete"
+        },
+        {
+          "index": 2,
+          "principal": "Τ",
+          "alternates": [
+            "Θ",
+            "Ε",
+            "Ψ"
+          ],
+          "confidence": 0.34,
+          "is_word_boundary": false,
+          "note": "top and shaft are broken; template support is weak"
+        },
+        {
+          "index": 3,
+          "principal": "Η",
+          "alternates": [
+            "Ρ",
+            "Μ",
+            "Ω"
+          ],
+          "confidence": 0.35,
+          "is_word_boundary": false,
+          "note": "right side is obscured, allowing Ρ/Ω-like readings"
+        },
+        {
+          "index": 4,
+          "principal": "Ρ",
+          "alternates": [
+            "Η",
+            "Π"
+          ],
+          "confidence": 0.58,
+          "is_word_boundary": true,
+          "note": null
+        },
+        {
+          "index": 5,
+          "principal": "Α",
+          "alternates": [
+            "Η",
+            "Λ",
+            "Β"
+          ],
+          "confidence": 0.46,
+          "is_word_boundary": false,
+          "note": "apex/legs suggest Α, but the left stroke is confused with damage"
+        },
+        {
+          "index": 6,
+          "principal": "Θ",
+          "alternates": [
+            "Μ",
+            "Ψ",
+            "Ω"
+          ],
+          "confidence": 0.4,
+          "is_word_boundary": false,
+          "note": "rounded mass with internal break; Θ is plausible but not secure"
+        },
+        {
+          "index": 7,
+          "principal": "Ϲ",
+          "alternates": [
+            "Μ",
+            "Θ",
+            "Ω"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "right-hand curved trace may be part of a following damaged letter rather than sigma"
+        },
+        {
+          "index": 8,
+          "principal": "Ϲ",
+          "alternates": [
+            "Ψ",
+            "Θ"
+          ],
+          "confidence": 0.24,
+          "is_word_boundary": true,
+          "note": "far-right remnant is very fragmentary"
+        }
+      ],
+      "word_divisions": [
+        "ΜΗΤΗΡ",
+        "ΑΘϹϹ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΜΗΤΗΡ",
+          "english": "mother",
+          "certainty": "medium",
+          "x_norm_start": 0.02,
+          "x_norm_end": 0.54,
+          "confidence": 0.55
+        }
+      ],
+      "paraphrase_en": "The strip may contain ΜΗΤΗΡ, “mother,” followed by a damaged word beginning perhaps ΑΘ-. The remaining traces are not enough to establish the continuation.",
+      "caveats": "Most letters are heavily damaged and the apparent ΜΗΤΗΡ reading is plausible but far from secure."
+    }
+  ]
+}

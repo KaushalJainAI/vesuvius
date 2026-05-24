@@ -1,0 +1,580 @@
+{
+  "seg_id": "20231012184424",
+  "genre": "Theological / providence-and-piety treatise",
+  "candidate_authors": [
+    "Philodemus, On Piety",
+    "Philodemus, On the Gods"
+  ],
+  "historical_context": "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
+  "lexical_signals": [
+    "ΠΡΟΝΟΙΑ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΠΡΟΝΟΙΑ",
+      "english": "providence",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    "Ϲ",
+    "Ι",
+    "Ο",
+    "Ν",
+    "Ε"
+  ],
+  "n_letters_total": 37,
+  "mean_confidence": 0.272,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Ϲ Ι Ο Ν Ε, distributed throughout the column. The passage likely defends the Epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and Stoic accounts of providence. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ϹΟΝΕ",
+      "n_letters": 4,
+      "mean_confidence": 0.246,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟΝΕ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            741,
+            132,
+            95,
+            87
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            846,
+            45,
+            1166,
+            339
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1656,
+            43,
+            317,
+            341
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ε",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1808,
+            0,
+            730,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΝΕΑΙΡΜϹ",
+      "n_letters": 7,
+      "mean_confidence": 0.274,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΝΕΑΙΡΜϹ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            110,
+            305,
+            274
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            96,
+            47,
+            741,
+            337
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            728,
+            54,
+            260,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            453,
+            0,
+            1326,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ρ",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1859,
+            0,
+            1741,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3118,
+            0,
+            197,
+            53
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ϲ",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3452,
+            54,
+            148,
+            276
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "ΙΥΡΗΜϹΟΤ",
+      "n_letters": 8,
+      "mean_confidence": 0.277,
+      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΥΡΗΜϹΟΤ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ι",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            460,
+            0,
+            361,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Υ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1494,
+            0,
+            219,
+            305
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ρ",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1438,
+            0,
+            492,
+            314
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1582,
+            0,
+            463,
+            314
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1862,
+            0,
+            556,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Ϲ",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2363,
+            26,
+            448,
+            358
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ο",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2469,
+            0,
+            459,
+            337
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Τ",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3225,
+            0,
+            375,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΜϹΟΝΕΑΙ",
+      "n_letters": 7,
+      "mean_confidence": 0.292,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΜϹΟΝΕΑΙ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            99,
+            61,
+            313,
+            310
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ϲ",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            190,
+            67,
+            224,
+            303
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            993,
+            0,
+            884,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1599,
+            0,
+            816,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2039,
+            0,
+            736,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2690,
+            14,
+            224,
+            370
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ι",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2813,
+            0,
+            341,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ϹΟΑΙΠΡ",
+      "n_letters": 6,
+      "mean_confidence": 0.281,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΑΙΠΡ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            69,
+            113,
+            315
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            650,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            357,
+            0,
+            583,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            575,
+            0,
+            428,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Π",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1106,
+            54,
+            260,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Ρ",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2634,
+            0,
+            628,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΝΕΑΙΠ",
+      "n_letters": 5,
+      "mean_confidence": 0.246,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΕΑΙΠ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            66,
+            561,
+            288
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            734,
+            216,
+            64,
+            38
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            680,
+            0,
+            580,
+            335
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2177,
+            35,
+            579,
+            282
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Π",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3202,
+            34,
+            398,
+            350
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

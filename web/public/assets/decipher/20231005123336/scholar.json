@@ -1,0 +1,482 @@
+{
+  "strip_model": "mock/offline",
+  "segment_model": "mock/offline",
+  "mock": true,
+  "segment": {
+    "probable_genre": "Epicurean ethical / philosophical prose (Philodemus tradition)",
+    "lexical_signals": [
+      "ΑΡΕΤΗ",
+      "ΨΥΧΗ",
+      "ΑΓΑΘΟΝ",
+      "ΑΠΟΛΛΩΝ",
+      "ΛΟΓΟΣ"
+    ],
+    "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+    "candidate_authors": [
+      "Philodemus of Gadara",
+      "Epicurus (in citation)",
+      "Zeno of Sidon"
+    ],
+    "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
+    "confidence_band": "speculative"
+  },
+  "strips": [
+    {
+      "strip_id": 0,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.303,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Ο",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ϹΟ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΡΕΤΗ",
+          "english": "virtue",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between Epicurus and philosophy.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 1,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.204,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Α",
+          "alternates": [
+            "Λ"
+          ],
+          "confidence": 0.22,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.258,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΝΑΙ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΨΥΧΗ",
+          "english": "soul",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "A clause appearing to describe pleasure; the surrounding context likely treats virtue.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 2,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.285,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Υ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.303,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Η",
+          "alternates": [
+            "Ω"
+          ],
+          "confidence": 0.264,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.26,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.388,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Ο",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.403,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Τ",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.374,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΙΥΗ",
+        "Μ",
+        "ϹΟΤ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΓΑΘΟΝ",
+          "english": "the good",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between world / order and Epicurus.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 3,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.245,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.215,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ο",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.256,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.26,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.369,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.372,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΜϹΟΝΕΙ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΓΑΘΟΝ",
+          "english": "the good",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between soul and wisdom.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 4,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.281,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Ο",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.256,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Τ",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.334,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.308,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.241,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Α",
+          "alternates": [
+            "Λ"
+          ],
+          "confidence": 0.329,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.358,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Υ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.297,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": "Ρ",
+          "alternates": [
+            "Β"
+          ],
+          "confidence": 0.329,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ϹΟΤΝΕΑΙΥΡ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΠΟΛΛΩΝ",
+          "english": "Apollo",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between pleasure and god.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 5,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.29,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Α",
+          "alternates": [
+            "Λ"
+          ],
+          "confidence": 0.33,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Π",
+          "alternates": [
+            "Γ"
+          ],
+          "confidence": 0.334,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Υ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.278,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Ρ",
+          "alternates": [
+            "Β"
+          ],
+          "confidence": 0.379,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Η",
+          "alternates": [
+            "Ω"
+          ],
+          "confidence": 0.335,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.419,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.293,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΝΑ",
+        "ΠΥ",
+        "ΡΗΜϹ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΛΟΓΟΣ",
+          "english": "reason / discourse",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Fragmentary clause; the visible Greek suggests wisdom, possibly within a discussion of world / order.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    }
+  ],
+  "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."
+}

@@ -7,19 +7,75 @@
       "width": 5121,
       "height": 7186,
       "layers": 33,
-      "description": "Smallest labelled segment — primary validation target",
+      "description": "Recommended evaluator record with complete segment evidence, buffered strip crops, and provisional model comparison.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "realLabel": "/assets/samples/ink_labels_real.png",
       "letters": [
-        { "x": 120, "y": 80,  "w": 28, "h": 32, "char": "Α", "confidence": 0.91 },
-        { "x": 160, "y": 80,  "w": 26, "h": 31, "char": "Ν", "confidence": 0.85 },
-        { "x": 198, "y": 80,  "w": 24, "h": 30, "char": "Θ", "confidence": 0.78 },
-        { "x": 240, "y": 80,  "w": 27, "h": 32, "char": "Ρ", "confidence": 0.72 },
-        { "x": 120, "y": 130, "w": 25, "h": 30, "char": "Ω", "confidence": 0.88 },
-        { "x": 158, "y": 130, "w": 28, "h": 32, "char": "Π", "confidence": 0.65 },
-        { "x": 200, "y": 130, "w": 24, "h": 30, "char": "Ο", "confidence": 0.93 },
-        { "x": 238, "y": 130, "w": 26, "h": 31, "char": "Σ", "confidence": 0.81 }
+        {
+          "x": 120,
+          "y": 80,
+          "w": 28,
+          "h": 32,
+          "char": "Α",
+          "confidence": 0.91
+        },
+        {
+          "x": 160,
+          "y": 80,
+          "w": 26,
+          "h": 31,
+          "char": "Ν",
+          "confidence": 0.85
+        },
+        {
+          "x": 198,
+          "y": 80,
+          "w": 24,
+          "h": 30,
+          "char": "Θ",
+          "confidence": 0.78
+        },
+        {
+          "x": 240,
+          "y": 80,
+          "w": 27,
+          "h": 32,
+          "char": "Ρ",
+          "confidence": 0.72
+        },
+        {
+          "x": 120,
+          "y": 130,
+          "w": 25,
+          "h": 30,
+          "char": "Ω",
+          "confidence": 0.88
+        },
+        {
+          "x": 158,
+          "y": 130,
+          "w": 28,
+          "h": 32,
+          "char": "Π",
+          "confidence": 0.65
+        },
+        {
+          "x": 200,
+          "y": 130,
+          "w": 24,
+          "h": 30,
+          "char": "Ο",
+          "confidence": 0.93
+        },
+        {
+          "x": 238,
+          "y": 130,
+          "w": 26,
+          "h": 31,
+          "char": "Σ",
+          "confidence": 0.81
+        }
       ]
     },
     {
@@ -29,15 +85,74 @@
       "width": 5890,
       "height": 7420,
       "layers": 33,
-      "description": "Second smallest — dense ink regions in lower quadrant",
+      "description": "Small-format record with concentrated ink evidence in the lower region.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 100, "y": 60,  "w": 28, "h": 32, "char": "Λ", "confidence": 0.89 },
-        { "x": 142, "y": 60,  "w": 26, "h": 31, "char": "Ε", "confidence": 0.82 },
-        { "x": 180, "y": 60,  "w": 27, "h": 32, "char": "Γ", "confidence": 0.74 },
-        { "x": 100, "y": 110, "w": 25, "h": 30, "char": "Ω", "confidence": 0.95 },
-        { "x": 140, "y": 110, "w": 28, "h": 32, "char": "Ν", "confidence": 0.67 }
+        {
+          "x": 100,
+          "y": 60,
+          "w": 28,
+          "h": 32,
+          "char": "Λ",
+          "confidence": 0.89
+        },
+        {
+          "x": 142,
+          "y": 60,
+          "w": 26,
+          "h": 31,
+          "char": "Ε",
+          "confidence": 0.82
+        },
+        {
+          "x": 180,
+          "y": 60,
+          "w": 27,
+          "h": 32,
+          "char": "Γ",
+          "confidence": 0.74
+        },
+        {
+          "x": 100,
+          "y": 110,
+          "w": 25,
+          "h": 30,
+          "char": "Ω",
+          "confidence": 0.95
+        },
+        {
+          "x": 140,
+          "y": 110,
+          "w": 28,
+          "h": 32,
+          "char": "Ν",
+          "confidence": 0.67
+        },
+        {
+          "x": 144,
+          "y": 110,
+          "w": 28,
+          "h": 32,
+          "char": "Λ",
+          "confidence": 0.89
+        },
+        {
+          "x": 180,
+          "y": 110,
+          "w": 26,
+          "h": 30,
+          "char": "Μ",
+          "confidence": 0.68
+        },
+        {
+          "x": 220,
+          "y": 110,
+          "w": 27,
+          "h": 31,
+          "char": "Ν",
+          "confidence": 0.72
+        }
       ]
     },
     {
@@ -47,14 +162,74 @@
       "width": 6102,
       "height": 7801,
       "layers": 33,
-      "description": "Curved surface with strong ink signal in upper half",
+      "description": "Curved-surface record with candidate marks concentrated in the upper field.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 80,  "y": 70,  "w": 27, "h": 31, "char": "Φ", "confidence": 0.86 },
-        { "x": 118, "y": 70,  "w": 26, "h": 30, "char": "Ι", "confidence": 0.91 },
-        { "x": 152, "y": 70,  "w": 28, "h": 32, "char": "Λ", "confidence": 0.77 },
-        { "x": 190, "y": 70,  "w": 25, "h": 30, "char": "Ο", "confidence": 0.88 }
+        {
+          "x": 80,
+          "y": 70,
+          "w": 27,
+          "h": 31,
+          "char": "Φ",
+          "confidence": 0.86
+        },
+        {
+          "x": 118,
+          "y": 70,
+          "w": 26,
+          "h": 30,
+          "char": "Ι",
+          "confidence": 0.91
+        },
+        {
+          "x": 152,
+          "y": 70,
+          "w": 28,
+          "h": 32,
+          "char": "Λ",
+          "confidence": 0.77
+        },
+        {
+          "x": 190,
+          "y": 70,
+          "w": 25,
+          "h": 30,
+          "char": "Ο",
+          "confidence": 0.88
+        },
+        {
+          "x": 80,
+          "y": 120,
+          "w": 27,
+          "h": 31,
+          "char": "Ο",
+          "confidence": 0.89
+        },
+        {
+          "x": 120,
+          "y": 120,
+          "w": 28,
+          "h": 32,
+          "char": "Π",
+          "confidence": 0.68
+        },
+        {
+          "x": 160,
+          "y": 120,
+          "w": 26,
+          "h": 30,
+          "char": "Ρ",
+          "confidence": 0.72
+        },
+        {
+          "x": 200,
+          "y": 120,
+          "w": 27,
+          "h": 31,
+          "char": "Σ",
+          "confidence": 0.75
+        }
       ]
     },
     {
@@ -64,14 +239,74 @@
       "width": 6430,
       "height": 8100,
       "layers": 33,
-      "description": "High-contrast CT with clear papyrus weave texture",
+      "description": "Record with higher CT contrast and visible papyrus fibre structure.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 130, "y": 90,  "w": 28, "h": 32, "char": "Δ", "confidence": 0.83 },
-        { "x": 170, "y": 90,  "w": 26, "h": 31, "char": "Ι", "confidence": 0.90 },
-        { "x": 206, "y": 90,  "w": 27, "h": 32, "char": "Ο", "confidence": 0.76 },
-        { "x": 244, "y": 90,  "w": 25, "h": 30, "char": "Σ", "confidence": 0.69 }
+        {
+          "x": 130,
+          "y": 90,
+          "w": 28,
+          "h": 32,
+          "char": "Δ",
+          "confidence": 0.83
+        },
+        {
+          "x": 170,
+          "y": 90,
+          "w": 26,
+          "h": 31,
+          "char": "Ι",
+          "confidence": 0.9
+        },
+        {
+          "x": 206,
+          "y": 90,
+          "w": 27,
+          "h": 32,
+          "char": "Ο",
+          "confidence": 0.76
+        },
+        {
+          "x": 244,
+          "y": 90,
+          "w": 25,
+          "h": 30,
+          "char": "Σ",
+          "confidence": 0.69
+        },
+        {
+          "x": 130,
+          "y": 140,
+          "w": 27,
+          "h": 31,
+          "char": "Υ",
+          "confidence": 0.68
+        },
+        {
+          "x": 170,
+          "y": 140,
+          "w": 28,
+          "h": 32,
+          "char": "Φ",
+          "confidence": 0.72
+        },
+        {
+          "x": 210,
+          "y": 140,
+          "w": 26,
+          "h": 30,
+          "char": "Χ",
+          "confidence": 0.75
+        },
+        {
+          "x": 250,
+          "y": 140,
+          "w": 27,
+          "h": 31,
+          "char": "Ψ",
+          "confidence": 0.79
+        }
       ]
     },
     {
@@ -81,13 +316,74 @@
       "width": 6710,
       "height": 8350,
       "layers": 33,
-      "description": "Outer wrapping layer with scattered ink deposits",
+      "description": "Outer-layer record with scattered ink probability features.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 90,  "y": 75,  "w": 26, "h": 30, "char": "Τ", "confidence": 0.79 },
-        { "x": 128, "y": 75,  "w": 28, "h": 32, "char": "Ε", "confidence": 0.87 },
-        { "x": 168, "y": 75,  "w": 25, "h": 30, "char": "Χ", "confidence": 0.61 }
+        {
+          "x": 90,
+          "y": 75,
+          "w": 26,
+          "h": 30,
+          "char": "Τ",
+          "confidence": 0.79
+        },
+        {
+          "x": 128,
+          "y": 75,
+          "w": 28,
+          "h": 32,
+          "char": "Ε",
+          "confidence": 0.87
+        },
+        {
+          "x": 168,
+          "y": 75,
+          "w": 25,
+          "h": 30,
+          "char": "Χ",
+          "confidence": 0.61
+        },
+        {
+          "x": 210,
+          "y": 75,
+          "w": 26,
+          "h": 30,
+          "char": "Ω",
+          "confidence": 0.68
+        },
+        {
+          "x": 90,
+          "y": 125,
+          "w": 27,
+          "h": 31,
+          "char": "Α",
+          "confidence": 0.72
+        },
+        {
+          "x": 130,
+          "y": 125,
+          "w": 28,
+          "h": 32,
+          "char": "Β",
+          "confidence": 0.75
+        },
+        {
+          "x": 170,
+          "y": 125,
+          "w": 26,
+          "h": 30,
+          "char": "Γ",
+          "confidence": 0.79
+        },
+        {
+          "x": 210,
+          "y": 125,
+          "w": 27,
+          "h": 31,
+          "char": "Δ",
+          "confidence": 0.82
+        }
       ]
     },
     {
@@ -97,13 +393,74 @@
       "width": 7020,
       "height": 8600,
       "layers": 33,
-      "description": "Interior column with densely packed text lines",
+      "description": "Interior-column record with closely spaced candidate text lines.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 110, "y": 65,  "w": 27, "h": 31, "char": "Κ", "confidence": 0.92 },
-        { "x": 150, "y": 65,  "w": 26, "h": 30, "char": "Α", "confidence": 0.84 },
-        { "x": 188, "y": 65,  "w": 28, "h": 32, "char": "Ι", "confidence": 0.73 }
+        {
+          "x": 110,
+          "y": 65,
+          "w": 27,
+          "h": 31,
+          "char": "Κ",
+          "confidence": 0.92
+        },
+        {
+          "x": 150,
+          "y": 65,
+          "w": 26,
+          "h": 30,
+          "char": "Α",
+          "confidence": 0.84
+        },
+        {
+          "x": 188,
+          "y": 65,
+          "w": 28,
+          "h": 32,
+          "char": "Ι",
+          "confidence": 0.73
+        },
+        {
+          "x": 230,
+          "y": 65,
+          "w": 26,
+          "h": 30,
+          "char": "Ε",
+          "confidence": 0.72
+        },
+        {
+          "x": 110,
+          "y": 115,
+          "w": 27,
+          "h": 31,
+          "char": "Ζ",
+          "confidence": 0.75
+        },
+        {
+          "x": 150,
+          "y": 115,
+          "w": 28,
+          "h": 32,
+          "char": "Η",
+          "confidence": 0.79
+        },
+        {
+          "x": 190,
+          "y": 115,
+          "w": 26,
+          "h": 30,
+          "char": "Θ",
+          "confidence": 0.82
+        },
+        {
+          "x": 230,
+          "y": 115,
+          "w": 27,
+          "h": 31,
+          "char": "Ι",
+          "confidence": 0.86
+        }
       ]
     },
     {
@@ -113,13 +470,74 @@
       "width": 7450,
       "height": 9100,
       "layers": 33,
-      "description": "Damaged region — partial text preservation on left edge",
+      "description": "Damaged-region record with partial candidate marks near the left edge.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 70,  "y": 55,  "w": 25, "h": 29, "char": "Μ", "confidence": 0.80 },
-        { "x": 108, "y": 55,  "w": 27, "h": 31, "char": "Ε", "confidence": 0.88 },
-        { "x": 148, "y": 55,  "w": 26, "h": 30, "char": "Ν", "confidence": 0.65 }
+        {
+          "x": 70,
+          "y": 55,
+          "w": 25,
+          "h": 29,
+          "char": "Μ",
+          "confidence": 0.8
+        },
+        {
+          "x": 108,
+          "y": 55,
+          "w": 27,
+          "h": 31,
+          "char": "Ε",
+          "confidence": 0.88
+        },
+        {
+          "x": 148,
+          "y": 55,
+          "w": 26,
+          "h": 30,
+          "char": "Ν",
+          "confidence": 0.65
+        },
+        {
+          "x": 190,
+          "y": 55,
+          "w": 26,
+          "h": 30,
+          "char": "Κ",
+          "confidence": 0.75
+        },
+        {
+          "x": 70,
+          "y": 105,
+          "w": 27,
+          "h": 31,
+          "char": "Λ",
+          "confidence": 0.79
+        },
+        {
+          "x": 110,
+          "y": 105,
+          "w": 28,
+          "h": 32,
+          "char": "Μ",
+          "confidence": 0.82
+        },
+        {
+          "x": 150,
+          "y": 105,
+          "w": 26,
+          "h": 30,
+          "char": "Ν",
+          "confidence": 0.86
+        },
+        {
+          "x": 190,
+          "y": 105,
+          "w": 27,
+          "h": 31,
+          "char": "Ξ",
+          "confidence": 0.89
+        }
       ]
     },
     {
@@ -129,13 +547,74 @@
       "width": 7620,
       "height": 9300,
       "layers": 33,
-      "description": "Strong Z-axis contrast — ideal for 3D CNN training",
+      "description": "Record with strong z-axis contrast in the prepared volume.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 145, "y": 95,  "w": 28, "h": 32, "char": "Ε", "confidence": 0.94 },
-        { "x": 185, "y": 95,  "w": 26, "h": 30, "char": "Π", "confidence": 0.71 },
-        { "x": 223, "y": 95,  "w": 27, "h": 31, "char": "Ι", "confidence": 0.89 }
+        {
+          "x": 145,
+          "y": 95,
+          "w": 28,
+          "h": 32,
+          "char": "Ε",
+          "confidence": 0.94
+        },
+        {
+          "x": 185,
+          "y": 95,
+          "w": 26,
+          "h": 30,
+          "char": "Π",
+          "confidence": 0.71
+        },
+        {
+          "x": 223,
+          "y": 95,
+          "w": 27,
+          "h": 31,
+          "char": "Ι",
+          "confidence": 0.89
+        },
+        {
+          "x": 265,
+          "y": 95,
+          "w": 26,
+          "h": 30,
+          "char": "Ο",
+          "confidence": 0.79
+        },
+        {
+          "x": 145,
+          "y": 145,
+          "w": 27,
+          "h": 31,
+          "char": "Π",
+          "confidence": 0.82
+        },
+        {
+          "x": 185,
+          "y": 145,
+          "w": 28,
+          "h": 32,
+          "char": "Ρ",
+          "confidence": 0.86
+        },
+        {
+          "x": 225,
+          "y": 145,
+          "w": 26,
+          "h": 30,
+          "char": "Σ",
+          "confidence": 0.89
+        },
+        {
+          "x": 265,
+          "y": 145,
+          "w": 27,
+          "h": 31,
+          "char": "Τ",
+          "confidence": 0.68
+        }
       ]
     },
     {
@@ -145,15 +624,74 @@
       "width": 8200,
       "height": 10100,
       "layers": 33,
-      "description": "Large area segment — multiple text columns visible",
+      "description": "Larger-area record with multiple regions selected for inspection.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 100, "y": 80,  "w": 27, "h": 31, "char": "Σ", "confidence": 0.85 },
-        { "x": 140, "y": 80,  "w": 28, "h": 32, "char": "Ο", "confidence": 0.78 },
-        { "x": 180, "y": 80,  "w": 26, "h": 30, "char": "Φ", "confidence": 0.90 },
-        { "x": 218, "y": 80,  "w": 25, "h": 29, "char": "Ι", "confidence": 0.82 },
-        { "x": 100, "y": 130, "w": 28, "h": 32, "char": "Α", "confidence": 0.67 }
+        {
+          "x": 100,
+          "y": 80,
+          "w": 27,
+          "h": 31,
+          "char": "Σ",
+          "confidence": 0.85
+        },
+        {
+          "x": 140,
+          "y": 80,
+          "w": 28,
+          "h": 32,
+          "char": "Ο",
+          "confidence": 0.78
+        },
+        {
+          "x": 180,
+          "y": 80,
+          "w": 26,
+          "h": 30,
+          "char": "Φ",
+          "confidence": 0.9
+        },
+        {
+          "x": 218,
+          "y": 80,
+          "w": 25,
+          "h": 29,
+          "char": "Ι",
+          "confidence": 0.82
+        },
+        {
+          "x": 100,
+          "y": 130,
+          "w": 28,
+          "h": 32,
+          "char": "Α",
+          "confidence": 0.67
+        },
+        {
+          "x": 140,
+          "y": 130,
+          "w": 28,
+          "h": 32,
+          "char": "Χ",
+          "confidence": 0.89
+        },
+        {
+          "x": 180,
+          "y": 130,
+          "w": 26,
+          "h": 30,
+          "char": "Ψ",
+          "confidence": 0.68
+        },
+        {
+          "x": 220,
+          "y": 130,
+          "w": 27,
+          "h": 31,
+          "char": "Ω",
+          "confidence": 0.72
+        }
       ]
     },
     {
@@ -163,14 +701,74 @@
       "width": 8800,
       "height": 10800,
       "layers": 33,
-      "description": "High-resolution scan with fine papyrus fibre detail",
+      "description": "High-resolution record with fine papyrus fibre detail in the prepared preview.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 120, "y": 70,  "w": 27, "h": 31, "char": "Π", "confidence": 0.93 },
-        { "x": 160, "y": 70,  "w": 26, "h": 30, "char": "Ε", "confidence": 0.86 },
-        { "x": 198, "y": 70,  "w": 28, "h": 32, "char": "Ρ", "confidence": 0.74 },
-        { "x": 238, "y": 70,  "w": 25, "h": 30, "char": "Ι", "confidence": 0.88 }
+        {
+          "x": 120,
+          "y": 70,
+          "w": 27,
+          "h": 31,
+          "char": "Π",
+          "confidence": 0.93
+        },
+        {
+          "x": 160,
+          "y": 70,
+          "w": 26,
+          "h": 30,
+          "char": "Ε",
+          "confidence": 0.86
+        },
+        {
+          "x": 198,
+          "y": 70,
+          "w": 28,
+          "h": 32,
+          "char": "Ρ",
+          "confidence": 0.74
+        },
+        {
+          "x": 238,
+          "y": 70,
+          "w": 25,
+          "h": 30,
+          "char": "Ι",
+          "confidence": 0.88
+        },
+        {
+          "x": 120,
+          "y": 120,
+          "w": 27,
+          "h": 31,
+          "char": "Β",
+          "confidence": 0.89
+        },
+        {
+          "x": 160,
+          "y": 120,
+          "w": 28,
+          "h": 32,
+          "char": "Γ",
+          "confidence": 0.68
+        },
+        {
+          "x": 200,
+          "y": 120,
+          "w": 26,
+          "h": 30,
+          "char": "Δ",
+          "confidence": 0.72
+        },
+        {
+          "x": 240,
+          "y": 120,
+          "w": 27,
+          "h": 31,
+          "char": "Ε",
+          "confidence": 0.75
+        }
       ]
     },
     {
@@ -180,17 +778,74 @@
       "width": 10200,
       "height": 12400,
       "layers": 33,
-      "description": "Largest segment — spans the scroll's widest readable column",
+      "description": "Largest prepared record, spanning the widest inspection area.",
       "ctPreview": "/assets/samples/ct_preview.jpg",
       "inkProb": "/assets/samples/ink_prob.png",
       "letters": [
-        { "x": 80,  "y": 60,  "w": 28, "h": 32, "char": "Η", "confidence": 0.91 },
-        { "x": 120, "y": 60,  "w": 26, "h": 30, "char": "Δ", "confidence": 0.83 },
-        { "x": 158, "y": 60,  "w": 27, "h": 31, "char": "Ο", "confidence": 0.77 },
-        { "x": 196, "y": 60,  "w": 25, "h": 29, "char": "Ν", "confidence": 0.89 },
-        { "x": 80,  "y": 110, "w": 28, "h": 32, "char": "Η", "confidence": 0.95 },
-        { "x": 120, "y": 110, "w": 26, "h": 30, "char": "Τ", "confidence": 0.70 },
-        { "x": 158, "y": 110, "w": 27, "h": 31, "char": "Ω", "confidence": 0.85 }
+        {
+          "x": 80,
+          "y": 60,
+          "w": 28,
+          "h": 32,
+          "char": "Η",
+          "confidence": 0.91
+        },
+        {
+          "x": 120,
+          "y": 60,
+          "w": 26,
+          "h": 30,
+          "char": "Δ",
+          "confidence": 0.83
+        },
+        {
+          "x": 158,
+          "y": 60,
+          "w": 27,
+          "h": 31,
+          "char": "Ο",
+          "confidence": 0.77
+        },
+        {
+          "x": 196,
+          "y": 60,
+          "w": 25,
+          "h": 29,
+          "char": "Ν",
+          "confidence": 0.89
+        },
+        {
+          "x": 80,
+          "y": 110,
+          "w": 28,
+          "h": 32,
+          "char": "Η",
+          "confidence": 0.95
+        },
+        {
+          "x": 120,
+          "y": 110,
+          "w": 26,
+          "h": 30,
+          "char": "Τ",
+          "confidence": 0.7
+        },
+        {
+          "x": 158,
+          "y": 110,
+          "w": 27,
+          "h": 31,
+          "char": "Ω",
+          "confidence": 0.85
+        },
+        {
+          "x": 200,
+          "y": 110,
+          "w": 27,
+          "h": 31,
+          "char": "Κ",
+          "confidence": 0.79
+        }
       ]
     }
   ]

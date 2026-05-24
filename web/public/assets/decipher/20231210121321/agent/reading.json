@@ -1,0 +1,911 @@
+{
+  "seg_id": "20231210121321",
+  "genre": "Music theory / treatise on melody",
+  "candidate_authors": [
+    "Philodemus, On Music",
+    "Aristoxenus (in citation)",
+    "Diogenes of Babylon (refuted)"
+  ],
+  "lexical_signals": [
+    "ΜΕΝ",
+    "ΤΗΣ",
+    "ΤΩΝ",
+    "ΔΕ",
+    "ΟΥ",
+    "ΖΩΗ"
+  ],
+  "lexical_signal_details": [
+    {
+      "greek": "ΜΕΝ",
+      "english": "on the one hand",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΤΗΣ",
+      "english": "of the (fem. gen.)",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΤΩΝ",
+      "english": "of the (gen. pl.)",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 2
+    },
+    {
+      "greek": "ΔΕ",
+      "english": "but",
+      "topic": "function",
+      "score": 0.5,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΟΥ",
+      "english": "not",
+      "topic": "function",
+      "score": 0.45,
+      "strip_id": 0
+    },
+    {
+      "greek": "ΖΩΗ",
+      "english": "life",
+      "topic": "human",
+      "score": 0.45,
+      "strip_id": 2
+    }
+  ],
+  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "confidence_band": "speculative",
+  "mean_confidence": 0.283,
+  "n_letters_total": 33,
+  "top_letters": [
+    "Υ",
+    "Ρ",
+    "Μ",
+    "Ϲ",
+    "Τ",
+    "Ν",
+    "Ε",
+    "Ο"
+  ],
+  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a music theory / treatise on melody. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "interpretation": [
+    "This segment (20231210121321) preserves 33 letter positions across 6 strips. The most-anchored letters are Υ Ρ Μ Ϲ Τ Ν, distributed roughly evenly through the column. Mean per-letter confidence is 0.28, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
+    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΜΕΝ, ΤΗΣ, ΤΩΝ, ΔΕ, ΟΥ. This pulls the genre prior toward Music theory / treatise on melody, with Philodemus, On Music, Aristoxenus (in citation) as the most plausible authors.",
+    "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+    "The strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the Stoic position that harmony imitates and trains the rational ordering of the soul."
+  ],
+  "caveats": [
+    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
+    "0 of 6 strips returned no letters at all.",
+    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
+    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+  ],
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "annotated_image_path": "agent/strip_00_annotated.png",
+      "enhanced_image_path": "agent/strip_00_enhanced.png",
+      "letters_text": "ΟΤΝ",
+      "n_letters": 3,
+      "mean_confidence": 0.246,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            25,
+            148,
+            359
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 1,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            907,
+            100,
+            244,
+            284
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3368,
+            0,
+            231,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0
+          ],
+          "greek_letters": "Ο",
+          "matches": [
+            {
+              "greek": "ΟΥ",
+              "english": "not",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            1
+          ],
+          "greek_letters": "Τ",
+          "matches": []
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            2
+          ],
+          "greek_letters": "Ν",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΟΤΝ. Plausible lexical hits: ΟΥ. Consistent with music theory register.",
+      "interpretation": "The letter span ΟΤΝ clusters around what may be the words ΟΥ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "annotated_image_path": "agent/strip_01_annotated.png",
+      "enhanced_image_path": "agent/strip_01_enhanced.png",
+      "letters_text": "ΕΙΥΡΗΜϹ",
+      "n_letters": 7,
+      "mean_confidence": 0.292,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            30,
+            0,
+            850,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            471,
+            0,
+            1074,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1235,
+            20,
+            565,
+            364
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 4,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1992,
+            0,
+            1312,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1997,
+            45,
+            439,
+            339
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2709,
+            0,
+            580,
+            379
+          ],
+          "word_index": 2,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3039,
+            0,
+            561,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2
+          ],
+          "greek_letters": "ΕΙΥ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            4,
+            3
+          ],
+          "greek_letters": "ΗΡ",
+          "matches": []
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            5,
+            6
+          ],
+          "greek_letters": "ΜϹ",
+          "matches": [
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΕΙΥΡΗΜϹ. Plausible lexical hits: ΜΕΝ. Consistent with music theory register.",
+      "interpretation": "The letter span ΕΙΥΡΗΜϹ clusters around what may be the words ΜΕΝ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "annotated_image_path": "agent/strip_02_annotated.png",
+      "enhanced_image_path": "agent/strip_02_enhanced.png",
+      "letters_text": "ΥΗΜϹΤΝ",
+      "n_letters": 6,
+      "mean_confidence": 0.294,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            98,
+            0,
+            498,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            494,
+            0,
+            316,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            716,
+            0,
+            787,
+            197
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1117,
+            58,
+            282,
+            122
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 4,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1737,
+            0,
+            347,
+            315
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1757,
+            0,
+            502,
+            344
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "greek_letters": "ΥΗΜϹ",
+          "matches": [
+            {
+              "greek": "ΤΩΝ",
+              "english": "of the (gen. pl.)",
+              "topic": "function",
+              "score": 0.45
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.45
+            },
+            {
+              "greek": "ΖΩΗ",
+              "english": "life",
+              "topic": "human",
+              "score": 0.45
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            4,
+            5
+          ],
+          "greek_letters": "ΤΝ",
+          "matches": [
+            {
+              "greek": "ΤΩΝ",
+              "english": "of the (gen. pl.)",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.617
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΥΗΜϹΤΝ. Plausible lexical hits: ΤΩΝ, ΤΩΝ. Consistent with music theory register.",
+      "interpretation": "The letter span ΥΗΜϹΤΝ clusters around what may be the words ΤΩΝ, ΤΩΝ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "annotated_image_path": "agent/strip_03_annotated.png",
+      "enhanced_image_path": "agent/strip_03_enhanced.png",
+      "letters_text": "ΡΜΟΕ",
+      "n_letters": 4,
+      "mean_confidence": 0.262,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            292,
+            173
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            961,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            610,
+            0,
+            714,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 3,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2465,
+            23,
+            764,
+            361
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2
+          ],
+          "greek_letters": "ΡΜΟ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            3
+          ],
+          "greek_letters": "Ε",
+          "matches": [
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΡΜΟΕ. Plausible lexical hits: ΔΕ. Consistent with music theory register.",
+      "interpretation": "The letter span ΡΜΟΕ clusters around what may be the words ΔΕ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "annotated_image_path": "agent/strip_04_annotated.png",
+      "enhanced_image_path": "agent/strip_04_enhanced.png",
+      "letters_text": "ϹΤΝΕΑΠΥΡ",
+      "n_letters": 8,
+      "mean_confidence": 0.282,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            415,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 1,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            688,
+            0,
+            541,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1078,
+            34,
+            807,
+            350
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1094,
+            0,
+            333,
+            218
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1281,
+            0,
+            778,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Π",
+          "alternates": [],
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1450,
+            0,
+            1037,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2352,
+            9,
+            554,
+            375
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 7,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3134,
+            0,
+            210,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0
+          ],
+          "greek_letters": "Ϲ",
+          "matches": [
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            1,
+            3,
+            2,
+            4,
+            5,
+            6
+          ],
+          "greek_letters": "ΤΕΝΑΠΥ",
+          "matches": []
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            7
+          ],
+          "greek_letters": "Ρ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ϹΤΝΕΑΠΥΡ. Plausible lexical hits: ΔΕ. Consistent with music theory register.",
+      "interpretation": "The letter span ϹΤΝΕΑΠΥΡ clusters around what may be the words ΔΕ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "annotated_image_path": "agent/strip_05_annotated.png",
+      "enhanced_image_path": "agent/strip_05_enhanced.png",
+      "letters_text": "ΑΥΡΜϹ",
+      "n_letters": 5,
+      "mean_confidence": 0.298,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            115,
+            0,
+            238,
+            302
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            150,
+            0,
+            546,
+            367
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            373,
+            0,
+            265,
+            367
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1087,
+            0,
+            389,
+            231
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1120,
+            0,
+            850,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2
+          ],
+          "greek_letters": "ΑΥΡ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            3,
+            4
+          ],
+          "greek_letters": "ΜϹ",
+          "matches": [
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΔΕ",
+              "english": "but",
+              "topic": "function",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΑΥΡΜϹ. Plausible lexical hits: ΜΕΝ. Consistent with music theory register.",
+      "interpretation": "The letter span ΑΥΡΜϹ clusters around what may be the words ΜΕΝ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

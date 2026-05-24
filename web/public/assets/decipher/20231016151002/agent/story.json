@@ -1,0 +1,969 @@
+{
+  "seg_id": "20231016151002",
+  "genre": "Rhetorical theory / treatise on style",
+  "candidate_authors": [
+    "Philodemus, On Rhetoric",
+    "Demetrius of Phaleron",
+    "Theophrastus (in citation)"
+  ],
+  "historical_context": "Tight clustering of letters consistent with ΛΟΓΟΣ and ΤΕΧΝΗ, together with the column width and the apparent length of paragraphos breaks, fits Philodemus' multi-book Περὶ Ῥητορικῆς. That work is unusually well represented at Herculaneum, with several rolls in PHerc.Paris.4 and adjacent inventories preserving overlapping books.",
+  "lexical_signals": [
+    "ΡΗΤΟΡΙΚΗ",
+    "ΛΟΓΟΣ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΡΗΤΟΡΙΚΗ",
+      "english": "rhetoric",
+      "certainty": "low"
+    },
+    {
+      "greek": "ΛΟΓΟΣ",
+      "english": "speech",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    "Μ",
+    "Θ",
+    "Ι",
+    "Η",
+    "Δ"
+  ],
+  "n_letters_total": 63,
+  "mean_confidence": 0.298,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Μ Θ Ι Η Δ, distributed throughout the column. Visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring Philodemean position against earlier Peripatetic taxonomies. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ΚΘΜΘΙΜΘΟΔΝΦ",
+      "n_letters": 11,
+      "mean_confidence": 0.327,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ΚΘΜΘΙΜΘΟΔΝΦ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Κ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            306,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            930,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            738,
+            0,
+            214,
+            145
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Θ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            478,
+            0,
+            1113,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ι",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            1293,
+            0,
+            347,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1563,
+            143,
+            153,
+            241
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1556,
+            143,
+            447,
+            241
+          ],
+          "alternatives": [
+            "Ϲ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Ο",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            2834,
+            350,
+            76,
+            34
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Δ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2759,
+            0,
+            758,
+            384
+          ],
+          "alternatives": [
+            "Τ"
+          ]
+        },
+        {
+          "index": 9,
+          "char": "Ν",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            3287,
+            238,
+            206,
+            146
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Φ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            3227,
+            0,
+            373,
+            384
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΗΑΖΔΜΜΗΙΩΘΙ",
+      "n_letters": 11,
+      "mean_confidence": 0.399,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΗΑΖΔΜΜΗΙΩΘΙ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Η",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            371,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Α",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            230,
+            0,
+            457,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ζ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            482,
+            0,
+            598,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Δ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            948,
+            0,
+            375,
+            384
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            1241,
+            0,
+            239,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1420,
+            0,
+            311,
+            253
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 6,
+          "char": "Η",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            1672,
+            0,
+            457,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ι",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1908,
+            0,
+            517,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ω",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2264,
+            0,
+            469,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Θ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2492,
+            0,
+            877,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Ι",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            3002,
+            0,
+            598,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "ΜΗΡΜΗΜΜΘΨΨΤ",
+      "n_letters": 11,
+      "mean_confidence": 0.298,
+      "paraphrase_en": "Strip 02 preserves the letter cluster ΜΗΡΜΗΜΜΘΨΨΤ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            226,
+            82,
+            76
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Η",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            710,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ρ",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            444,
+            0,
+            855,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            444,
+            0,
+            855,
+            384
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Η",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            1023,
+            0,
+            434,
+            261
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1565,
+            0,
+            380,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Μ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1032,
+            0,
+            1958,
+            384
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2350,
+            0,
+            360,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ψ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2512,
+            0,
+            656,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Ψ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2716,
+            0,
+            884,
+            384
+          ],
+          "alternatives": [
+            "Ϲ"
+          ]
+        },
+        {
+          "index": 10,
+          "char": "Τ",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            3566,
+            171,
+            34,
+            48
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΑΘΗΜϹΘΤΜΕΑ",
+      "n_letters": 10,
+      "mean_confidence": 0.244,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΑΘΗΜϹΘΤΜΕΑ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Α",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            518,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1015,
+            198,
+            507,
+            186
+          ],
+          "alternatives": [
+            "Ρ"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Η",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            1931,
+            148,
+            78,
+            236
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            1913,
+            21,
+            304,
+            348
+          ],
+          "alternatives": [
+            "."
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            2134,
+            22,
+            225,
+            362
+          ],
+          "alternatives": [
+            "Κ"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Θ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2328,
+            18,
+            312,
+            354
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 6,
+          "char": "Τ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            2610,
+            0,
+            375,
+            276
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            2928,
+            44,
+            249,
+            246
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ε",
+          "confidence": 0.233,
+          "tier": "MED",
+          "bbox_strip": [
+            3066,
+            0,
+            409,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Α",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            3320,
+            0,
+            254,
+            309
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ΟΤΘΡΜΔΜΔΜΑΙ",
+      "n_letters": 11,
+      "mean_confidence": 0.284,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ΟΤΘΡΜΔΜΔΜΑΙ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ο",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            319,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Τ",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            185,
+            7,
+            70,
+            100
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            152,
+            0,
+            788,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ρ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            514,
+            0,
+            448,
+            339
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            746,
+            0,
+            394,
+            384
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Δ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            945,
+            0,
+            782,
+            380
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1508,
+            0,
+            594,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Δ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1892,
+            0,
+            481,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 8,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2170,
+            0,
+            394,
+            362
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Α",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            2505,
+            0,
+            340,
+            264
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Ι",
+          "confidence": 0.223,
+          "tier": "MED",
+          "bbox_strip": [
+            2749,
+            0,
+            851,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΝΘΜΙΜΜΥΡΜ",
+      "n_letters": 9,
+      "mean_confidence": 0.215,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΘΜΙΜΜΥΡΜ. On the rhetorical theory hypothesis, this cluster sits inside visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring philodemean position against earlier peripatetic taxonomies.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            838,
+            384
+          ],
+          "alternatives": [
+            "Μ"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Θ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            356,
+            0,
+            619,
+            351
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            995,
+            162,
+            137,
+            72
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            1152,
+            0,
+            127,
+            384
+          ],
+          "alternatives": [
+            "Μ"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1209,
+            0,
+            375,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1381,
+            0,
+            404,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Υ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1637,
+            0,
+            405,
+            384
+          ],
+          "alternatives": [
+            "Μ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Ρ",
+          "confidence": 0.223,
+          "tier": "MED",
+          "bbox_strip": [
+            1879,
+            0,
+            459,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Μ",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            3096,
+            0,
+            260,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

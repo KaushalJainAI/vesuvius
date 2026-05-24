@@ -9,40 +9,35 @@ const PHASE_DURATIONS: Record<AnimationPhase, number> = {
   done: 0,
 }
 
+const ORDERED_PHASES: AnimationPhase[] = ['ct', 'ink', 'letters', 'done']
+
 export function useAnimationSequence(autoPlay = false) {
   const [phase, setPhase] = useState<AnimationPhase>('idle')
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const timersRef = useRef<ReturnType<typeof setTimeout>[]>([])
 
-  const advance = useCallback((from: AnimationPhase) => {
-    const next: Record<AnimationPhase, AnimationPhase> = {
-      idle: 'ct',
-      ct: 'ink',
-      ink: 'letters',
-      letters: 'done',
-      done: 'done',
-    }
-    const nextPhase = next[from]
-    setPhase(nextPhase)
-    if (nextPhase !== 'done' && PHASE_DURATIONS[nextPhase] > 0) {
-      timerRef.current = setTimeout(() => advance(nextPhase), PHASE_DURATIONS[nextPhase])
-    }
+  const clearTimers = useCallback(() => {
+    timersRef.current.forEach(timer => clearTimeout(timer))
+    timersRef.current = []
   }, [])
 
   const start = useCallback(() => {
-    if (timerRef.current) clearTimeout(timerRef.current)
-    setPhase('ct')
-    timerRef.current = setTimeout(() => advance('ct'), PHASE_DURATIONS.ct)
-  }, [advance])
+    clearTimers()
+    let elapsed = 0
+    ORDERED_PHASES.forEach(nextPhase => {
+      timersRef.current.push(setTimeout(() => setPhase(nextPhase), elapsed))
+      elapsed += PHASE_DURATIONS[nextPhase]
+    })
+  }, [clearTimers])
 
   const reset = useCallback(() => {
-    if (timerRef.current) clearTimeout(timerRef.current)
+    clearTimers()
     setPhase('idle')
-  }, [])
+  }, [clearTimers])
 
   useEffect(() => {
-    if (autoPlay) start()
-    return () => { if (timerRef.current) clearTimeout(timerRef.current) }
-  }, [autoPlay, start])
+    if (autoPlay) timersRef.current.push(setTimeout(start, 0))
+    return clearTimers
+  }, [autoPlay, clearTimers, start])
 
   return { phase, start, reset }
 }

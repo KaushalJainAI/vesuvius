@@ -1,0 +1,1388 @@
+{
+  "seg_id": "20230702185753",
+  "genre": "Stoic physics or psychology",
+  "candidate_authors": [
+    "Chrysippus (in citation)",
+    "Posidonius",
+    "Zeno of Citium"
+  ],
+  "lexical_signals": [
+    "ΤΩΝ",
+    "ΤΗΣ",
+    "ΤΕΧΝΗ",
+    "ΕΙΝΑΙ",
+    "ΜΗΤΗΡ",
+    "ΜΕΝ",
+    "ΑΘΗΝΑΙΟΙ",
+    "ΑΡΕΤΗ"
+  ],
+  "lexical_signal_details": [
+    {
+      "greek": "ΤΩΝ",
+      "english": "of the (gen. pl.)",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 4
+    },
+    {
+      "greek": "ΤΗΣ",
+      "english": "of the (fem. gen.)",
+      "topic": "function",
+      "score": 0.617,
+      "strip_id": 4
+    },
+    {
+      "greek": "ΤΕΧΝΗ",
+      "english": "skill",
+      "topic": "rhetoric",
+      "score": 0.55,
+      "strip_id": 0
+    },
+    {
+      "greek": "ΕΙΝΑΙ",
+      "english": "to be",
+      "topic": "function",
+      "score": 0.52,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΜΗΤΗΡ",
+      "english": "mother",
+      "topic": "human",
+      "score": 0.52,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΜΕΝ",
+      "english": "on the one hand",
+      "topic": "function",
+      "score": 0.5,
+      "strip_id": 1
+    },
+    {
+      "greek": "ΑΘΗΝΑΙΟΙ",
+      "english": "Athenians",
+      "topic": "history",
+      "score": 0.5,
+      "strip_id": 3
+    },
+    {
+      "greek": "ΑΡΕΤΗ",
+      "english": "virtue",
+      "topic": "ethics",
+      "score": 0.47,
+      "strip_id": 0
+    }
+  ],
+  "historical_context": "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
+  "confidence_band": "speculative",
+  "mean_confidence": 0.286,
+  "n_letters_total": 63,
+  "top_letters": [
+    "Μ",
+    "Ε",
+    "Ν",
+    "Ι",
+    "Η",
+    "Ρ",
+    "Υ"
+  ],
+  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a stoic physics or psychology. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "interpretation": [
+    "This segment (20230702185753) preserves 63 letter positions across 6 strips. The most-anchored letters are Μ Ε Ν Ι Η Ρ, distributed roughly evenly through the column. Mean per-letter confidence is 0.29, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
+    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΤΩΝ, ΤΗΣ, ΤΕΧΝΗ, ΕΙΝΑΙ, ΜΗΤΗΡ. This pulls the genre prior toward Stoic physics or psychology, with Chrysippus (in citation), Posidonius as the most plausible authors.",
+    "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
+    "The argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole."
+  ],
+  "caveats": [
+    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
+    "0 of 6 strips returned no letters at all.",
+    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
+    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+  ],
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "annotated_image_path": "agent/strip_00_annotated.png",
+      "enhanced_image_path": "agent/strip_00_enhanced.png",
+      "letters_text": "ϹΕΝΜ",
+      "n_letters": 4,
+      "mean_confidence": 0.334,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "alternates": [
+            "Ρ"
+          ],
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            376,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            250,
+            0,
+            322,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            268,
+            0,
+            1127,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            1013,
+            143,
+            522,
+            241
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "greek_letters": "ϹΕΝΜ",
+          "matches": [
+            {
+              "greek": "ΤΕΧΝΗ",
+              "english": "skill",
+              "topic": "rhetoric",
+              "score": 0.55
+            },
+            {
+              "greek": "ΑΡΕΤΗ",
+              "english": "virtue",
+              "topic": "ethics",
+              "score": 0.47
+            },
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.45
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ϹΕΝΜ. Plausible lexical hits: ΤΕΧΝΗ. Consistent with stoic physics or psychology register.",
+      "interpretation": "The letter span ϹΕΝΜ clusters around what may be the words ΤΕΧΝΗ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "annotated_image_path": "agent/strip_01_annotated.png",
+      "enhanced_image_path": "agent/strip_01_enhanced.png",
+      "letters_text": "ΜΦΡΩΝΕΕΜΙ",
+      "n_letters": 9,
+      "mean_confidence": 0.351,
+      "transcription_lines": [
+        {
+          "index": 1,
+          "char": "Φ",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            718,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 0,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            43,
+            286,
+            98,
+            65
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 2,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            440,
+            0,
+            583,
+            378
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ω",
+          "alternates": [],
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            857,
+            0,
+            808,
+            355
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        },
+        {
+          "index": 5,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2195,
+            0,
+            481,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Ν",
+          "alternates": [
+            "Μ"
+          ],
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            2271,
+            0,
+            113,
+            75
+          ],
+          "word_index": 2,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ε",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            2365,
+            0,
+            778,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": false
+        },
+        {
+          "index": 7,
+          "char": "Μ",
+          "alternates": [
+            "Α"
+          ],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2879,
+            0,
+            721,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": false
+        },
+        {
+          "index": 8,
+          "char": "Ι",
+          "alternates": [
+            "Υ"
+          ],
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            3159,
+            0,
+            441,
+            384
+          ],
+          "word_index": 2,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            1,
+            0
+          ],
+          "greek_letters": "ΦΜ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            2,
+            3
+          ],
+          "greek_letters": "ΡΩ",
+          "matches": []
+        },
+        {
+          "word_index": 2,
+          "char_indices": [
+            5,
+            4,
+            6,
+            7,
+            8
+          ],
+          "greek_letters": "ΕΝΕΜΙ",
+          "matches": [
+            {
+              "greek": "ΕΙΝΑΙ",
+              "english": "to be",
+              "topic": "function",
+              "score": 0.52
+            },
+            {
+              "greek": "ΜΗΤΗΡ",
+              "english": "mother",
+              "topic": "human",
+              "score": 0.52
+            },
+            {
+              "greek": "ΜΕΝ",
+              "english": "on the one hand",
+              "topic": "function",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΜΦΡΩΝΕΕΜΙ. Plausible lexical hits: ΕΙΝΑΙ. Consistent with stoic physics or psychology register.",
+      "interpretation": "The letter span ΜΦΡΩΝΕΕΜΙ clusters around what may be the words ΕΙΝΑΙ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Moderate damage: major letter forms are anchored but word boundaries remain interpretive."
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "annotated_image_path": "agent/strip_02_annotated.png",
+      "enhanced_image_path": "agent/strip_02_enhanced.png",
+      "letters_text": "Μ.ΨΥΗΘΩϹΤΝΜ",
+      "n_letters": 11,
+      "mean_confidence": 0.251,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            43,
+            147,
+            341
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            14,
+            0,
+            304,
+            192
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ψ",
+          "alternates": [
+            "Ι"
+          ],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            320,
+            0,
+            272,
+            263
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Υ",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            502,
+            0,
+            326,
+            311
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Η",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.204,
+          "tier": "MED",
+          "bbox_strip": [
+            887,
+            177,
+            336,
+            181
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Θ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1032,
+            0,
+            760,
+            367
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 8,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            1294,
+            0,
+            1875,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 9,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            1294,
+            0,
+            1875,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ω",
+          "alternates": [
+            "Μ"
+          ],
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1542,
+            60,
+            307,
+            324
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 7,
+          "char": "Ϲ",
+          "alternates": [],
+          "confidence": 0.223,
+          "tier": "MED",
+          "bbox_strip": [
+            1681,
+            350,
+            74,
+            34
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 10,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2454,
+            86,
+            258,
+            298
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            6,
+            7
+          ],
+          "greek_letters": "Μ.ΨΥΗΘΤΝΩϹ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            10
+          ],
+          "greek_letters": "Μ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves Μ.ΨΥΗΘΩϹΤΝΜ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
+      "interpretation": "No defensible Greek words can be extracted from this strip's 11 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "annotated_image_path": "agent/strip_03_annotated.png",
+      "enhanced_image_path": "agent/strip_03_enhanced.png",
+      "letters_text": "ΡΗΝ.ΜΟΤΙ...",
+      "n_letters": 11,
+      "mean_confidence": 0.229,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Ρ",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            311,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            152,
+            189,
+            225,
+            195
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            239,
+            0,
+            361,
+            273
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            321,
+            0,
+            666,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            951,
+            0,
+            327,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 7,
+          "char": "Ι",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            1161,
+            23,
+            1037,
+            361
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Ο",
+          "alternates": [],
+          "confidence": 0.204,
+          "tier": "MED",
+          "bbox_strip": [
+            1223,
+            0,
+            206,
+            275
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Τ",
+          "alternates": [],
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1279,
+            0,
+            136,
+            275
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 8,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1933,
+            29,
+            307,
+            355
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 9,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2222,
+            216,
+            146,
+            168
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 10,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2336,
+            0,
+            282,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            5,
+            6
+          ],
+          "greek_letters": "ΡΗΝ.ΜΙΟΤ",
+          "matches": [
+            {
+              "greek": "ΑΘΗΝΑΙΟΙ",
+              "english": "Athenians",
+              "topic": "history",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            8,
+            9,
+            10
+          ],
+          "greek_letters": "...",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΡΗΝ.ΜΟΤΙ.... Plausible lexical hits: ΑΘΗΝΑΙΟΙ. Consistent with stoic physics or psychology register.",
+      "interpretation": "The letter span ΡΗΝ.ΜΟΤΙ... clusters around what may be the words ΑΘΗΝΑΙΟΙ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "annotated_image_path": "agent/strip_04_annotated.png",
+      "enhanced_image_path": "agent/strip_04_enhanced.png",
+      "letters_text": "ΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ",
+      "n_letters": 15,
+      "mean_confidence": 0.299,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "alternates": [
+            "Ο"
+          ],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            274,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.204,
+          "tier": "MED",
+          "bbox_strip": [
+            155,
+            0,
+            744,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Τ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            192,
+            0,
+            564,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            621,
+            0,
+            667,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Α",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1151,
+            0,
+            303,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Ε",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1333,
+            0,
+            385,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1573,
+            0,
+            303,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 7,
+          "char": "Φ",
+          "alternates": [
+            "Ι"
+          ],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1748,
+            0,
+            345,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 9,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1773,
+            0,
+            997,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 8,
+          "char": "Π",
+          "alternates": [],
+          "confidence": 0.233,
+          "tier": "MED",
+          "bbox_strip": [
+            2071,
+            0,
+            205,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 11,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            2235,
+            0,
+            1365,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 12,
+          "char": "Σ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2235,
+            0,
+            1365,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 10,
+          "char": "Υ",
+          "alternates": [],
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            2468,
+            61,
+            84,
+            70
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 13,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            3090,
+            0,
+            323,
+            196
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 14,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            3316,
+            0,
+            284,
+            384
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            8,
+            11,
+            12,
+            10
+          ],
+          "greek_letters": "ΜΕΤΝΑΕΙΦΥΠΡΣΥ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            13,
+            14
+          ],
+          "greek_letters": "ΙΜ",
+          "matches": [
+            {
+              "greek": "ΤΩΝ",
+              "english": "of the (gen. pl.)",
+              "topic": "function",
+              "score": 0.617
+            },
+            {
+              "greek": "ΤΗΣ",
+              "english": "of the (fem. gen.)",
+              "topic": "function",
+              "score": 0.617
+            }
+          ]
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ. Plausible lexical hits: ΤΩΝ. Consistent with stoic physics or psychology register.",
+      "interpretation": "The letter span ΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ clusters around what may be the words ΤΩΝ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "annotated_image_path": "agent/strip_05_annotated.png",
+      "enhanced_image_path": "agent/strip_05_enhanced.png",
+      "letters_text": "ΗΑΜΗΘΜΧΜ.ΙΥΡΗ",
+      "n_letters": 13,
+      "mean_confidence": 0.292,
+      "transcription_lines": [
+        {
+          "index": 0,
+          "char": "Η",
+          "alternates": [
+            "Ε"
+          ],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            421,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            318,
+            39,
+            167,
+            237
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 1,
+          "char": "Α",
+          "alternates": [],
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            334,
+            63,
+            53,
+            36
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            393,
+            0,
+            541,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 4,
+          "char": "Θ",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            743,
+            0,
+            384,
+            330
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            988,
+            0,
+            215,
+            384
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 6,
+          "char": "Χ",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1099,
+            0,
+            705,
+            355
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 7,
+          "char": "Μ",
+          "alternates": [],
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1538,
+            0,
+            735,
+            309
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 8,
+          "char": ".",
+          "alternates": [],
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2166,
+            0,
+            459,
+            240
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 10,
+          "char": "Υ",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            2344,
+            0,
+            1054,
+            285
+          ],
+          "word_index": 0,
+          "is_word_boundary": false
+        },
+        {
+          "index": 9,
+          "char": "Ι",
+          "alternates": [],
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            2515,
+            54,
+            191,
+            276
+          ],
+          "word_index": 0,
+          "is_word_boundary": true
+        },
+        {
+          "index": 11,
+          "char": "Ρ",
+          "alternates": [],
+          "confidence": 0.223,
+          "tier": "MED",
+          "bbox_strip": [
+            3173,
+            0,
+            231,
+            314
+          ],
+          "word_index": 1,
+          "is_word_boundary": false
+        },
+        {
+          "index": 12,
+          "char": "Η",
+          "alternates": [],
+          "confidence": 0.356,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3343,
+            0,
+            257,
+            334
+          ],
+          "word_index": 1,
+          "is_word_boundary": true
+        }
+      ],
+      "word_candidates": [
+        {
+          "word_index": 0,
+          "char_indices": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            9
+          ],
+          "greek_letters": "ΗΜΑΗΘΜΧΜ.ΥΙ",
+          "matches": []
+        },
+        {
+          "word_index": 1,
+          "char_indices": [
+            11,
+            12
+          ],
+          "greek_letters": "ΡΗ",
+          "matches": []
+        }
+      ],
+      "paraphrase_en": "Strip preserves ΗΑΜΗΘΜΧΜ.ΙΥΡΗ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
+      "interpretation": "No defensible Greek words can be extracted from this strip's 13 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
+      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

@@ -1,0 +1,561 @@
+{
+  "seg_id": "20231005123336",
+  "genre": "Stoic physics or psychology",
+  "candidate_authors": [
+    "Chrysippus (in citation)",
+    "Posidonius",
+    "Zeno of Citium"
+  ],
+  "historical_context": "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
+  "lexical_signals": [
+    "ΛΟΓΟΣ",
+    "ΦΥΣΙΣ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΛΟΓΟΣ",
+      "english": "reason",
+      "certainty": "low"
+    },
+    {
+      "greek": "ΦΥΣΙΣ",
+      "english": "nature",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    "Ϲ",
+    "Ο",
+    "Ν",
+    "Ι",
+    "Α"
+  ],
+  "n_letters_total": 35,
+  "mean_confidence": 0.275,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Ϲ Ο Ν Ι Α, distributed throughout the column. The argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ϹΟ",
+      "n_letters": 2,
+      "mean_confidence": 0.227,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            444,
+            0,
+            759,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            699,
+            0,
+            741,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΝΑΙ",
+      "n_letters": 3,
+      "mean_confidence": 0.242,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΝΑΙ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            151,
+            14,
+            283,
+            194
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Α",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            1389,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ι",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1639,
+            0,
+            1139,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "ΙΥΗΜϹΟΤ",
+      "n_letters": 7,
+      "mean_confidence": 0.279,
+      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΥΗΜϹΟΤ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ι",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            472,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Υ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            141,
+            8,
+            871,
+            376
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Η",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            871,
+            0,
+            283,
+            344
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            938,
+            0,
+            1507,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2892,
+            0,
+            419,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Ο",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3127,
+            0,
+            473,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Τ",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3127,
+            0,
+            473,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΜϹΟΝΕΙ",
+      "n_letters": 6,
+      "mean_confidence": 0.287,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΜϹΟΝΕΙ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            115,
+            0,
+            248,
+            185
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ϲ",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            256,
+            127,
+            74,
+            37
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            77,
+            0,
+            1187,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            797,
+            0,
+            90,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            964,
+            0,
+            486,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Ι",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1651,
+            0,
+            594,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ϹΟΤΝΕΑΙΥΡ",
+      "n_letters": 9,
+      "mean_confidence": 0.275,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΤΝΕΑΙΥΡ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            402,
+            362
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            370,
+            0,
+            755,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Τ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            996,
+            125,
+            195,
+            256
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1007,
+            0,
+            725,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1448,
+            0,
+            633,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1985,
+            54,
+            192,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ι",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1901,
+            0,
+            972,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Υ",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2816,
+            0,
+            452,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ρ",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3098,
+            0,
+            502,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΝΑΠΥΡΗΜϹ",
+      "n_letters": 8,
+      "mean_confidence": 0.287,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΑΠΥΡΗΜϹ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            294,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Α",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            72,
+            0,
+            487,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Π",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            672,
+            0,
+            255,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Υ",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            934,
+            0,
+            278,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ρ",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1417,
+            39,
+            345,
+            288
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Η",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1728,
+            0,
+            481,
+            287
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Μ",
+          "confidence": 0.324,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2053,
+            0,
+            435,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ϲ",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2290,
+            0,
+            599,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

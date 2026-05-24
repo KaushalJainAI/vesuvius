@@ -13,6 +13,7 @@ Main entry point:
 from __future__ import annotations
 
 import sys
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -26,7 +27,7 @@ from label_blend import (
     log_iteration,
     save_iteration_labels,
 )
-from label_filters import apply_filters, load_label
+from label_filters import load_label, run_strategy, s11_tv_sato_hysteresis
 from letter_candidates import (
     GreekTemplateMatcher,
     assign_confidence_tier,
@@ -56,18 +57,23 @@ class RefinementConfig:
     alpha_schedule: List[float] = field(default_factory=lambda: list(ALPHA_SCHEDULE))
 
     # Candidate extraction
-    threshold: float = 0.40
-    min_area: int = 50
-    max_area: int = 8000
+    threshold: float = 0.55
+    min_area: int = 1_200
+    max_area: int = 120_000
     top_k_matches: int = 3
 
     # Filter settings
+    filter_strategy: str = "S11_tv_sato_hysteresis"
+    filter_soft_output: bool = True
     median_radius: int = 1
     clahe_clip: float = 0.02
 
     # LLM settings
     llm_model: str = "claude-opus-4-7"
     llm_batch_size: int = 5
+    enable_llm: bool = True
+    allow_gap_label_updates: bool = False
+    min_visual_evidence: float = 0.20
 
     # Stopping criterion: stop when mean |Δ| < this between iterations
     convergence_threshold: float = 0.01
@@ -95,7 +101,7 @@ def run_refinement(
     """Run the label refinement loop.
 
     Each iteration:
-      Stage 1: apply_filters          — enhance contrast, repair strokes
+      Stage 1: filter strategy        — enhance contrast, repair strokes
       Stage 2: extract + match        — letter candidates + Greek template matching
       Stage 3: LLM gap-fill           — Claude resolves ambiguous + gap positions
       Stage 4: blend                  — α × llm_map + (1-α) × prev_labels
@@ -122,24 +128,33 @@ def run_refinement(
         matcher = GreekTemplateMatcher()
         _log("  Done.")
 
-    filler = LLMGapFiller(api_key=api_key, model=config.llm_model)
+    filler: Optional[LLMGapFiller] = None
+    effective_api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
+    if config.enable_llm and effective_api_key:
+        try:
+            filler = LLMGapFiller(api_key=effective_api_key, model=config.llm_model)
+        except Exception as exc:
+            _log(f"[refine] WARNING: LLM disabled; client init failed: {exc}")
+    elif config.enable_llm:
+        _log("[refine] WARNING: LLM disabled; ANTHROPIC_API_KEY is not set.")
     history: List[Dict] = []
-    prev_labels = labels.copy()
 
     for iteration in range(1, config.max_iterations + 1):
+        prev_labels = labels.copy()
         alpha = config.alpha_schedule[min(iteration - 1, len(config.alpha_schedule) - 1)]
         _log(f"\n{'=' * 64}")
         _log(f"[refine] Iteration {iteration}/{config.max_iterations}   α={alpha:.2f}")
         _log(f"{'=' * 64}")
 
         # ── Stage 1: Filter pipeline ──────────────────────────────────────
-        _log("[1/4] Filter pipeline…")
-        filtered = apply_filters(
-            labels,
-            median_radius=config.median_radius,
-            clahe_clip=config.clahe_clip,
-            threshold=config.threshold,
-        )
+        _log(f"[1/4] Filter pipeline ({config.filter_strategy})…")
+        if config.filter_strategy == "S11_tv_sato_hysteresis":
+            filtered = s11_tv_sato_hysteresis(
+                labels,
+                soft_output=config.filter_soft_output,
+            )
+        else:
+            filtered = run_strategy(config.filter_strategy, labels)
 
         # ── Stage 2: Candidates + template matching ───────────────────────
         _log("[2/4] Extracting letter candidates + template matching…")
@@ -160,10 +175,20 @@ def run_refinement(
 
         # ── Stage 3: LLM gap-filling ──────────────────────────────────────
         _log("[3/4] LLM gap-filling…")
-        fill_results = filler.fill_lines(
-            lines, W, H, batch_size=config.llm_batch_size
-        )
-        updated = filler.apply_to_prob_map(filtered, fill_results)
+        if filler is None:
+            fill_results = []
+            updated = filtered
+            _log("      skipped (no configured LLM client)")
+        else:
+            fill_results = filler.fill_lines(
+                lines, W, H, batch_size=config.llm_batch_size
+            )
+            updated = filler.apply_to_prob_map(
+                filtered,
+                fill_results,
+                allow_gap_updates=config.allow_gap_label_updates,
+                min_visual_evidence=config.min_visual_evidence,
+            )
 
         # ── Stage 4: Blend ─────────────────────────────────────────────────
         _log(f"[4/4] Blending labels (α={alpha})…")
@@ -196,7 +221,6 @@ def run_refinement(
         if config.mode == "full_loop":
             _run_training(config, iteration, blended, _log)
 
-        prev_labels = labels.copy()
         labels = blended
 
         if stats["mean_abs_diff"] < config.convergence_threshold:

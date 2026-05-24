@@ -1,0 +1,38 @@
+{
+  "seg_id": "20231031143852",
+  "source": "claude-agent-sdk",
+  "availability": {
+    "sdk_import": true,
+    "cli_on_path": true,
+    "api_key": false,
+    "sdk_version": "0.2.87",
+    "ok": true
+  },
+  "strips": [
+    {
+      "strip_id": 0,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    },
+    {
+      "strip_id": 1,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    },
+    {
+      "strip_id": 2,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    },
+    {
+      "strip_id": 3,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    },
+    {
+      "strip_id": 4,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    },
+    {
+      "strip_id": 5,
+      "_error": "Exception('Claude Code returned an error result: success')"
+    }
+  ],
+  "status": "ok"
+}

@@ -60,7 +60,12 @@ Reconstruct a continuous transcription from spatial letter positions.
 
 ## Development Target
 
-Segment `20230827161847` (Grand Prize — first readable text confirmed here, known transcription available for validation).
+Available labelled PHercParis4 segments under `data/labelled_segments/` are the
+current development set. Segment `20231221180251` is used as the primary
+filter/label-enhancement validation segment in this repo.
+
+Segment `20230827161847` remains an external known-readable benchmark target,
+but it is not present in the local labelled-segment tree.
 
 ## Transfer Target
 

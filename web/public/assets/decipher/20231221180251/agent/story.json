@@ -1,0 +1,1211 @@
+{
+  "seg_id": "20231221180251",
+  "genre": "Fragment of Greek philosophical argument",
+  "candidate_authors": [
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll",
+    "attribution not secure"
+  ],
+  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "lexical_signals": [
+    "ΜΟΥΣΙΚΗ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΜΟΥΣΙΚΗ",
+      "english": "music",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    ".",
+    "Μ",
+    "Ο",
+    "Ν",
+    "Α"
+  ],
+  "n_letters_total": 79,
+  "mean_confidence": 0.27,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "A damaged argumentative passage appears to refer back to something already said, then narrow the discussion by rejecting or distinguishing alternatives. The segment is best presented as plausible philosophical prose, not as a finished translation.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ΡΕΝΗΜΑΝΝΩΙΤΕΝΑ",
+      "n_letters": 14,
+      "mean_confidence": 0.25,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ΡΕΝΗΜΑΝΝΩΙΤΕΝΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ρ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            212,
+            139,
+            172
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "confidence": 0.188,
+          "tier": "MED",
+          "bbox_strip": [
+            254,
+            8,
+            327,
+            376
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ν",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            254,
+            8,
+            327,
+            376
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            478,
+            0,
+            272,
+            384
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            572,
+            0,
+            600,
+            344
+          ],
+          "alternatives": [
+            "Ι"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.173,
+          "tier": "MED",
+          "bbox_strip": [
+            1058,
+            0,
+            287,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 6,
+          "char": "Ν",
+          "confidence": 0.158,
+          "tier": "MED",
+          "bbox_strip": [
+            1348,
+            27,
+            235,
+            357
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ν",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1456,
+            77,
+            259,
+            95
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ω",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1711,
+            0,
+            244,
+            269
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 9,
+          "char": "Ι",
+          "confidence": 0.143,
+          "tier": "MED",
+          "bbox_strip": [
+            1723,
+            9,
+            520,
+            342
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Τ",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            2196,
+            0,
+            311,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": "Ε",
+          "confidence": 0.158,
+          "tier": "MED",
+          "bbox_strip": [
+            2289,
+            0,
+            239,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 12,
+          "char": "Ν",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2137,
+            0,
+            1409,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": "Α",
+          "confidence": 0.18,
+          "tier": "MED",
+          "bbox_strip": [
+            2782,
+            0,
+            779,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΜΝΔΝ..Ο.ΜΘ.Π..",
+      "n_letters": 14,
+      "mean_confidence": 0.216,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΜΝΔΝ..Ο.ΜΘ.Π... On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            87,
+            251,
+            219
+          ],
+          "alternatives": [
+            "Κ"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Ν",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            269,
+            0,
+            521,
+            384
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Δ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            462,
+            0,
+            278,
+            384
+          ],
+          "alternatives": [
+            "."
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            732,
+            13,
+            323,
+            371
+          ],
+          "alternatives": [
+            "Π"
+          ]
+        },
+        {
+          "index": 4,
+          "char": ".",
+          "confidence": 0.2,
+          "tier": "HIGH",
+          "bbox_strip": [
+            962,
+            0,
+            468,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": ".",
+          "confidence": 0.075,
+          "tier": "MED",
+          "bbox_strip": [
+            1025,
+            0,
+            522,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ο",
+          "confidence": 0.262,
+          "tier": "MED",
+          "bbox_strip": [
+            1520,
+            16,
+            240,
+            368
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": ".",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1808,
+            45,
+            176,
+            339
+          ],
+          "alternatives": [
+            "Δ"
+          ]
+        },
+        {
+          "index": 8,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1947,
+            0,
+            321,
+            384
+          ],
+          "alternatives": [
+            "."
+          ]
+        },
+        {
+          "index": 9,
+          "char": "Θ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2266,
+            0,
+            243,
+            384
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 10,
+          "char": ".",
+          "confidence": 0.075,
+          "tier": "MED",
+          "bbox_strip": [
+            2587,
+            2,
+            269,
+            382
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": "Π",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2688,
+            16,
+            424,
+            343
+          ],
+          "alternatives": [
+            "."
+          ]
+        },
+        {
+          "index": 12,
+          "char": ".",
+          "confidence": 0.075,
+          "tier": "MED",
+          "bbox_strip": [
+            2888,
+            100,
+            477,
+            284
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": ".",
+          "confidence": 0.075,
+          "tier": "MED",
+          "bbox_strip": [
+            3023,
+            0,
+            577,
+            384
+          ],
+          "alternatives": [
+            "Χ"
+          ]
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "Μ.ΜΙϹΠΖΘΟΥ",
+      "n_letters": 10,
+      "mean_confidence": 0.348,
+      "paraphrase_en": "Strip 02 preserves the letter cluster Μ.ΜΙϹΠΖΘΟΥ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            504,
+            184
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": ".",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            260,
+            0,
+            442,
+            384
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            572,
+            0,
+            449,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            799,
+            0,
+            418,
+            107
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "confidence": 0.188,
+          "tier": "MED",
+          "bbox_strip": [
+            1109,
+            0,
+            442,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Π",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            1221,
+            0,
+            503,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ζ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            1540,
+            0,
+            477,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2111,
+            0,
+            172,
+            384
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 8,
+          "char": "Ο",
+          "confidence": 0.203,
+          "tier": "MED",
+          "bbox_strip": [
+            2511,
+            0,
+            482,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Υ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2809,
+            0,
+            282,
+            281
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΜΗΤΜΡΒΠΩϹΜΟ.Ϲ..",
+      "n_letters": 15,
+      "mean_confidence": 0.298,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΜΗΤΜΡΒΠΩϹΜΟ.Ϲ... On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            311,
+            337
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Η",
+          "confidence": 0.49,
+          "tier": "HIGH",
+          "bbox_strip": [
+            245,
+            177,
+            293,
+            207
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Τ",
+          "confidence": 0.6,
+          "tier": "MED",
+          "bbox_strip": [
+            494,
+            0,
+            161,
+            384
+          ],
+          "alternatives": [
+            "Π"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            792,
+            115,
+            258,
+            269
+          ],
+          "alternatives": [
+            "Ι"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Ρ",
+          "confidence": 0.247,
+          "tier": "MED",
+          "bbox_strip": [
+            967,
+            0,
+            409,
+            296
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Β",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1293,
+            252,
+            104,
+            74
+          ],
+          "alternatives": [
+            "Τ"
+          ]
+        },
+        {
+          "index": 6,
+          "char": "Π",
+          "confidence": 0.285,
+          "tier": "MED",
+          "bbox_strip": [
+            1510,
+            0,
+            600,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ω",
+          "confidence": 0.24,
+          "tier": "MED",
+          "bbox_strip": [
+            1510,
+            0,
+            600,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 8,
+          "char": "Ϲ",
+          "confidence": 0.285,
+          "tier": "MED",
+          "bbox_strip": [
+            1841,
+            0,
+            794,
+            384
+          ],
+          "alternatives": [
+            "Κ"
+          ]
+        },
+        {
+          "index": 9,
+          "char": "Μ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            2388,
+            208,
+            133,
+            176
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 10,
+          "char": "Ο",
+          "confidence": 0.315,
+          "tier": "MED",
+          "bbox_strip": [
+            2417,
+            20,
+            386,
+            364
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": ".",
+          "confidence": 0,
+          "tier": "MED",
+          "bbox_strip": [
+            2258,
+            0,
+            1158,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 12,
+          "char": "Ϲ",
+          "confidence": 0.21,
+          "tier": "MED",
+          "bbox_strip": [
+            2637,
+            0,
+            681,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": ".",
+          "confidence": 0,
+          "tier": "MED",
+          "bbox_strip": [
+            3236,
+            104,
+            239,
+            280
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 14,
+          "char": ".",
+          "confidence": 0,
+          "tier": "MED",
+          "bbox_strip": [
+            3351,
+            0,
+            249,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ΜΟΟΓΟΜ.ΘΟ.ΨΠΟΔ",
+      "n_letters": 14,
+      "mean_confidence": 0.223,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ΜΟΟΓΟΜ.ΘΟ.ΨΠΟΔ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            186,
+            384
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.285,
+          "tier": "MED",
+          "bbox_strip": [
+            392,
+            0,
+            205,
+            384
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "confidence": 0.262,
+          "tier": "MED",
+          "bbox_strip": [
+            638,
+            71,
+            361,
+            313
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Γ",
+          "confidence": 0.188,
+          "tier": "MED",
+          "bbox_strip": [
+            787,
+            0,
+            546,
+            283
+          ],
+          "alternatives": [
+            "Δ"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Ο",
+          "confidence": 0.247,
+          "tier": "MED",
+          "bbox_strip": [
+            1130,
+            0,
+            297,
+            270
+          ],
+          "alternatives": [
+            "Κ"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1407,
+            0,
+            215,
+            384
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 6,
+          "char": ".",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1692,
+            339,
+            167,
+            45
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Θ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1423,
+            0,
+            1110,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ο",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1950,
+            0,
+            415,
+            295
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": ".",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            2030,
+            0,
+            488,
+            333
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 10,
+          "char": "Ψ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            2335,
+            0,
+            503,
+            193
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 11,
+          "char": "Π",
+          "confidence": 0.195,
+          "tier": "MED",
+          "bbox_strip": [
+            2643,
+            0,
+            405,
+            365
+          ],
+          "alternatives": [
+            "."
+          ]
+        },
+        {
+          "index": 12,
+          "char": "Ο",
+          "confidence": 0.217,
+          "tier": "MED",
+          "bbox_strip": [
+            3052,
+            65,
+            185,
+            319
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": "Δ",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            3082,
+            79,
+            297,
+            120
+          ],
+          "alternatives": [
+            "Ϲ"
+          ]
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΜΚΗΟΕΙΤ.ΑΝΘΑ",
+      "n_letters": 12,
+      "mean_confidence": 0.312,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΜΚΗΟΕΙΤ.ΑΝΘΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            346,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Κ",
+          "confidence": 0.21,
+          "tier": "MED",
+          "bbox_strip": [
+            289,
+            54,
+            142,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Η",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            140,
+            0,
+            774,
+            384
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Ο",
+          "confidence": 0.262,
+          "tier": "MED",
+          "bbox_strip": [
+            804,
+            0,
+            190,
+            369
+          ],
+          "alternatives": [
+            "Τ"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "confidence": 0.203,
+          "tier": "MED",
+          "bbox_strip": [
+            719,
+            0,
+            1027,
+            384
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Ι",
+          "confidence": 0.24,
+          "tier": "MED",
+          "bbox_strip": [
+            1343,
+            54,
+            194,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Τ",
+          "confidence": 0.217,
+          "tier": "MED",
+          "bbox_strip": [
+            1494,
+            0,
+            789,
+            384
+          ],
+          "alternatives": [
+            "Ρ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": ".",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            1991,
+            30,
+            340,
+            304
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 8,
+          "char": "Α",
+          "confidence": 0.6,
+          "tier": "MED",
+          "bbox_strip": [
+            2103,
+            0,
+            680,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Ν",
+          "confidence": 0.195,
+          "tier": "MED",
+          "bbox_strip": [
+            2519,
+            54,
+            145,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Θ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2647,
+            0,
+            544,
+            384
+          ],
+          "alternatives": [
+            "Ϲ"
+          ]
+        },
+        {
+          "index": 11,
+          "char": "Α",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            2792,
+            0,
+            808,
+            384
+          ],
+          "alternatives": [
+            "."
+          ]
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

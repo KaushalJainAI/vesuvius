@@ -18,7 +18,7 @@ export function UploadZone({ onUpload }: UploadZoneProps) {
   const [error, setError] = useState<string | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const accept = (fileList: FileList | null) => {
+  const accept = useCallback((fileList: FileList | null) => {
     if (!fileList || fileList.length === 0) return
     setError(null)
     const accepted: UploadedFile[] = []
@@ -33,12 +33,12 @@ export function UploadZone({ onUpload }: UploadZoneProps) {
     })
     if (rejected.length) setError(`Unsupported: ${rejected.join(', ')} — accepted: .tif .tiff .npy .zip`)
     if (accepted.length) { setFiles(accepted); onUpload(accepted) }
-  }
+  }, [onUpload])
 
   const onDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault(); setDragging(false)
     accept(e.dataTransfer.files)
-  }, [])
+  }, [accept])
 
   const onDragOver = (e: React.DragEvent) => { e.preventDefault(); setDragging(true) }
   const onDragLeave = () => setDragging(false)
@@ -77,10 +77,10 @@ export function UploadZone({ onUpload }: UploadZoneProps) {
 
           <div className="text-center">
             <p className="font-serif text-xl font-semibold" style={{ color: 'var(--text)' }}>
-              {dragging ? 'Release to upload' : 'Drop your scroll data here'}
+              {dragging ? 'Release to list files' : 'Drop local volume files here'}
             </p>
             <p className="mt-1.5 text-sm" style={{ color: 'var(--text-muted)' }}>
-              Surface volume TIFFs, NumPy arrays, or ZIP archives
+              Surface volume TIFFs, NumPy arrays, or archives for prepared intake
             </p>
             <p className="mt-1 text-xs font-mono" style={{ color: 'var(--text-muted)', opacity: 0.7 }}>
               .tif · .tiff · .npy · .zip · .tar.gz

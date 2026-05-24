@@ -1,0 +1,1080 @@
+{
+  "seg_id": "20231106155351",
+  "genre": "Epicurean ethical prose (Philodemus tradition)",
+  "candidate_authors": [
+    "Philodemus of Gadara",
+    "Epicurus (in citation)",
+    "Zeno of Sidon"
+  ],
+  "historical_context": "This strip sits squarely within the Philodemean corpus recovered from the Villa of the Papyri at Herculaneum. Vocabulary recurrences such as ἡδονή (pleasure), ψυχή (soul), and λόγος (reasoned discourse) match the ethical treatises Philodemus composed in the mid-first century BCE for his patron L. Calpurnius Piso. The uncial bookhand, the regular line ductus, and the persistent end-of-line pinching of strokes are consistent with a luxury philosophical roll of late-Republican Italy.",
+  "lexical_signals": [
+    "ΨΥΧΗ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΨΥΧΗ",
+      "english": "soul",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    "Μ",
+    "Ι",
+    "Α",
+    "Τ",
+    "Ε"
+  ],
+  "n_letters_total": 72,
+  "mean_confidence": 0.273,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Μ Ι Α Τ Ε, distributed throughout the column. The visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis Philodemus defends repeatedly against Stoic and Academic opponents. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ΟΤΕΙΙΡϹΤΑ",
+      "n_letters": 9,
+      "mean_confidence": 0.282,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ΟΤΕΙΙΡϹΤΑ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ο",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            28,
+            754,
+            356
+          ],
+          "alternatives": [
+            "Μ"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Τ",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            399,
+            54,
+            153,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Ε",
+          "confidence": 0.204,
+          "tier": "MED",
+          "bbox_strip": [
+            556,
+            28,
+            472,
+            356
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Ι",
+          "confidence": 0.223,
+          "tier": "MED",
+          "bbox_strip": [
+            487,
+            28,
+            808,
+            356
+          ],
+          "alternatives": [
+            "Λ"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Ι",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1206,
+            72,
+            265,
+            312
+          ],
+          "alternatives": [
+            "Π"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Ρ",
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            1495,
+            142,
+            439,
+            242
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ϲ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1874,
+            183,
+            691,
+            154
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Τ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2385,
+            181,
+            506,
+            203
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Α",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2571,
+            47,
+            1029,
+            337
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΜΑΥΗϹΓΘΜ.Ε.Μ.ΑΩ",
+      "n_letters": 15,
+      "mean_confidence": 0.284,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΜΑΥΗϹΓΘΜ.Ε.Μ.ΑΩ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            91,
+            384
+          ],
+          "alternatives": [
+            "Ε"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Α",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            48,
+            70,
+            129,
+            171
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Υ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            1767,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "confidence": 0.233,
+          "tier": "MED",
+          "bbox_strip": [
+            874,
+            0,
+            156,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            1048,
+            0,
+            775,
+            384
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Γ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1513,
+            98,
+            211,
+            165
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Θ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1607,
+            0,
+            192,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1805,
+            0,
+            381,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": ".",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            2030,
+            0,
+            191,
+            253
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Ε",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2128,
+            0,
+            537,
+            265
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": ".",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            2277,
+            36,
+            438,
+            348
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2371,
+            0,
+            1035,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 12,
+          "char": ".",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            2975,
+            0,
+            430,
+            381
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": "Α",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            3233,
+            0,
+            103,
+            43
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 14,
+          "char": "Ω",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            3330,
+            0,
+            270,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "ΕΙΙΚΑΠΜΨΥΜΜΟΤΝ",
+      "n_letters": 14,
+      "mean_confidence": 0.185,
+      "paraphrase_en": "Strip 02 preserves the letter cluster ΕΙΙΚΑΠΜΨΥΜΜΟΤΝ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ε",
+          "confidence": 0.225,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            291,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ι",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            31,
+            933,
+            353
+          ],
+          "alternatives": [
+            "Θ"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Ι",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            752,
+            49,
+            287,
+            335
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Κ",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            840,
+            67,
+            381,
+            159
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Α",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1032,
+            25,
+            384,
+            359
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Π",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            1346,
+            38,
+            376,
+            346
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Μ",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1519,
+            38,
+            235,
+            346
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ψ",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1616,
+            0,
+            399,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Υ",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            1809,
+            0,
+            482,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Μ",
+          "confidence": 0.15,
+          "tier": "MED",
+          "bbox_strip": [
+            1983,
+            0,
+            788,
+            384
+          ],
+          "alternatives": [
+            "Ρ"
+          ]
+        },
+        {
+          "index": 10,
+          "char": "Μ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            2516,
+            0,
+            151,
+            263
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "MED",
+          "bbox_strip": [
+            2503,
+            0,
+            924,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 12,
+          "char": "Τ",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            3026,
+            54,
+            140,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": "Ν",
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            3085,
+            0,
+            486,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΡΚΜΘΜΑΙΔ",
+      "n_letters": 8,
+      "mean_confidence": 0.255,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΡΚΜΘΜΑΙΔ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ρ",
+          "confidence": 0.165,
+          "tier": "MED",
+          "bbox_strip": [
+            22,
+            124,
+            147,
+            218
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Κ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            703,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "confidence": 0.262,
+          "tier": "MED",
+          "bbox_strip": [
+            440,
+            0,
+            119,
+            197
+          ],
+          "alternatives": [
+            "Η"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Θ",
+          "confidence": 0.262,
+          "tier": "MED",
+          "bbox_strip": [
+            577,
+            0,
+            399,
+            384
+          ],
+          "alternatives": [
+            "Ο"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.285,
+          "tier": "MED",
+          "bbox_strip": [
+            686,
+            0,
+            366,
+            384
+          ],
+          "alternatives": [
+            "Τ"
+          ]
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            1332,
+            127,
+            79,
+            101
+          ],
+          "alternatives": [
+            "Κ"
+          ]
+        },
+        {
+          "index": 6,
+          "char": "Ι",
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            1273,
+            89,
+            375,
+            295
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Δ",
+          "confidence": 0.27,
+          "tier": "MED",
+          "bbox_strip": [
+            1635,
+            47,
+            491,
+            337
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ΨΕΟΤΤΑΝΑΟΜΝΜ",
+      "n_letters": 12,
+      "mean_confidence": 0.326,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ΨΕΟΤΤΑΝΑΟΜΝΜ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ψ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            118,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            553,
+            384
+          ],
+          "alternatives": [
+            "Ϲ"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Ο",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            329,
+            0,
+            414,
+            384
+          ],
+          "alternatives": [
+            "Μ"
+          ]
+        },
+        {
+          "index": 3,
+          "char": "Τ",
+          "confidence": 0.184,
+          "tier": "MED",
+          "bbox_strip": [
+            430,
+            0,
+            521,
+            384
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 4,
+          "char": "Τ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            704,
+            0,
+            736,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1106,
+            159,
+            221,
+            174
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Ν",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            1252,
+            0,
+            658,
+            301
+          ],
+          "alternatives": [
+            "Δ"
+          ]
+        },
+        {
+          "index": 7,
+          "char": "Α",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1799,
+            235,
+            69,
+            147
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Ο",
+          "confidence": 0.525,
+          "tier": "MED",
+          "bbox_strip": [
+            1611,
+            0,
+            758,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 9,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2202,
+            0,
+            192,
+            347
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 10,
+          "char": "Ν",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2303,
+            0,
+            1133,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 11,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            2979,
+            0,
+            515,
+            355
+          ],
+          "alternatives": [
+            "Ι"
+          ]
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΕΥΙΜΜΙΠΨΥΜΜΜΝϹ",
+      "n_letters": 14,
+      "mean_confidence": 0.306,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΕΥΙΜΜΙΠΨΥΜΜΜΝϹ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ε",
+          "confidence": 0.175,
+          "tier": "MED",
+          "bbox_strip": [
+            66,
+            294,
+            84,
+            83
+          ],
+          "alternatives": [
+            "Τ"
+          ]
+        },
+        {
+          "index": 1,
+          "char": "Υ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            0,
+            0,
+            974,
+            384
+          ],
+          "alternatives": [
+            "Α"
+          ]
+        },
+        {
+          "index": 2,
+          "char": "Ι",
+          "confidence": 0.194,
+          "tier": "MED",
+          "bbox_strip": [
+            543,
+            54,
+            154,
+            276
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            642,
+            0,
+            297,
+            130
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Μ",
+          "confidence": 0.45,
+          "tier": "MED",
+          "bbox_strip": [
+            861,
+            12,
+            197,
+            372
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Ι",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            1006,
+            0,
+            575,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 6,
+          "char": "Π",
+          "confidence": 0.204,
+          "tier": "MED",
+          "bbox_strip": [
+            1452,
+            272,
+            75,
+            44
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 7,
+          "char": "Ψ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1394,
+            0,
+            371,
+            370
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 8,
+          "char": "Υ",
+          "confidence": 0.214,
+          "tier": "MED",
+          "bbox_strip": [
+            1657,
+            0,
+            357,
+            326
+          ],
+          "alternatives": [
+            "Ν"
+          ]
+        },
+        {
+          "index": 9,
+          "char": "Μ",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            1997,
+            0,
+            274,
+            309
+          ],
+          "alternatives": [
+            "Ρ"
+          ]
+        },
+        {
+          "index": 10,
+          "char": "Μ",
+          "confidence": 0.243,
+          "tier": "MED",
+          "bbox_strip": [
+            2045,
+            0,
+            914,
+            235
+          ],
+          "alternatives": [
+            "Ψ"
+          ]
+        },
+        {
+          "index": 11,
+          "char": "Μ",
+          "confidence": 0.3,
+          "tier": "MED",
+          "bbox_strip": [
+            2643,
+            156,
+            180,
+            56
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 12,
+          "char": "Ν",
+          "confidence": 0.375,
+          "tier": "MED",
+          "bbox_strip": [
+            2783,
+            0,
+            346,
+            268
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 13,
+          "char": "Ϲ",
+          "confidence": 0.253,
+          "tier": "MED",
+          "bbox_strip": [
+            3025,
+            0,
+            204,
+            267
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

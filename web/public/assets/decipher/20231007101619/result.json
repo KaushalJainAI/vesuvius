@@ -1,0 +1,5052 @@
+{
+  "seg_id": "20231007101619",
+  "created": "2026-05-23T10:03:13.114252+00:00",
+  "label_path": "K:\\Vesuvius\\data\\labelled_segments\\20231007101619\\ink_labels_enhanced.tif",
+  "models_used_open_source": [
+    "google/gemini-3.1-flash-lite"
+  ],
+  "models_used_manual": [
+    "manual/claude-opus-4.7"
+  ],
+  "models_used_local": [
+    "local/template_hints"
+  ],
+  "n_strips": 6,
+  "segment_summary": {
+    "text": "ϹΤ\nΝΕΑΙΠΡΗϹ\nΙΠΡϹΟΤ\nΡΜϹΤΕΙ\nΟΤΕΑΥΡ\nΝΕΙΠΥΡΗ",
+    "probable_summary": "illegible — blob-level guess only",
+    "english_translation": "illegible — blob-level guess only",
+    "probable_scroll_summary": "illegible — blob-level guess only",
+    "confidence": "medium",
+    "n_consensus_chars": 35,
+    "n_high_confidence_chars": 35,
+    "n_medium_confidence_chars": 0
+  },
+  "segment_text": "ϹΤ\nΝΕΑΙΠΡΗϹ\nΙΠΡϹΟΤ\nΡΜϹΤΕΙ\nΟΤΕΑΥΡ\nΝΕΙΠΥΡΗ",
+  "segment_meaning": "illegible — blob-level guess only",
+  "segment_translation_en": "illegible — blob-level guess only",
+  "probable_scroll_summary": "illegible — blob-level guess only",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "reading_plate_path": "plates/plate_00.png",
+      "y_range": [
+        884,
+        1268
+      ],
+      "x_range": [
+        23082,
+        26682
+      ],
+      "y_center": 1076,
+      "template_hints": [
+        {
+          "x_norm": 0.0069,
+          "tier": "HIGH",
+          "mean_prob": 0.779,
+          "area_px": 2025,
+          "candidates": [
+            [
+              "Μ",
+              0.342
+            ],
+            [
+              "Θ",
+              0.338
+            ],
+            [
+              "Ω",
+              0.32
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0417,
+          "tier": "HIGH",
+          "mean_prob": 0.924,
+          "area_px": 45159,
+          "candidates": [
+            [
+              "Ξ",
+              0.355
+            ],
+            [
+              "Χ",
+              0.336
+            ],
+            [
+              "Ε",
+              0.31
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.157,
+          "tier": "HIGH",
+          "mean_prob": 0.835,
+          "area_px": 76006,
+          "candidates": [
+            [
+              "Μ",
+              0.357
+            ],
+            [
+              "Χ",
+              0.326
+            ],
+            [
+              "Ψ",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2317,
+          "tier": "HIGH",
+          "mean_prob": 0.796,
+          "area_px": 6981,
+          "candidates": [
+            [
+              "Μ",
+              0.344
+            ],
+            [
+              "Κ",
+              0.335
+            ],
+            [
+              "Ν",
+              0.321
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2742,
+          "tier": "HIGH",
+          "mean_prob": 0.78,
+          "area_px": 3316,
+          "candidates": [
+            [
+              "Μ",
+              0.351
+            ],
+            [
+              "Η",
+              0.33
+            ],
+            [
+              "Α",
+              0.319
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.291,
+          "tier": "HIGH",
+          "mean_prob": 0.842,
+          "area_px": 10165,
+          "candidates": [
+            [
+              "Δ",
+              0.341
+            ],
+            [
+              "Α",
+              0.337
+            ],
+            [
+              "Μ",
+              0.323
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3358,
+          "tier": "HIGH",
+          "mean_prob": 0.878,
+          "area_px": 4602,
+          "candidates": [
+            [
+              "Δ",
+              0.343
+            ],
+            [
+              "Μ",
+              0.338
+            ],
+            [
+              "Α",
+              0.319
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3496,
+          "tier": "HIGH",
+          "mean_prob": 0.903,
+          "area_px": 27779,
+          "candidates": [
+            [
+              "Ψ",
+              0.384
+            ],
+            [
+              "Θ",
+              0.311
+            ],
+            [
+              "Μ",
+              0.305
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4032,
+          "tier": "HIGH",
+          "mean_prob": 0.711,
+          "area_px": 2275,
+          "candidates": [
+            [
+              "Μ",
+              0.351
+            ],
+            [
+              "Θ",
+              0.337
+            ],
+            [
+              "Η",
+              0.312
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4361,
+          "tier": "HIGH",
+          "mean_prob": 0.851,
+          "area_px": 24627,
+          "candidates": [
+            [
+              "Ψ",
+              0.372
+            ],
+            [
+              "Υ",
+              0.318
+            ],
+            [
+              "Θ",
+              0.31
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4874,
+          "tier": "HIGH",
+          "mean_prob": 0.867,
+          "area_px": 9478,
+          "candidates": [
+            [
+              "Μ",
+              0.372
+            ],
+            [
+              "Η",
+              0.323
+            ],
+            [
+              "Ν",
+              0.305
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5271,
+          "tier": "HIGH",
+          "mean_prob": 0.742,
+          "area_px": 1940,
+          "candidates": [
+            [
+              "Θ",
+              0.341
+            ],
+            [
+              "Μ",
+              0.334
+            ],
+            [
+              "Ω",
+              0.325
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5401,
+          "tier": "HIGH",
+          "mean_prob": 0.783,
+          "area_px": 9268,
+          "candidates": [
+            [
+              "Θ",
+              0.381
+            ],
+            [
+              "Μ",
+              0.322
+            ],
+            [
+              "Ψ",
+              0.297
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.6177,
+          "tier": "HIGH",
+          "mean_prob": 0.86,
+          "area_px": 18363,
+          "candidates": [
+            [
+              "Ψ",
+              0.349
+            ],
+            [
+              "Γ",
+              0.326
+            ],
+            [
+              "Κ",
+              0.325
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.6369,
+          "tier": "HIGH",
+          "mean_prob": 0.702,
+          "area_px": 1298,
+          "candidates": [
+            [
+              "Θ",
+              0.342
+            ],
+            [
+              "Μ",
+              0.332
+            ],
+            [
+              "Ψ",
+              0.326
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.2453, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.2911, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.3228, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ϹΟΤ",
+            "characters": [
+              {
+                "char": "Ϲ",
+                "x_norm": 0.2453,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ο",
+                "x_norm": 0.2911,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Τ",
+                "x_norm": 0.3228,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ϹΤ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 2 consensus positions",
+        "characters": [
+          {
+            "char": "Ϲ",
+            "x_norm": 0.2453,
+            "confidence": 0.22,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ϲ",
+                "confidence": 0.22,
+                "x_norm": 0.2453
+              }
+            ],
+            "bbox_strip": [
+              701,
+              0,
+              410,
+              384
+            ],
+            "bbox_full": [
+              23783,
+              884,
+              410,
+              384
+            ],
+            "line_no": 3,
+            "linked_blob_indices": [
+              35,
+              69,
+              80,
+              90
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Τ",
+            "x_norm": 0.3228,
+            "confidence": 0.246,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Τ",
+                "confidence": 0.246,
+                "x_norm": 0.3228
+              }
+            ],
+            "bbox_strip": [
+              845,
+              0,
+              661,
+              384
+            ],
+            "bbox_full": [
+              23927,
+              884,
+              661,
+              384
+            ],
+            "line_no": 3,
+            "linked_blob_indices": [
+              26,
+              29,
+              35,
+              69,
+              80,
+              86,
+              90
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          }
+        ]
+      },
+      "line_transcription": "ϹΤ"
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "reading_plate_path": "plates/plate_01.png",
+      "y_range": [
+        2688,
+        3072
+      ],
+      "x_range": [
+        6100,
+        9700
+      ],
+      "y_center": 2880,
+      "template_hints": [
+        {
+          "x_norm": 0.0089,
+          "tier": "HIGH",
+          "mean_prob": 0.9,
+          "area_px": 4505,
+          "candidates": [
+            [
+              "Μ",
+              0.345
+            ],
+            [
+              "Θ",
+              0.329
+            ],
+            [
+              "Ψ",
+              0.326
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0185,
+          "tier": "HIGH",
+          "mean_prob": 0.78,
+          "area_px": 2511,
+          "candidates": [
+            [
+              "Θ",
+              0.352
+            ],
+            [
+              "Ω",
+              0.34
+            ],
+            [
+              "Μ",
+              0.308
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.084,
+          "tier": "HIGH",
+          "mean_prob": 0.881,
+          "area_px": 54077,
+          "candidates": [
+            [
+              "Γ",
+              0.351
+            ],
+            [
+              "Ψ",
+              0.342
+            ],
+            [
+              "Ρ",
+              0.307
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.1364,
+          "tier": "HIGH",
+          "mean_prob": 0.786,
+          "area_px": 4339,
+          "candidates": [
+            [
+              "Θ",
+              0.345
+            ],
+            [
+              "Μ",
+              0.342
+            ],
+            [
+              "Η",
+              0.313
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.165,
+          "tier": "HIGH",
+          "mean_prob": 0.894,
+          "area_px": 22512,
+          "candidates": [
+            [
+              "Θ",
+              0.342
+            ],
+            [
+              "Μ",
+              0.331
+            ],
+            [
+              "Η",
+              0.327
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2043,
+          "tier": "HIGH",
+          "mean_prob": 0.784,
+          "area_px": 2452,
+          "candidates": [
+            [
+              "Μ",
+              0.339
+            ],
+            [
+              "Α",
+              0.331
+            ],
+            [
+              "Δ",
+              0.33
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2072,
+          "tier": "HIGH",
+          "mean_prob": 0.84,
+          "area_px": 34866,
+          "candidates": [
+            [
+              "Φ",
+              0.34
+            ],
+            [
+              "Θ",
+              0.333
+            ],
+            [
+              "Β",
+              0.326
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3123,
+          "tier": "HIGH",
+          "mean_prob": 0.89,
+          "area_px": 21988,
+          "candidates": [
+            [
+              "Μ",
+              0.349
+            ],
+            [
+              "Ω",
+              0.349
+            ],
+            [
+              "Κ",
+              0.302
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3156,
+          "tier": "HIGH",
+          "mean_prob": 0.887,
+          "area_px": 18013,
+          "candidates": [
+            [
+              "Θ",
+              0.365
+            ],
+            [
+              "Π",
+              0.318
+            ],
+            [
+              "Η",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3467,
+          "tier": "HIGH",
+          "mean_prob": 0.761,
+          "area_px": 1950,
+          "candidates": [
+            [
+              "Μ",
+              0.396
+            ],
+            [
+              "Θ",
+              0.31
+            ],
+            [
+              "Η",
+              0.294
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3611,
+          "tier": "HIGH",
+          "mean_prob": 0.747,
+          "area_px": 2773,
+          "candidates": [
+            [
+              "Ψ",
+              0.342
+            ],
+            [
+              "Θ",
+              0.331
+            ],
+            [
+              "Ν",
+              0.327
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3823,
+          "tier": "HIGH",
+          "mean_prob": 0.74,
+          "area_px": 2605,
+          "candidates": [
+            [
+              "Μ",
+              0.362
+            ],
+            [
+              "Η",
+              0.321
+            ],
+            [
+              "Θ",
+              0.316
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3948,
+          "tier": "HIGH",
+          "mean_prob": 0.782,
+          "area_px": 11062,
+          "candidates": [
+            [
+              "Ω",
+              0.378
+            ],
+            [
+              "Φ",
+              0.326
+            ],
+            [
+              "Ο",
+              0.296
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4206,
+          "tier": "HIGH",
+          "mean_prob": 0.77,
+          "area_px": 15257,
+          "candidates": [
+            [
+              "Ψ",
+              0.385
+            ],
+            [
+              "Ρ",
+              0.315
+            ],
+            [
+              "Τ",
+              0.3
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4639,
+          "tier": "HIGH",
+          "mean_prob": 0.827,
+          "area_px": 5292,
+          "candidates": [
+            [
+              "Μ",
+              0.361
+            ],
+            [
+              "Η",
+              0.324
+            ],
+            [
+              "Ψ",
+              0.315
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.0038, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.0496, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.1473, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.2249, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.2898, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.368, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.3723, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.4791, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.5247, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.5626, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ΝΕΑΙΠΥΡΗΜϹ",
+            "characters": [
+              {
+                "char": "Ν",
+                "x_norm": 0.0038,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ε",
+                "x_norm": 0.0496,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Α",
+                "x_norm": 0.1473,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ι",
+                "x_norm": 0.2249,
+                "confidence": 0.259,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Π",
+                "x_norm": 0.2898,
+                "confidence": 0.272,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Υ",
+                "x_norm": 0.368,
+                "confidence": 0.285,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ρ",
+                "x_norm": 0.3723,
+                "confidence": 0.298,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Η",
+                "x_norm": 0.4791,
+                "confidence": 0.311,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Μ",
+                "x_norm": 0.5247,
+                "confidence": 0.324,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ϲ",
+                "x_norm": 0.5626,
+                "confidence": 0.337,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ΝΕΑΙΠΡΗϹ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 8 consensus positions",
+        "characters": [
+          {
+            "char": "Ν",
+            "x_norm": 0.0038,
+            "confidence": 0.22,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ν",
+                "confidence": 0.22,
+                "x_norm": 0.0038
+              }
+            ],
+            "bbox_strip": [
+              0,
+              0,
+              130,
+              332
+            ],
+            "bbox_full": [
+              6100,
+              2688,
+              130,
+              332
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              55,
+              59
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 2
+          },
+          {
+            "char": "Ε",
+            "x_norm": 0.0496,
+            "confidence": 0.233,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ε",
+                "confidence": 0.233,
+                "x_norm": 0.0496
+              }
+            ],
+            "bbox_strip": [
+              0,
+              0,
+              711,
+              384
+            ],
+            "bbox_full": [
+              6100,
+              2688,
+              711,
+              384
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              4,
+              55,
+              59,
+              109,
+              116
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 2
+          },
+          {
+            "char": "Α",
+            "x_norm": 0.1473,
+            "confidence": 0.246,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Α",
+                "confidence": 0.246,
+                "x_norm": 0.1473
+              }
+            ],
+            "bbox_strip": [
+              287,
+              126,
+              541,
+              258
+            ],
+            "bbox_full": [
+              6387,
+              2814,
+              541,
+              258
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              4,
+              55,
+              109,
+              116
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ι",
+            "x_norm": 0.2249,
+            "confidence": 0.259,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ι",
+                "confidence": 0.259,
+                "x_norm": 0.2249
+              }
+            ],
+            "bbox_strip": [
+              480,
+              0,
+              555,
+              384
+            ],
+            "bbox_full": [
+              6580,
+              2688,
+              555,
+              384
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              4,
+              54,
+              55,
+              109,
+              116,
+              117
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Π",
+            "x_norm": 0.2898,
+            "confidence": 0.272,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Π",
+                "confidence": 0.272,
+                "x_norm": 0.2898
+              }
+            ],
+            "bbox_strip": [
+              839,
+              0,
+              506,
+              384
+            ],
+            "bbox_full": [
+              6939,
+              2688,
+              506,
+              384
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              4,
+              54,
+              117,
+              129
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ρ",
+            "x_norm": 0.3723,
+            "confidence": 0.298,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ρ",
+                "confidence": 0.298,
+                "x_norm": 0.3723
+              }
+            ],
+            "bbox_strip": [
+              1231,
+              0,
+              225,
+              384
+            ],
+            "bbox_full": [
+              7331,
+              2688,
+              225,
+              384
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              5,
+              117,
+              129
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Η",
+            "x_norm": 0.4791,
+            "confidence": 0.311,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Η",
+                "confidence": 0.311,
+                "x_norm": 0.4791
+              }
+            ],
+            "bbox_strip": [
+              1566,
+              0,
+              312,
+              376
+            ],
+            "bbox_full": [
+              7666,
+              2688,
+              312,
+              376
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              5,
+              51,
+              52,
+              91,
+              107
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ϲ",
+            "x_norm": 0.5626,
+            "confidence": 0.337,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ϲ",
+                "confidence": 0.337,
+                "x_norm": 0.5626
+              }
+            ],
+            "bbox_strip": [
+              1632,
+              0,
+              962,
+              384
+            ],
+            "bbox_full": [
+              7732,
+              2688,
+              962,
+              384
+            ],
+            "line_no": 7,
+            "linked_blob_indices": [
+              51,
+              52,
+              91,
+              107
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          }
+        ]
+      },
+      "line_transcription": "ΝΕΑΙΠΡΗϹ"
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "reading_plate_path": "plates/plate_02.png",
+      "y_range": [
+        5240,
+        5624
+      ],
+      "x_range": [
+        13031,
+        16631
+      ],
+      "y_center": 5432,
+      "template_hints": [
+        {
+          "x_norm": 0.0174,
+          "tier": "HIGH",
+          "mean_prob": 0.887,
+          "area_px": 13037,
+          "candidates": [
+            [
+              "Ψ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.331
+            ],
+            [
+              "Ε",
+              0.323
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0191,
+          "tier": "HIGH",
+          "mean_prob": 0.914,
+          "area_px": 16103,
+          "candidates": [
+            [
+              "Ε",
+              0.339
+            ],
+            [
+              "Ψ",
+              0.335
+            ],
+            [
+              "Κ",
+              0.326
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2503,
+          "tier": "HIGH",
+          "mean_prob": 0.892,
+          "area_px": 63106,
+          "candidates": [
+            [
+              "Ψ",
+              0.359
+            ],
+            [
+              "Υ",
+              0.338
+            ],
+            [
+              "Τ",
+              0.304
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2938,
+          "tier": "MEDIUM",
+          "mean_prob": 0.684,
+          "area_px": 1661,
+          "candidates": [
+            [
+              "Θ",
+              0.341
+            ],
+            [
+              "Ψ",
+              0.334
+            ],
+            [
+              "Μ",
+              0.325
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3,
+          "tier": "HIGH",
+          "mean_prob": 0.812,
+          "area_px": 5926,
+          "candidates": [
+            [
+              "Θ",
+              0.348
+            ],
+            [
+              "Ψ",
+              0.331
+            ],
+            [
+              "Μ",
+              0.321
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.6881,
+          "tier": "HIGH",
+          "mean_prob": 0.904,
+          "area_px": 36620,
+          "candidates": [
+            [
+              "Γ",
+              0.395
+            ],
+            [
+              "Ρ",
+              0.304
+            ],
+            [
+              "Ε",
+              0.3
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.7378,
+          "tier": "HIGH",
+          "mean_prob": 0.807,
+          "area_px": 3112,
+          "candidates": [
+            [
+              "Ψ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.327
+            ],
+            [
+              "Μ",
+              0.327
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.7499,
+          "tier": "HIGH",
+          "mean_prob": 0.793,
+          "area_px": 2316,
+          "candidates": [
+            [
+              "Μ",
+              0.354
+            ],
+            [
+              "Θ",
+              0.335
+            ],
+            [
+              "Η",
+              0.312
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.8411,
+          "tier": "HIGH",
+          "mean_prob": 0.902,
+          "area_px": 70993,
+          "candidates": [
+            [
+              "Ω",
+              0.357
+            ],
+            [
+              "Μ",
+              0.348
+            ],
+            [
+              "Π",
+              0.295
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.96,
+          "tier": "HIGH",
+          "mean_prob": 0.883,
+          "area_px": 37680,
+          "candidates": [
+            [
+              "Ψ",
+              0.336
+            ],
+            [
+              "Ρ",
+              0.336
+            ],
+            [
+              "Θ",
+              0.329
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\", \"characters\": [{\"char\": \"\\u0399\", \"x_norm\": 0.0073, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.1745, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.4965, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.5223, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.5634, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.5791, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.6076, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.8296, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.993, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ΙΠΥΡΗΜϹΟΤ",
+            "characters": [
+              {
+                "char": "Ι",
+                "x_norm": 0.0073,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Π",
+                "x_norm": 0.1745,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Υ",
+                "x_norm": 0.4965,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ρ",
+                "x_norm": 0.5223,
+                "confidence": 0.259,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Η",
+                "x_norm": 0.5634,
+                "confidence": 0.272,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Μ",
+                "x_norm": 0.5791,
+                "confidence": 0.285,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ϲ",
+                "x_norm": 0.6076,
+                "confidence": 0.298,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ο",
+                "x_norm": 0.8296,
+                "confidence": 0.311,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Τ",
+                "x_norm": 0.993,
+                "confidence": 0.324,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ΙΠΡϹΟΤ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 6 consensus positions",
+        "characters": [
+          {
+            "char": "Ι",
+            "x_norm": 0.0073,
+            "confidence": 0.22,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ι",
+                "confidence": 0.22,
+                "x_norm": 0.0073
+              }
+            ],
+            "bbox_strip": [
+              0,
+              0,
+              282,
+              384
+            ],
+            "bbox_full": [
+              13031,
+              5240,
+              282,
+              384
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [
+              28,
+              105
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Π",
+            "x_norm": 0.1745,
+            "confidence": 0.233,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Π",
+                "confidence": 0.233,
+                "x_norm": 0.1745
+              }
+            ],
+            "bbox_strip": [
+              54,
+              0,
+              940,
+              384
+            ],
+            "bbox_full": [
+              13085,
+              5240,
+              940,
+              384
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [
+              28,
+              105
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 1
+          },
+          {
+            "char": "Ρ",
+            "x_norm": 0.5223,
+            "confidence": 0.259,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ρ",
+                "confidence": 0.259,
+                "x_norm": 0.5223
+              }
+            ],
+            "bbox_strip": [
+              676,
+              0,
+              2042,
+              384
+            ],
+            "bbox_full": [
+              13707,
+              5240,
+              2042,
+              384
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [
+              49,
+              112,
+              115
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 2
+          },
+          {
+            "char": "Ϲ",
+            "x_norm": 0.6076,
+            "confidence": 0.298,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ϲ",
+                "confidence": 0.298,
+                "x_norm": 0.6076
+              }
+            ],
+            "bbox_strip": [
+              2314,
+              237,
+              51,
+              58
+            ],
+            "bbox_full": [
+              15345,
+              5477,
+              51,
+              58
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [],
+            "alignment_source": "component_snap",
+            "component_count": 1
+          },
+          {
+            "char": "Ο",
+            "x_norm": 0.8296,
+            "confidence": 0.311,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ο",
+                "confidence": 0.311,
+                "x_norm": 0.8296
+              }
+            ],
+            "bbox_strip": [
+              2529,
+              0,
+              890,
+              384
+            ],
+            "bbox_full": [
+              15560,
+              5240,
+              890,
+              384
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [
+              63,
+              115
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Τ",
+            "x_norm": 0.993,
+            "confidence": 0.324,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Τ",
+                "confidence": 0.324,
+                "x_norm": 0.993
+              }
+            ],
+            "bbox_strip": [
+              3139,
+              0,
+              461,
+              384
+            ],
+            "bbox_full": [
+              16170,
+              5240,
+              461,
+              384
+            ],
+            "line_no": 14,
+            "linked_blob_indices": [
+              63
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 1
+          }
+        ]
+      },
+      "line_transcription": "ΙΠΡϹΟΤ"
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "reading_plate_path": "plates/plate_03.png",
+      "y_range": [
+        8489,
+        8873
+      ],
+      "x_range": [
+        3280,
+        6880
+      ],
+      "y_center": 8681,
+      "template_hints": [
+        {
+          "x_norm": 0.0083,
+          "tier": "HIGH",
+          "mean_prob": 0.797,
+          "area_px": 2331,
+          "candidates": [
+            [
+              "Μ",
+              0.354
+            ],
+            [
+              "Θ",
+              0.326
+            ],
+            [
+              "Ω",
+              0.32
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0512,
+          "tier": "HIGH",
+          "mean_prob": 0.898,
+          "area_px": 64456,
+          "candidates": [
+            [
+              "Μ",
+              0.398
+            ],
+            [
+              "Ω",
+              0.329
+            ],
+            [
+              "Θ",
+              0.273
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.1585,
+          "tier": "HIGH",
+          "mean_prob": 0.835,
+          "area_px": 3694,
+          "candidates": [
+            [
+              "Μ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.329
+            ],
+            [
+              "Ω",
+              0.325
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2006,
+          "tier": "HIGH",
+          "mean_prob": 0.89,
+          "area_px": 59539,
+          "candidates": [
+            [
+              "Ψ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.336
+            ],
+            [
+              "Γ",
+              0.318
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2808,
+          "tier": "HIGH",
+          "mean_prob": 0.762,
+          "area_px": 1829,
+          "candidates": [
+            [
+              "Μ",
+              0.348
+            ],
+            [
+              "Θ",
+              0.327
+            ],
+            [
+              "Ψ",
+              0.325
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3359,
+          "tier": "HIGH",
+          "mean_prob": 0.798,
+          "area_px": 4700,
+          "candidates": [
+            [
+              "Π",
+              0.358
+            ],
+            [
+              "Μ",
+              0.321
+            ],
+            [
+              "Η",
+              0.321
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3453,
+          "tier": "HIGH",
+          "mean_prob": 0.882,
+          "area_px": 45638,
+          "candidates": [
+            [
+              "Ψ",
+              0.353
+            ],
+            [
+              "Μ",
+              0.324
+            ],
+            [
+              "Ω",
+              0.323
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3732,
+          "tier": "HIGH",
+          "mean_prob": 0.772,
+          "area_px": 5177,
+          "candidates": [
+            [
+              "Μ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.34
+            ],
+            [
+              "Ψ",
+              0.314
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5062,
+          "tier": "HIGH",
+          "mean_prob": 0.784,
+          "area_px": 2582,
+          "candidates": [
+            [
+              "Μ",
+              0.354
+            ],
+            [
+              "Θ",
+              0.33
+            ],
+            [
+              "Ω",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.519,
+          "tier": "HIGH",
+          "mean_prob": 0.889,
+          "area_px": 95068,
+          "candidates": [
+            [
+              "Η",
+              0.334
+            ],
+            [
+              "Μ",
+              0.333
+            ],
+            [
+              "Θ",
+              0.333
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.599,
+          "tier": "HIGH",
+          "mean_prob": 0.742,
+          "area_px": 1287,
+          "candidates": [
+            [
+              "Θ",
+              0.356
+            ],
+            [
+              "Μ",
+              0.322
+            ],
+            [
+              "Ψ",
+              0.322
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.6464,
+          "tier": "HIGH",
+          "mean_prob": 0.898,
+          "area_px": 23464,
+          "candidates": [
+            [
+              "Μ",
+              0.379
+            ],
+            [
+              "Κ",
+              0.315
+            ],
+            [
+              "Ν",
+              0.306
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.7082,
+          "tier": "HIGH",
+          "mean_prob": 0.773,
+          "area_px": 2240,
+          "candidates": [
+            [
+              "Μ",
+              0.36
+            ],
+            [
+              "Θ",
+              0.343
+            ],
+            [
+              "Ω",
+              0.297
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.7086,
+          "tier": "HIGH",
+          "mean_prob": 0.839,
+          "area_px": 4286,
+          "candidates": [
+            [
+              "Μ",
+              0.381
+            ],
+            [
+              "Θ",
+              0.317
+            ],
+            [
+              "Η",
+              0.302
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.7132,
+          "tier": "HIGH",
+          "mean_prob": 0.879,
+          "area_px": 10917,
+          "candidates": [
+            [
+              "Μ",
+              0.343
+            ],
+            [
+              "Ψ",
+              0.33
+            ],
+            [
+              "Θ",
+              0.327
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\", \"characters\": [{\"char\": \"\\u03a1\", \"x_norm\": 0.1898, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.2889, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.2982, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.3638, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.4426, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.4543, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.5297, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.5411, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.5842, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.618, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ΡΗΜϹΟΤΝΕΑΙ",
+            "characters": [
+              {
+                "char": "Ρ",
+                "x_norm": 0.1898,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Η",
+                "x_norm": 0.2889,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Μ",
+                "x_norm": 0.2982,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ϲ",
+                "x_norm": 0.3638,
+                "confidence": 0.259,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ο",
+                "x_norm": 0.4426,
+                "confidence": 0.272,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Τ",
+                "x_norm": 0.4543,
+                "confidence": 0.285,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ν",
+                "x_norm": 0.5297,
+                "confidence": 0.298,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ε",
+                "x_norm": 0.5411,
+                "confidence": 0.311,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Α",
+                "x_norm": 0.5842,
+                "confidence": 0.324,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ι",
+                "x_norm": 0.618,
+                "confidence": 0.337,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ΡΜϹΤΕΙ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 6 consensus positions",
+        "characters": [
+          {
+            "char": "Ρ",
+            "x_norm": 0.1898,
+            "confidence": 0.22,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ρ",
+                "confidence": 0.22,
+                "x_norm": 0.1898
+              }
+            ],
+            "bbox_strip": [
+              279,
+              0,
+              894,
+              384
+            ],
+            "bbox_full": [
+              3559,
+              8489,
+              894,
+              384
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [
+              16,
+              30,
+              33,
+              88,
+              97
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Μ",
+            "x_norm": 0.2982,
+            "confidence": 0.246,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Μ",
+                "confidence": 0.246,
+                "x_norm": 0.2982
+              }
+            ],
+            "bbox_strip": [
+              813,
+              0,
+              576,
+              384
+            ],
+            "bbox_full": [
+              4093,
+              8489,
+              576,
+              384
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [
+              16,
+              30,
+              33,
+              88,
+              105
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ϲ",
+            "x_norm": 0.3638,
+            "confidence": 0.259,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ϲ",
+                "confidence": 0.259,
+                "x_norm": 0.3638
+              }
+            ],
+            "bbox_strip": [
+              891,
+              0,
+              667,
+              384
+            ],
+            "bbox_full": [
+              4171,
+              8489,
+              667,
+              384
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [
+              16,
+              30,
+              33,
+              88,
+              105
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Τ",
+            "x_norm": 0.4543,
+            "confidence": 0.285,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Τ",
+                "confidence": 0.285,
+                "x_norm": 0.4543
+              }
+            ],
+            "bbox_strip": [
+              1479,
+              0,
+              472,
+              382
+            ],
+            "bbox_full": [
+              4759,
+              8489,
+              472,
+              382
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ε",
+            "x_norm": 0.5411,
+            "confidence": 0.311,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ε",
+                "confidence": 0.311,
+                "x_norm": 0.5411
+              }
+            ],
+            "bbox_strip": [
+              1340,
+              0,
+              997,
+              384
+            ],
+            "bbox_full": [
+              4620,
+              8489,
+              997,
+              384
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [
+              33,
+              105
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ι",
+            "x_norm": 0.618,
+            "confidence": 0.337,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ι",
+                "confidence": 0.337,
+                "x_norm": 0.618
+              }
+            ],
+            "bbox_strip": [
+              1981,
+              0,
+              610,
+              272
+            ],
+            "bbox_full": [
+              5261,
+              8489,
+              610,
+              272
+            ],
+            "line_no": 22,
+            "linked_blob_indices": [
+              1,
+              55
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          }
+        ]
+      },
+      "line_transcription": "ΡΜϹΤΕΙ"
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "reading_plate_path": "plates/plate_04.png",
+      "y_range": [
+        11400,
+        11784
+      ],
+      "x_range": [
+        12554,
+        16154
+      ],
+      "y_center": 11592,
+      "template_hints": [
+        {
+          "x_norm": 0.0097,
+          "tier": "HIGH",
+          "mean_prob": 0.864,
+          "area_px": 8693,
+          "candidates": [
+            [
+              "Ψ",
+              0.373
+            ],
+            [
+              "Ν",
+              0.329
+            ],
+            [
+              "Χ",
+              0.298
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0186,
+          "tier": "HIGH",
+          "mean_prob": 0.888,
+          "area_px": 12267,
+          "candidates": [
+            [
+              "Μ",
+              0.353
+            ],
+            [
+              "Θ",
+              0.327
+            ],
+            [
+              "Η",
+              0.32
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.1462,
+          "tier": "HIGH",
+          "mean_prob": 0.844,
+          "area_px": 40298,
+          "candidates": [
+            [
+              "Θ",
+              0.36
+            ],
+            [
+              "Ν",
+              0.321
+            ],
+            [
+              "Ψ",
+              0.319
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2061,
+          "tier": "HIGH",
+          "mean_prob": 0.767,
+          "area_px": 2610,
+          "candidates": [
+            [
+              "Θ",
+              0.355
+            ],
+            [
+              "Μ",
+              0.329
+            ],
+            [
+              "Ψ",
+              0.316
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2208,
+          "tier": "HIGH",
+          "mean_prob": 0.722,
+          "area_px": 1894,
+          "candidates": [
+            [
+              "Μ",
+              0.378
+            ],
+            [
+              "Θ",
+              0.328
+            ],
+            [
+              "Η",
+              0.294
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2886,
+          "tier": "HIGH",
+          "mean_prob": 0.869,
+          "area_px": 18691,
+          "candidates": [
+            [
+              "Ι",
+              0.341
+            ],
+            [
+              "Υ",
+              0.336
+            ],
+            [
+              "Κ",
+              0.323
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3322,
+          "tier": "HIGH",
+          "mean_prob": 0.848,
+          "area_px": 6248,
+          "candidates": [
+            [
+              "Μ",
+              0.338
+            ],
+            [
+              "Θ",
+              0.334
+            ],
+            [
+              "Ν",
+              0.328
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3527,
+          "tier": "HIGH",
+          "mean_prob": 0.888,
+          "area_px": 4504,
+          "candidates": [
+            [
+              "Μ",
+              0.359
+            ],
+            [
+              "Θ",
+              0.34
+            ],
+            [
+              "Ψ",
+              0.301
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3973,
+          "tier": "HIGH",
+          "mean_prob": 0.922,
+          "area_px": 30322,
+          "candidates": [
+            [
+              "Ψ",
+              0.343
+            ],
+            [
+              "Θ",
+              0.335
+            ],
+            [
+              "Μ",
+              0.322
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4733,
+          "tier": "HIGH",
+          "mean_prob": 0.892,
+          "area_px": 7679,
+          "candidates": [
+            [
+              "Μ",
+              0.338
+            ],
+            [
+              "Ψ",
+              0.334
+            ],
+            [
+              "Θ",
+              0.328
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4997,
+          "tier": "HIGH",
+          "mean_prob": 0.876,
+          "area_px": 9994,
+          "candidates": [
+            [
+              "Ζ",
+              0.339
+            ],
+            [
+              "Ψ",
+              0.331
+            ],
+            [
+              "Χ",
+              0.33
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5312,
+          "tier": "HIGH",
+          "mean_prob": 0.802,
+          "area_px": 1219,
+          "candidates": [
+            [
+              "Μ",
+              0.366
+            ],
+            [
+              "Θ",
+              0.327
+            ],
+            [
+              "Ν",
+              0.307
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5661,
+          "tier": "HIGH",
+          "mean_prob": 0.855,
+          "area_px": 7051,
+          "candidates": [
+            [
+              "Ψ",
+              0.346
+            ],
+            [
+              "Μ",
+              0.337
+            ],
+            [
+              "Θ",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.5661,
+          "tier": "HIGH",
+          "mean_prob": 0.88,
+          "area_px": 9353,
+          "candidates": [
+            [
+              "Μ",
+              0.344
+            ],
+            [
+              "Θ",
+              0.329
+            ],
+            [
+              "Η",
+              0.327
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.6849,
+          "tier": "HIGH",
+          "mean_prob": 0.859,
+          "area_px": 20010,
+          "candidates": [
+            [
+              "Μ",
+              0.343
+            ],
+            [
+              "Γ",
+              0.341
+            ],
+            [
+              "Τ",
+              0.316
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.0037, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.0296, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.2501, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.368, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.3822, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.7046, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.7562, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.7589, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.7898, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.8818, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ϹΟΤΝΕΑΙΠΥΡ",
+            "characters": [
+              {
+                "char": "Ϲ",
+                "x_norm": 0.0037,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ο",
+                "x_norm": 0.0296,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Τ",
+                "x_norm": 0.2501,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ν",
+                "x_norm": 0.368,
+                "confidence": 0.259,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ε",
+                "x_norm": 0.3822,
+                "confidence": 0.272,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Α",
+                "x_norm": 0.7046,
+                "confidence": 0.285,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ι",
+                "x_norm": 0.7562,
+                "confidence": 0.298,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Π",
+                "x_norm": 0.7589,
+                "confidence": 0.311,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Υ",
+                "x_norm": 0.7898,
+                "confidence": 0.324,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ρ",
+                "x_norm": 0.8818,
+                "confidence": 0.337,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ΟΤΕΑΥΡ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 6 consensus positions",
+        "characters": [
+          {
+            "char": "Ο",
+            "x_norm": 0.0296,
+            "confidence": 0.233,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ο",
+                "confidence": 0.233,
+                "x_norm": 0.0296
+              }
+            ],
+            "bbox_strip": [
+              0,
+              0,
+              249,
+              384
+            ],
+            "bbox_full": [
+              12554,
+              11400,
+              249,
+              384
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              25,
+              114
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Τ",
+            "x_norm": 0.2501,
+            "confidence": 0.246,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Τ",
+                "confidence": 0.246,
+                "x_norm": 0.2501
+              }
+            ],
+            "bbox_strip": [
+              644,
+              0,
+              598,
+              286
+            ],
+            "bbox_full": [
+              13198,
+              11400,
+              598,
+              286
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              62,
+              73,
+              78,
+              106
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ε",
+            "x_norm": 0.3822,
+            "confidence": 0.272,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ε",
+                "confidence": 0.272,
+                "x_norm": 0.3822
+              }
+            ],
+            "bbox_strip": [
+              1088,
+              0,
+              622,
+              311
+            ],
+            "bbox_full": [
+              13642,
+              11400,
+              622,
+              311
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              62,
+              72,
+              73,
+              106,
+              121
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Α",
+            "x_norm": 0.7046,
+            "confidence": 0.285,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Α",
+                "confidence": 0.285,
+                "x_norm": 0.7046
+              }
+            ],
+            "bbox_strip": [
+              2167,
+              0,
+              680,
+              284
+            ],
+            "bbox_full": [
+              14721,
+              11400,
+              680,
+              284
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              39,
+              60,
+              68,
+              83
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 2
+          },
+          {
+            "char": "Υ",
+            "x_norm": 0.7898,
+            "confidence": 0.324,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Υ",
+                "confidence": 0.324,
+                "x_norm": 0.7898
+              }
+            ],
+            "bbox_strip": [
+              2411,
+              0,
+              925,
+              344
+            ],
+            "bbox_full": [
+              14965,
+              11400,
+              925,
+              344
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              60,
+              68,
+              83,
+              97
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ρ",
+            "x_norm": 0.8818,
+            "confidence": 0.337,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ρ",
+                "confidence": 0.337,
+                "x_norm": 0.8818
+              }
+            ],
+            "bbox_strip": [
+              2779,
+              0,
+              821,
+              384
+            ],
+            "bbox_full": [
+              15333,
+              11400,
+              821,
+              384
+            ],
+            "line_no": 29,
+            "linked_blob_indices": [
+              60,
+              75,
+              83,
+              97,
+              118
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          }
+        ]
+      },
+      "line_transcription": "ΟΤΕΑΥΡ"
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "reading_plate_path": "plates/plate_05.png",
+      "y_range": [
+        14885,
+        15269
+      ],
+      "x_range": [
+        12183,
+        15783
+      ],
+      "y_center": 15077,
+      "template_hints": [
+        {
+          "x_norm": 0.0254,
+          "tier": "HIGH",
+          "mean_prob": 0.865,
+          "area_px": 38029,
+          "candidates": [
+            [
+              "Ι",
+              0.393
+            ],
+            [
+              "Τ",
+              0.312
+            ],
+            [
+              "Δ",
+              0.294
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.0871,
+          "tier": "HIGH",
+          "mean_prob": 0.847,
+          "area_px": 24908,
+          "candidates": [
+            [
+              "Ι",
+              0.37
+            ],
+            [
+              "Ψ",
+              0.324
+            ],
+            [
+              "Ε",
+              0.306
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.1235,
+          "tier": "HIGH",
+          "mean_prob": 0.797,
+          "area_px": 2494,
+          "candidates": [
+            [
+              "Θ",
+              0.354
+            ],
+            [
+              "Μ",
+              0.334
+            ],
+            [
+              "Δ",
+              0.312
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.1651,
+          "tier": "HIGH",
+          "mean_prob": 0.842,
+          "area_px": 19518,
+          "candidates": [
+            [
+              "Δ",
+              0.347
+            ],
+            [
+              "Ι",
+              0.342
+            ],
+            [
+              "Α",
+              0.311
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2174,
+          "tier": "HIGH",
+          "mean_prob": 0.881,
+          "area_px": 19237,
+          "candidates": [
+            [
+              "Ψ",
+              0.36
+            ],
+            [
+              "Ε",
+              0.322
+            ],
+            [
+              "Θ",
+              0.319
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2444,
+          "tier": "HIGH",
+          "mean_prob": 0.834,
+          "area_px": 3484,
+          "candidates": [
+            [
+              "Μ",
+              0.346
+            ],
+            [
+              "Θ",
+              0.337
+            ],
+            [
+              "Ω",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2581,
+          "tier": "HIGH",
+          "mean_prob": 0.802,
+          "area_px": 3121,
+          "candidates": [
+            [
+              "Μ",
+              0.342
+            ],
+            [
+              "Ψ",
+              0.33
+            ],
+            [
+              "Θ",
+              0.328
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2723,
+          "tier": "HIGH",
+          "mean_prob": 0.897,
+          "area_px": 16026,
+          "candidates": [
+            [
+              "Μ",
+              0.374
+            ],
+            [
+              "Ω",
+              0.342
+            ],
+            [
+              "Η",
+              0.284
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.2822,
+          "tier": "HIGH",
+          "mean_prob": 0.755,
+          "area_px": 2359,
+          "candidates": [
+            [
+              "Θ",
+              0.371
+            ],
+            [
+              "Μ",
+              0.322
+            ],
+            [
+              "Ψ",
+              0.307
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.3151,
+          "tier": "HIGH",
+          "mean_prob": 0.885,
+          "area_px": 25420,
+          "candidates": [
+            [
+              "Υ",
+              0.356
+            ],
+            [
+              "Ψ",
+              0.327
+            ],
+            [
+              "Τ",
+              0.317
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4073,
+          "tier": "HIGH",
+          "mean_prob": 0.793,
+          "area_px": 6072,
+          "candidates": [
+            [
+              "Ρ",
+              0.354
+            ],
+            [
+              "Ψ",
+              0.337
+            ],
+            [
+              "Η",
+              0.309
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4119,
+          "tier": "HIGH",
+          "mean_prob": 0.846,
+          "area_px": 22991,
+          "candidates": [
+            [
+              "Ζ",
+              0.337
+            ],
+            [
+              "Ε",
+              0.335
+            ],
+            [
+              "Χ",
+              0.328
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4435,
+          "tier": "HIGH",
+          "mean_prob": 0.883,
+          "area_px": 6435,
+          "candidates": [
+            [
+              "Θ",
+              0.346
+            ],
+            [
+              "Μ",
+              0.344
+            ],
+            [
+              "Ω",
+              0.31
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.484,
+          "tier": "HIGH",
+          "mean_prob": 0.879,
+          "area_px": 13633,
+          "candidates": [
+            [
+              "Μ",
+              0.364
+            ],
+            [
+              "Θ",
+              0.339
+            ],
+            [
+              "Ψ",
+              0.297
+            ]
+          ]
+        },
+        {
+          "x_norm": 0.4994,
+          "tier": "HIGH",
+          "mean_prob": 0.91,
+          "area_px": 11386,
+          "candidates": [
+            [
+              "Μ",
+              0.353
+            ],
+            [
+              "Δ",
+              0.329
+            ],
+            [
+              "Ν",
+              0.318
+            ]
+          ]
+        }
+      ],
+      "per_model": {
+        "google/gemini-3.1-flash-lite": {
+          "tier": 1,
+          "display_name": "gemini-3.1-flash-lite",
+          "raw": "",
+          "parsed": null,
+          "error": "http 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/7a964578b6082c0970bed0420d3525599cf6eb0c8543793cefaf8345fa49927c\",\"code\":403}}",
+          "finish_reason": null,
+          "usage": null
+        },
+        "manual/claude-opus-4.7": {
+          "tier": 0,
+          "display_name": "Claude Opus 4.7",
+          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\\u0397\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.0273, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.3906, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.4523, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.4613, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.5122, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.5748, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.6331, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.7355, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "parsed": {
+            "line_text": "ΝΕΑΙΠΥΡΗ",
+            "characters": [
+              {
+                "char": "Ν",
+                "x_norm": 0.0273,
+                "confidence": 0.22,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ε",
+                "x_norm": 0.3906,
+                "confidence": 0.233,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Α",
+                "x_norm": 0.4523,
+                "confidence": 0.246,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ι",
+                "x_norm": 0.4613,
+                "confidence": 0.259,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Π",
+                "x_norm": 0.5122,
+                "confidence": 0.272,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Υ",
+                "x_norm": 0.5748,
+                "confidence": 0.285,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Ρ",
+                "x_norm": 0.6331,
+                "confidence": 0.298,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              },
+              {
+                "char": "Η",
+                "x_norm": 0.7355,
+                "confidence": 0.311,
+                "alternatives": [
+                  "Ϲ",
+                  "Ο",
+                  "Ν"
+                ]
+              }
+            ],
+            "translation_en": "illegible — blob-level guess only",
+            "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
+            "overall_confidence": "low"
+          },
+          "error": null,
+          "finish_reason": "manual",
+          "usage": null
+        }
+      },
+      "consensus": {
+        "text": "ΝΕΙΠΥΡΗ",
+        "translation_en": "illegible — blob-level guess only",
+        "probable_summary": "",
+        "translation_votes": [
+          {
+            "model": "manual/claude-opus-4.7",
+            "translation": "illegible — blob-level guess only"
+          }
+        ],
+        "summary_votes": [],
+        "n_models_used": 1,
+        "notes": "1 model(s); 7 consensus positions",
+        "characters": [
+          {
+            "char": "Ν",
+            "x_norm": 0.0273,
+            "confidence": 0.22,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ν",
+                "confidence": 0.22,
+                "x_norm": 0.0273
+              }
+            ],
+            "bbox_strip": [
+              0,
+              0,
+              338,
+              384
+            ],
+            "bbox_full": [
+              12183,
+              14885,
+              338,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              20
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ε",
+            "x_norm": 0.3906,
+            "confidence": 0.233,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ε",
+                "confidence": 0.233,
+                "x_norm": 0.3906
+              }
+            ],
+            "bbox_strip": [
+              1196,
+              0,
+              454,
+              384
+            ],
+            "bbox_full": [
+              13379,
+              14885,
+              454,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              58,
+              73,
+              101,
+              142
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ι",
+            "x_norm": 0.4613,
+            "confidence": 0.259,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ι",
+                "confidence": 0.259,
+                "x_norm": 0.4613
+              }
+            ],
+            "bbox_strip": [
+              1409,
+              0,
+              619,
+              384
+            ],
+            "bbox_full": [
+              13592,
+              14885,
+              619,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              40,
+              46,
+              58,
+              101,
+              133,
+              136,
+              142
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Π",
+            "x_norm": 0.5122,
+            "confidence": 0.272,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Π",
+                "confidence": 0.272,
+                "x_norm": 0.5122
+              }
+            ],
+            "bbox_strip": [
+              1550,
+              0,
+              560,
+              384
+            ],
+            "bbox_full": [
+              13733,
+              14885,
+              560,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              40,
+              46,
+              77,
+              101,
+              133,
+              136,
+              142
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Υ",
+            "x_norm": 0.5748,
+            "confidence": 0.285,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Υ",
+                "confidence": 0.285,
+                "x_norm": 0.5748
+              }
+            ],
+            "bbox_strip": [
+              1818,
+              0,
+              449,
+              384
+            ],
+            "bbox_full": [
+              14001,
+              14885,
+              449,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              40,
+              46,
+              77,
+              133,
+              136
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Ρ",
+            "x_norm": 0.6331,
+            "confidence": 0.298,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Ρ",
+                "confidence": 0.298,
+                "x_norm": 0.6331
+              }
+            ],
+            "bbox_strip": [
+              1821,
+              0,
+              1162,
+              384
+            ],
+            "bbox_full": [
+              14004,
+              14885,
+              1162,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              40,
+              46,
+              70,
+              77,
+              133,
+              136,
+              148
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          },
+          {
+            "char": "Η",
+            "x_norm": 0.7355,
+            "confidence": 0.311,
+            "tier": "HIGH",
+            "alternatives": [],
+            "votes": [
+              {
+                "model": "manual/claude-opus-4.7",
+                "char": "Η",
+                "confidence": 0.311,
+                "x_norm": 0.7355
+              }
+            ],
+            "bbox_strip": [
+              2591,
+              0,
+              253,
+              384
+            ],
+            "bbox_full": [
+              14774,
+              14885,
+              253,
+              384
+            ],
+            "line_no": 37,
+            "linked_blob_indices": [
+              70,
+              77,
+              148
+            ],
+            "alignment_source": "component_snap",
+            "component_count": 3
+          }
+        ]
+      },
+      "line_transcription": "ΝΕΙΠΥΡΗ"
+    }
+  ],
+  "character_boxes": [
+    {
+      "strip_id": 0,
+      "char_index": 0,
+      "char": "Ϲ",
+      "confidence": 0.22,
+      "tier": "HIGH",
+      "bbox_full": [
+        23783,
+        884,
+        410,
+        384
+      ],
+      "line_no": 3,
+      "linked_blob_indices": [
+        35,
+        69,
+        80,
+        90
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 0,
+      "char_index": 1,
+      "char": "Τ",
+      "confidence": 0.246,
+      "tier": "HIGH",
+      "bbox_full": [
+        23927,
+        884,
+        661,
+        384
+      ],
+      "line_no": 3,
+      "linked_blob_indices": [
+        26,
+        29,
+        35,
+        69,
+        80,
+        86,
+        90
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 0,
+      "char": "Ν",
+      "confidence": 0.22,
+      "tier": "HIGH",
+      "bbox_full": [
+        6100,
+        2688,
+        130,
+        332
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        55,
+        59
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 1,
+      "char": "Ε",
+      "confidence": 0.233,
+      "tier": "HIGH",
+      "bbox_full": [
+        6100,
+        2688,
+        711,
+        384
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        4,
+        55,
+        59,
+        109,
+        116
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 2,
+      "char": "Α",
+      "confidence": 0.246,
+      "tier": "HIGH",
+      "bbox_full": [
+        6387,
+        2814,
+        541,
+        258
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        4,
+        55,
+        109,
+        116
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 3,
+      "char": "Ι",
+      "confidence": 0.259,
+      "tier": "HIGH",
+      "bbox_full": [
+        6580,
+        2688,
+        555,
+        384
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        4,
+        54,
+        55,
+        109,
+        116,
+        117
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 4,
+      "char": "Π",
+      "confidence": 0.272,
+      "tier": "HIGH",
+      "bbox_full": [
+        6939,
+        2688,
+        506,
+        384
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        4,
+        54,
+        117,
+        129
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 5,
+      "char": "Ρ",
+      "confidence": 0.298,
+      "tier": "HIGH",
+      "bbox_full": [
+        7331,
+        2688,
+        225,
+        384
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        5,
+        117,
+        129
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 6,
+      "char": "Η",
+      "confidence": 0.311,
+      "tier": "HIGH",
+      "bbox_full": [
+        7666,
+        2688,
+        312,
+        376
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        5,
+        51,
+        52,
+        91,
+        107
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 1,
+      "char_index": 7,
+      "char": "Ϲ",
+      "confidence": 0.337,
+      "tier": "HIGH",
+      "bbox_full": [
+        7732,
+        2688,
+        962,
+        384
+      ],
+      "line_no": 7,
+      "linked_blob_indices": [
+        51,
+        52,
+        91,
+        107
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 0,
+      "char": "Ι",
+      "confidence": 0.22,
+      "tier": "HIGH",
+      "bbox_full": [
+        13031,
+        5240,
+        282,
+        384
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [
+        28,
+        105
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 1,
+      "char": "Π",
+      "confidence": 0.233,
+      "tier": "HIGH",
+      "bbox_full": [
+        13085,
+        5240,
+        940,
+        384
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [
+        28,
+        105
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 2,
+      "char": "Ρ",
+      "confidence": 0.259,
+      "tier": "HIGH",
+      "bbox_full": [
+        13707,
+        5240,
+        2042,
+        384
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [
+        49,
+        112,
+        115
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 3,
+      "char": "Ϲ",
+      "confidence": 0.298,
+      "tier": "HIGH",
+      "bbox_full": [
+        15345,
+        5477,
+        51,
+        58
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 4,
+      "char": "Ο",
+      "confidence": 0.311,
+      "tier": "HIGH",
+      "bbox_full": [
+        15560,
+        5240,
+        890,
+        384
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [
+        63,
+        115
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 2,
+      "char_index": 5,
+      "char": "Τ",
+      "confidence": 0.324,
+      "tier": "HIGH",
+      "bbox_full": [
+        16170,
+        5240,
+        461,
+        384
+      ],
+      "line_no": 14,
+      "linked_blob_indices": [
+        63
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 0,
+      "char": "Ρ",
+      "confidence": 0.22,
+      "tier": "HIGH",
+      "bbox_full": [
+        3559,
+        8489,
+        894,
+        384
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [
+        16,
+        30,
+        33,
+        88,
+        97
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 1,
+      "char": "Μ",
+      "confidence": 0.246,
+      "tier": "HIGH",
+      "bbox_full": [
+        4093,
+        8489,
+        576,
+        384
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [
+        16,
+        30,
+        33,
+        88,
+        105
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 2,
+      "char": "Ϲ",
+      "confidence": 0.259,
+      "tier": "HIGH",
+      "bbox_full": [
+        4171,
+        8489,
+        667,
+        384
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [
+        16,
+        30,
+        33,
+        88,
+        105
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 3,
+      "char": "Τ",
+      "confidence": 0.285,
+      "tier": "HIGH",
+      "bbox_full": [
+        4759,
+        8489,
+        472,
+        382
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 4,
+      "char": "Ε",
+      "confidence": 0.311,
+      "tier": "HIGH",
+      "bbox_full": [
+        4620,
+        8489,
+        997,
+        384
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [
+        33,
+        105
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 3,
+      "char_index": 5,
+      "char": "Ι",
+      "confidence": 0.337,
+      "tier": "HIGH",
+      "bbox_full": [
+        5261,
+        8489,
+        610,
+        272
+      ],
+      "line_no": 22,
+      "linked_blob_indices": [
+        1,
+        55
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 0,
+      "char": "Ο",
+      "confidence": 0.233,
+      "tier": "HIGH",
+      "bbox_full": [
+        12554,
+        11400,
+        249,
+        384
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        25,
+        114
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 1,
+      "char": "Τ",
+      "confidence": 0.246,
+      "tier": "HIGH",
+      "bbox_full": [
+        13198,
+        11400,
+        598,
+        286
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        62,
+        73,
+        78,
+        106
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 2,
+      "char": "Ε",
+      "confidence": 0.272,
+      "tier": "HIGH",
+      "bbox_full": [
+        13642,
+        11400,
+        622,
+        311
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        62,
+        72,
+        73,
+        106,
+        121
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 3,
+      "char": "Α",
+      "confidence": 0.285,
+      "tier": "HIGH",
+      "bbox_full": [
+        14721,
+        11400,
+        680,
+        284
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        39,
+        60,
+        68,
+        83
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 4,
+      "char": "Υ",
+      "confidence": 0.324,
+      "tier": "HIGH",
+      "bbox_full": [
+        14965,
+        11400,
+        925,
+        344
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        60,
+        68,
+        83,
+        97
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 4,
+      "char_index": 5,
+      "char": "Ρ",
+      "confidence": 0.337,
+      "tier": "HIGH",
+      "bbox_full": [
+        15333,
+        11400,
+        821,
+        384
+      ],
+      "line_no": 29,
+      "linked_blob_indices": [
+        60,
+        75,
+        83,
+        97,
+        118
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 0,
+      "char": "Ν",
+      "confidence": 0.22,
+      "tier": "HIGH",
+      "bbox_full": [
+        12183,
+        14885,
+        338,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        20
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 1,
+      "char": "Ε",
+      "confidence": 0.233,
+      "tier": "HIGH",
+      "bbox_full": [
+        13379,
+        14885,
+        454,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        58,
+        73,
+        101,
+        142
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 2,
+      "char": "Ι",
+      "confidence": 0.259,
+      "tier": "HIGH",
+      "bbox_full": [
+        13592,
+        14885,
+        619,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        40,
+        46,
+        58,
+        101,
+        133,
+        136,
+        142
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 3,
+      "char": "Π",
+      "confidence": 0.272,
+      "tier": "HIGH",
+      "bbox_full": [
+        13733,
+        14885,
+        560,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        40,
+        46,
+        77,
+        101,
+        133,
+        136,
+        142
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 4,
+      "char": "Υ",
+      "confidence": 0.285,
+      "tier": "HIGH",
+      "bbox_full": [
+        14001,
+        14885,
+        449,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        40,
+        46,
+        77,
+        133,
+        136
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 5,
+      "char": "Ρ",
+      "confidence": 0.298,
+      "tier": "HIGH",
+      "bbox_full": [
+        14004,
+        14885,
+        1162,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        40,
+        46,
+        70,
+        77,
+        133,
+        136,
+        148
+      ],
+      "alignment_source": "component_snap"
+    },
+    {
+      "strip_id": 5,
+      "char_index": 6,
+      "char": "Η",
+      "confidence": 0.311,
+      "tier": "HIGH",
+      "bbox_full": [
+        14774,
+        14885,
+        253,
+        384
+      ],
+      "line_no": 37,
+      "linked_blob_indices": [
+        70,
+        77,
+        148
+      ],
+      "alignment_source": "component_snap"
+    }
+  ],
+  "alignment_summary": {
+    "n_character_boxes": 35,
+    "n_component_snapped": 35,
+    "n_linked_to_blobs": 33
+  },
+  "scholar": {
+    "strip_model": "mock/offline",
+    "segment_model": "mock/offline",
+    "mock": true,
+    "segment": {
+      "probable_genre": "Epicurean ethical / philosophical prose (Philodemus tradition)",
+      "lexical_signals": [
+        "ΗΔΟΝΗ",
+        "ΚΟΣΜΟΣ",
+        "ΛΟΓΟΣ",
+        "ΦΥΣΙΣ",
+        "ΑΠΟΛΛΩΝ"
+      ],
+      "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+      "candidate_authors": [
+        "Philodemus of Gadara",
+        "Epicurus (in citation)",
+        "Zeno of Sidon"
+      ],
+      "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
+      "confidence_band": "speculative"
+    },
+    "strips": [
+      {
+        "strip_id": 0,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ϲ",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.224,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Τ",
+            "alternates": [
+              "Π"
+            ],
+            "confidence": 0.3,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ϹΤ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΗΔΟΝΗ",
+            "english": "pleasure",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "Fragmentary clause; the visible Greek suggests soul, possibly within a discussion of pleasure.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      },
+      {
+        "strip_id": 1,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ν",
+            "alternates": [
+              "Η"
+            ],
+            "confidence": 0.295,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Ε",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.287,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 2,
+            "principal": "Α",
+            "alternates": [
+              "Λ"
+            ],
+            "confidence": 0.338,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 3,
+            "principal": "Ι",
+            "alternates": [
+              "Τ"
+            ],
+            "confidence": 0.33,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 4,
+            "principal": "Π",
+            "alternates": [
+              "Γ"
+            ],
+            "confidence": 0.281,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 5,
+            "principal": "Ρ",
+            "alternates": [
+              "Β"
+            ],
+            "confidence": 0.346,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 6,
+            "principal": "Η",
+            "alternates": [
+              "Ω"
+            ],
+            "confidence": 0.265,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 7,
+            "principal": "Ϲ",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.422,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ΝΕΑ",
+          "ΙΠΡΗϹ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΚΟΣΜΟΣ",
+            "english": "world / order",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "Fragmentary clause; the visible Greek suggests Epicurus, possibly within a discussion of nature.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      },
+      {
+        "strip_id": 2,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ι",
+            "alternates": [
+              "Τ"
+            ],
+            "confidence": 0.213,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Π",
+            "alternates": [
+              "Γ"
+            ],
+            "confidence": 0.309,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 2,
+            "principal": "Ρ",
+            "alternates": [
+              "Β"
+            ],
+            "confidence": 0.318,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 3,
+            "principal": "Ϲ",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.266,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 4,
+            "principal": "Ο",
+            "alternates": [
+              "Θ"
+            ],
+            "confidence": 0.388,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 5,
+            "principal": "Τ",
+            "alternates": [
+              "Π"
+            ],
+            "confidence": 0.327,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ΙΠ",
+          "ΡϹΟΤ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΛΟΓΟΣ",
+            "english": "reason / discourse",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between reason / discourse and virtue.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      },
+      {
+        "strip_id": 3,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ρ",
+            "alternates": [
+              "Β"
+            ],
+            "confidence": 0.209,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Μ",
+            "alternates": [
+              "Ν"
+            ],
+            "confidence": 0.292,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 2,
+            "principal": "Ϲ",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.307,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 3,
+            "principal": "Τ",
+            "alternates": [
+              "Π"
+            ],
+            "confidence": 0.374,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 4,
+            "principal": "Ε",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.344,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 5,
+            "principal": "Ι",
+            "alternates": [
+              "Τ"
+            ],
+            "confidence": 0.437,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ΡΜϹΤΕΙ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΦΥΣΙΣ",
+            "english": "nature",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between virtue and the good.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      },
+      {
+        "strip_id": 4,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ο",
+            "alternates": [
+              "Θ"
+            ],
+            "confidence": 0.226,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Τ",
+            "alternates": [
+              "Π"
+            ],
+            "confidence": 0.22,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 2,
+            "principal": "Ε",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.328,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 3,
+            "principal": "Α",
+            "alternates": [
+              "Λ"
+            ],
+            "confidence": 0.365,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 4,
+            "principal": "Υ",
+            "alternates": [
+              "Ψ"
+            ],
+            "confidence": 0.339,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 5,
+            "principal": "Ρ",
+            "alternates": [
+              "Β"
+            ],
+            "confidence": 0.34,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ΟΤΕΑΥΡ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΚΟΣΜΟΣ",
+            "english": "world / order",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "A clause appearing to describe nature; the surrounding context likely treats Apollo.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      },
+      {
+        "strip_id": 5,
+        "letters": [
+          {
+            "index": 0,
+            "principal": "Ν",
+            "alternates": [
+              "Η"
+            ],
+            "confidence": 0.2,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 1,
+            "principal": "Ε",
+            "alternates": [
+              "Σ"
+            ],
+            "confidence": 0.234,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 2,
+            "principal": "Ι",
+            "alternates": [
+              "Τ"
+            ],
+            "confidence": 0.275,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 3,
+            "principal": "Π",
+            "alternates": [
+              "Γ"
+            ],
+            "confidence": 0.339,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 4,
+            "principal": "Υ",
+            "alternates": [
+              "Ψ"
+            ],
+            "confidence": 0.326,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 5,
+            "principal": "Ρ",
+            "alternates": [
+              "Β"
+            ],
+            "confidence": 0.373,
+            "is_word_boundary": false,
+            "note": "shape ambiguous; alternates plausible"
+          },
+          {
+            "index": 6,
+            "principal": "Η",
+            "alternates": [
+              "Ω"
+            ],
+            "confidence": 0.318,
+            "is_word_boundary": true,
+            "note": "shape ambiguous; alternates plausible"
+          }
+        ],
+        "word_divisions": [
+          "ΝΕ",
+          "ΙΠΥΡΗ"
+        ],
+        "recognized_words": [
+          {
+            "greek": "ΑΠΟΛΛΩΝ",
+            "english": "Apollo",
+            "certainty": "low"
+          }
+        ],
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between philosophy and truth.",
+        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      }
+    ],
+    "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."
+  }
+}

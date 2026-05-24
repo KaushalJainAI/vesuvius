@@ -1,0 +1,792 @@
+{
+  "model": "manual/claude-opus-4.7",
+  "strips": {
+    "0": {
+      "line_text": "..Ε.ΝΟ..Ι..Α.Ν..Ο.Ι..Τ..Ε..Ν.Α..",
+      "characters": [
+        {
+          "char": "Ε",
+          "x_norm": 0.07,
+          "confidence": 0.25,
+          "alternatives": [
+            "Ϲ",
+            "Γ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.13,
+          "confidence": 0.22,
+          "alternatives": [
+            "Η",
+            "Κ"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.19,
+          "confidence": 0.28,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Ι",
+          "x_norm": 0.27,
+          "confidence": 0.2,
+          "alternatives": [
+            "Τ",
+            "Γ"
+          ]
+        },
+        {
+          "char": "Α",
+          "x_norm": 0.34,
+          "confidence": 0.23,
+          "alternatives": [
+            "Λ",
+            "Δ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.41,
+          "confidence": 0.21,
+          "alternatives": [
+            "Η",
+            "Μ"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.5,
+          "confidence": 0.26,
+          "alternatives": [
+            "Θ",
+            "Ω"
+          ]
+        },
+        {
+          "char": "Ι",
+          "x_norm": 0.57,
+          "confidence": 0.19,
+          "alternatives": [
+            "Τ",
+            "Π"
+          ]
+        },
+        {
+          "char": "Τ",
+          "x_norm": 0.64,
+          "confidence": 0.22,
+          "alternatives": [
+            "Γ",
+            "Ι"
+          ]
+        },
+        {
+          "char": "Ε",
+          "x_norm": 0.71,
+          "confidence": 0.21,
+          "alternatives": [
+            "Ϲ",
+            "Ζ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.79,
+          "confidence": 0.2,
+          "alternatives": [
+            "Η",
+            "Κ"
+          ]
+        },
+        {
+          "char": "Α",
+          "x_norm": 0.87,
+          "confidence": 0.24,
+          "alternatives": [
+            "Λ",
+            "Δ"
+          ]
+        }
+      ],
+      "translation_en": "[uncertain] — too fragmentary for reliable translation",
+      "probable_summary": "Partial Greek text, possibly a prose or philosophical passage; sequence ENO…AN…OI may relate to a participial or verbal form, but reading is highly speculative given noise level.",
+      "notes": "All four sub-strips (raw probability, denoised contrast, high-contrast mask, letter-scale components) show heavy fragmentation throughout. No clean letter strokes are visible; most blobs are ambiguous between letter fragments and CT noise. The high-contrast mask (strip 3) and letter-scale components (strip 4) show large irregular white regions with no clear isolated character forms. Confidence is uniformly low — characters reported are best-guess interpretations of blob shapes only. This strip should not be relied upon without corroboration from adjacent plates.",
+      "overall_confidence": "low"
+    },
+    "1": {
+      "line_text": "..Κ.Ν..Π....ΟΡ.Δ..Ν..Π...",
+      "characters": [
+        {
+          "char": "Κ",
+          "x_norm": 0.06,
+          "confidence": 0.25,
+          "alternatives": [
+            "Ν",
+            "Π",
+            "Η"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.1,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.15,
+          "confidence": 0.22,
+          "alternatives": [
+            "Η",
+            "Μ",
+            "Κ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.2,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.25,
+          "confidence": 0.2,
+          "alternatives": [
+            "Η",
+            "Ν",
+            "Γ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.31,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.37,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.44,
+          "confidence": 0.35,
+          "alternatives": [
+            "Θ",
+            "Ϲ",
+            "Φ"
+          ]
+        },
+        {
+          "char": "Ρ",
+          "x_norm": 0.49,
+          "confidence": 0.28,
+          "alternatives": [
+            "Β",
+            "Π",
+            "Ρ"
+          ]
+        },
+        {
+          "char": "Δ",
+          "x_norm": 0.54,
+          "confidence": 0.22,
+          "alternatives": [
+            "Α",
+            "Λ",
+            "Ν"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.6,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.66,
+          "confidence": 0.2,
+          "alternatives": [
+            "Η",
+            "Κ",
+            "Μ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.73,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.81,
+          "confidence": 0.2,
+          "alternatives": [
+            "Η",
+            "Γ",
+            "Ν"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.88,
+          "confidence": 0.1,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.94,
+          "confidence": 0.1,
+          "alternatives": []
+        }
+      ],
+      "translation_en": "[uncertain] fragmentary; possible words unrecoverable at this confidence",
+      "probable_summary": "A single text line with several ink blobs; the cluster near x=0.44–0.54 shows the clearest letter-like forms (possibly ΟΡΔ or similar), but the strip is heavily fragmented throughout.",
+      "notes": "Four-panel plate: raw probability (top), denoised contrast, high-contrast binary mask, letter-scale components (bottom). The high-contrast mask (row 3) shows numerous merged, ring-like blob structures suggesting ink but poor letter separation. The letter-scale component map (row 4) confirms large fused regions rather than isolated glyphs — individual letter boundaries are not cleanly resolved. Noise dominates the left third and right fifth of the strip. Most character assignments are speculative best-guesses from blob silhouettes; treat as unintelligible without further processing.",
+      "overall_confidence": "low"
+    },
+    "2": {
+      "line_text": "....Ο..Ι..Ϲ....Ε..Ν....Ο...",
+      "characters": [
+        {
+          "char": "Ο",
+          "x_norm": 0.18,
+          "confidence": 0.28,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Ι",
+          "x_norm": 0.28,
+          "confidence": 0.22,
+          "alternatives": [
+            "Λ",
+            "."
+          ]
+        },
+        {
+          "char": "Ϲ",
+          "x_norm": 0.38,
+          "confidence": 0.25,
+          "alternatives": [
+            "Ε",
+            "Γ"
+          ]
+        },
+        {
+          "char": "Ε",
+          "x_norm": 0.52,
+          "confidence": 0.24,
+          "alternatives": [
+            "Γ",
+            "Ζ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.63,
+          "confidence": 0.22,
+          "alternatives": [
+            "Η",
+            "Π"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.78,
+          "confidence": 0.27,
+          "alternatives": [
+            "Θ",
+            "Ω"
+          ]
+        }
+      ],
+      "translation_en": "[uncertain — insufficient legible text]",
+      "probable_summary": "Strip is dominated by noise and fragmented ink blobs; no coherent word or phrase can be recovered with confidence.",
+      "notes": "All four layers (raw probability, denoised contrast, high-contrast mask, letter-scale components) show heavily scattered, low-density ink signal. Connected components are mostly sub-letter-scale noise or merged multi-blob clusters without recognisable letterform topology. Round closed contours near x≈0.18 and x≈0.78 loosely resemble Ο/Θ; vertical strokes near x≈0.28 loosely resemble Ι. All other assignments are highly speculative. Strip likely corresponds to a damaged or blank region of the papyrus surface.",
+      "overall_confidence": "low"
+    },
+    "3": {
+      "line_text": "ΩΝ..ΗΠ.Ι..ΡΒ.ΦΠ.ΩΘ.ϹΝ.ΟΝ..",
+      "characters": [
+        {
+          "char": "Ω",
+          "x_norm": 0.03,
+          "confidence": 0.35,
+          "alternatives": [
+            "Ο",
+            "Θ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.065,
+          "confidence": 0.4,
+          "alternatives": [
+            "Η",
+            "Π"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.095,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.115,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Η",
+          "x_norm": 0.145,
+          "confidence": 0.38,
+          "alternatives": [
+            "Π",
+            "Ν"
+          ]
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.18,
+          "confidence": 0.42,
+          "alternatives": [
+            "Η",
+            "Γ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.215,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ι",
+          "x_norm": 0.24,
+          "confidence": 0.45,
+          "alternatives": [
+            "Λ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.27,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.295,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ρ",
+          "x_norm": 0.325,
+          "confidence": 0.33,
+          "alternatives": [
+            "Β",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Β",
+          "x_norm": 0.36,
+          "confidence": 0.3,
+          "alternatives": [
+            "Ρ",
+            "Ε"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.39,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Φ",
+          "x_norm": 0.425,
+          "confidence": 0.35,
+          "alternatives": [
+            "Π",
+            "Θ"
+          ]
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.46,
+          "confidence": 0.38,
+          "alternatives": [
+            "Η",
+            "Ν"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.49,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ω",
+          "x_norm": 0.52,
+          "confidence": 0.32,
+          "alternatives": [
+            "Θ",
+            "Ο"
+          ]
+        },
+        {
+          "char": "Θ",
+          "x_norm": 0.558,
+          "confidence": 0.36,
+          "alternatives": [
+            "Ο",
+            "Ω"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.59,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ϲ",
+          "x_norm": 0.618,
+          "confidence": 0.38,
+          "alternatives": [
+            "Ε",
+            "Γ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.652,
+          "confidence": 0.4,
+          "alternatives": [
+            "Η",
+            "Κ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.682,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.712,
+          "confidence": 0.42,
+          "alternatives": [
+            "Θ",
+            "Ω"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.748,
+          "confidence": 0.38,
+          "alternatives": [
+            "Μ",
+            "Κ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.78,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.82,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": "Ϲ",
+          "x_norm": 0.862,
+          "confidence": 0.28,
+          "alternatives": [
+            "Ε",
+            "Γ"
+          ]
+        },
+        {
+          "char": ".",
+          "x_norm": 0.91,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.95,
+          "confidence": 0.0,
+          "alternatives": []
+        },
+        {
+          "char": ".",
+          "x_norm": 0.98,
+          "confidence": 0.0,
+          "alternatives": []
+        }
+      ],
+      "translation_en": "[uncertain] …of/the … things/ones …",
+      "probable_summary": "A fragmentary line, likely a genitive or accusative plural ending in -ΩΝ at left; middle section possibly a verbal or nominal phrase; heavily obscured throughout.",
+      "notes": "All four panel rows (raw probability, denoised contrast, high-contrast mask, letter-scale components) are present. The strip is moderately noisy with frequent ink dropout between letter clusters. Left third is slightly better preserved than the right. Many characters are ambiguous due to merged blobs and partial strokes. The -ΩΝ opening is the most legible cluster; everything after x≈0.30 drops to speculative. Right fifth (x>0.85) is mostly noise.",
+      "overall_confidence": "low"
+    },
+    "4": {
+      "line_text": "..Ο.Π.Ο..Ν.Ο..Γ.Ο...Η.Ο.....Ο..Ν.Ο..Π.Ο.",
+      "characters": [
+        {
+          "char": "Ο",
+          "x_norm": 0.04,
+          "confidence": 0.4,
+          "alternatives": [
+            "Θ",
+            "Φ"
+          ]
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.09,
+          "confidence": 0.3,
+          "alternatives": [
+            "Ν",
+            "Η"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.14,
+          "confidence": 0.38,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.19,
+          "confidence": 0.28,
+          "alternatives": [
+            "Η",
+            "Π"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.24,
+          "confidence": 0.35,
+          "alternatives": [
+            "Θ",
+            "Φ"
+          ]
+        },
+        {
+          "char": "Γ",
+          "x_norm": 0.29,
+          "confidence": 0.25,
+          "alternatives": [
+            "Π",
+            "Τ"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.36,
+          "confidence": 0.33,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Η",
+          "x_norm": 0.42,
+          "confidence": 0.27,
+          "alternatives": [
+            "Ν",
+            "Π"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.6,
+          "confidence": 0.3,
+          "alternatives": [
+            "Θ",
+            "Φ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.67,
+          "confidence": 0.28,
+          "alternatives": [
+            "Η",
+            "Κ"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.73,
+          "confidence": 0.32,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Π",
+          "x_norm": 0.8,
+          "confidence": 0.26,
+          "alternatives": [
+            "Η",
+            "Ν"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.87,
+          "confidence": 0.29,
+          "alternatives": [
+            "Θ",
+            "Φ"
+          ]
+        },
+        {
+          "char": "Ϲ",
+          "x_norm": 0.93,
+          "confidence": 0.24,
+          "alternatives": [
+            "Ο",
+            "Ε"
+          ]
+        }
+      ],
+      "translation_en": "[uncertain] fragmentary; no continuous phrase recoverable",
+      "probable_summary": "Strip is heavily fragmented; closed-loop forms (Ο/Θ) and angular strokes (Ν/Π/Η) are the most frequent recognisable shapes, but no coherent word sequence can be established.",
+      "notes": "Four sub-rows visible: raw probability (top), denoised contrast, high-contrast binary mask, letter-scale components (bottom). The high-contrast mask (row 3) is the most legible tier. A large low-signal gap runs from roughly x=0.45–0.58, likely a papyrus void or fold damage. Left half is denser than right. Most blobs are ambiguous between 2–3 letter candidates; confidence is uniformly low. Do not treat this reading as reliable.",
+      "overall_confidence": "low"
+    },
+    "5": {
+      "line_text": "..Κ.ΝΟ..ΕΙ..Τ..Ο..Ν..",
+      "characters": [
+        {
+          "char": "Κ",
+          "x_norm": 0.1,
+          "confidence": 0.28,
+          "alternatives": [
+            "Ν",
+            "Η"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.18,
+          "confidence": 0.3,
+          "alternatives": [
+            "Μ",
+            "Η"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.24,
+          "confidence": 0.35,
+          "alternatives": [
+            "Ϲ",
+            "Θ"
+          ]
+        },
+        {
+          "char": "Ε",
+          "x_norm": 0.34,
+          "confidence": 0.27,
+          "alternatives": [
+            "Γ",
+            "Ζ"
+          ]
+        },
+        {
+          "char": "Ι",
+          "x_norm": 0.4,
+          "confidence": 0.32,
+          "alternatives": [
+            "Τ",
+            "."
+          ]
+        },
+        {
+          "char": "Τ",
+          "x_norm": 0.5,
+          "confidence": 0.29,
+          "alternatives": [
+            "Γ",
+            "Ι"
+          ]
+        },
+        {
+          "char": "Ο",
+          "x_norm": 0.61,
+          "confidence": 0.31,
+          "alternatives": [
+            "Θ",
+            "Ϲ"
+          ]
+        },
+        {
+          "char": "Ν",
+          "x_norm": 0.72,
+          "confidence": 0.26,
+          "alternatives": [
+            "Η",
+            "Κ"
+          ]
+        },
+        {
+          "char": "Ϲ",
+          "x_norm": 0.82,
+          "confidence": 0.24,
+          "alternatives": [
+            "Ο",
+            "Ε"
+          ]
+        },
+        {
+          "char": "Α",
+          "x_norm": 0.91,
+          "confidence": 0.22,
+          "alternatives": [
+            "Λ",
+            "Δ"
+          ]
+        }
+      ],
+      "translation_en": "[uncertain] possibly fragment of a prose text, individual words not recoverable",
+      "probable_summary": "Highly fragmented strip; possible word endings or function words containing ΝΟ / ΕΙ / ΤΟΝ sequences, consistent with Greek prose inflection but not confidently readable.",
+      "notes": "All four layers (raw probability, denoised contrast, high-contrast mask, letter-scale components) show heavy fragmentation across the full width. Ink blobs are numerous but largely disconnected; letter interiors are frequently lost. ΤΟΝ (~x 0.50–0.72) is the most internally consistent cluster; all other identifications are highly speculative. Right-hand third has larger blob merges that may represent 2–3 letters run together. Strip is dominated by noise.",
+      "overall_confidence": "low"
+    }
+  }
+}

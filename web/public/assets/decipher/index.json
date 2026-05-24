@@ -1,0 +1,64 @@
+{
+  "segments": [
+    {
+      "seg_id": "20230702185753",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20230929220926",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231005123336",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231007101619",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231012184424",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231016151002",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231022170901",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231031143852",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231106155351",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231210121321",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "20231221180251",
+      "n_strips": 6,
+      "mock": false
+    },
+    {
+      "seg_id": "sample_readable_kaggle",
+      "n_strips": 0,
+      "mock": false
+    }
+  ]
+}

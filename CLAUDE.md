@@ -215,11 +215,15 @@ models/
   last_segment_model.pth          # segment-track last epoch (kaggle_segment_train only)
   training_history.json           # per-epoch metrics (kaggle_segment_train only)
   training_curves.png             # loss + F0.5 + LR curves (kaggle_segment_train only)
-predictions/
-  {segment_id}_prob.npy           # raw float32 probability map
+predictions/                      # all model + filter outputs (artifacts only, no code)
+  {segment_id}_prob.npy           # raw float32 probability map (from SegmentInkNet inference)
   {segment_id}_prob.tif           # same as uint8 TIFF
   {segment_id}_vis.png            # CT / pred / label / overlay visualization
-filter_experiments/
+  raw_label_inspection/{seg}/     # scripts/visualize_labels.py        — raw pseudo-label inspection
+  filter_strategy_benchmark/{seg}/# scripts/compare_label_filters.py    — 12-strategy comparison
+  enhanced_labels/{seg}/          # scripts/enhance_all_labels.py       — winning S11 enhanced outputs
+  legacy_label_enhancement/{seg}/ # scripts/improve_labels_visual.py    — older simpler filter
+filter_experiments/               # OUTPUT artifacts from src/experiment_filters.py (template matching)
   candidates.csv                  # per-component top-K Greek letter guesses
   candidates_grid.png             # visual grid of candidates
   templates.png                   # Greek uppercase template reference
@@ -259,6 +263,36 @@ Kaggle Vesuvius Challenge competition — manual IR-photo ink annotations.
 
 Labels are pseudo-labels — outputs of a `tile64-stride16` ink-detection model, not manual annotation.
 The training loss uses an ignore-band on values 0.4–0.6 to avoid fitting ambiguous label regions.
+
+## Scholar stage (src/scholar/) — paleographer-style readings
+
+A post-step on top of the decipher pipeline. Reads an existing
+`predictions/decipher/{seg_id}/result.json` and produces a richer scholar
+block: per-letter alternates with confidence, word-division reading,
+recognised Greek words with glosses, probable per-strip meaning, and a
+segment-level genre / historical-context paragraph.
+
+Implemented with the **OpenAI Agents SDK** calling the **OpenAI API
+directly** (OpenRouter dropped after the key cap was exhausted):
+- `StripScholarAgent` — vision-enabled, default `gpt-4o-mini`
+- `SegmentScholarAgent` — text-only, default `gpt-4o-mini`
+- Override via `SCHOLAR_STRIP_MODEL` / `SCHOLAR_SEGMENT_MODEL` (e.g. `gpt-4o`)
+- Billing flows through `OPENAI_API_KEY` (set in `.env` or env var)
+
+```bash
+# Live (needs OPENAI_API_KEY)
+python scripts/scholar_decipher.py --only 20231221180251
+python scripts/scholar_decipher.py                      # all 11
+
+# Offline preview (no API calls; synthesises from existing consensus)
+python scripts/scholar_decipher.py --mock
+```
+
+Output appears as a new top-level `"scholar"` field inside `result.json`
+plus a sibling `scholar.json`, mirrored into
+`web/public/assets/decipher/{seg_id}/`. The webapp renders it in a new
+**Scholar** tab in `/viewer/{id}`
+([web/src/components/viewer/ScholarReading.tsx](web/src/components/viewer/ScholarReading.tsx)).
 
 ## Claude API integration (cell 11 of fragment notebook)
 

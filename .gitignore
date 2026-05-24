@@ -5,14 +5,17 @@ data/*
 !data/labelled_segments/
 data/labelled_segments/*
 !data/labelled_segments/SEGMENT_MAP.md
+notebooks/data/
 
 # ── Generated outputs ─────────────────────────────────────────────────────────
 predictions/*
 !predictions/.gitkeep
+outputs/notebook_runs/
 filter_experiments/*
 !filter_experiments/.gitkeep
 models/*
 !models/.gitkeep
+agent_decoding/
 
 # ── Python environment ────────────────────────────────────────────────────────
 venv/
@@ -35,6 +38,7 @@ build/
 # ── Secrets / credentials ─────────────────────────────────────────────────────
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 anthropic_key.txt

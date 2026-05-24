@@ -1,0 +1,757 @@
+{
+  "strip_model": "mock/offline",
+  "segment_model": "mock/offline",
+  "mock": true,
+  "segment": {
+    "probable_genre": "Epicurean ethical / philosophical prose (Philodemus tradition)",
+    "lexical_signals": [
+      "ΑΠΟΛΛΩΝ",
+      "ΘΕΟΣ",
+      "ΑΓΑΘΟΝ",
+      "ΣΟΦΙΑ",
+      "ΨΥΧΗ"
+    ],
+    "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+    "candidate_authors": [
+      "Philodemus of Gadara",
+      "Epicurus (in citation)",
+      "Zeno of Sidon"
+    ],
+    "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
+    "confidence_band": "speculative"
+  },
+  "strips": [
+    {
+      "strip_id": 0,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ϲ",
+          "alternates": [
+            "Ρ"
+          ],
+          "confidence": 0.256,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.435,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.505,
+          "is_word_boundary": true,
+          "note": null
+        }
+      ],
+      "word_divisions": [
+        "ϹΕΝΜ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΠΟΛΛΩΝ",
+          "english": "Apollo",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Fragmentary clause; the visible Greek suggests nature, possibly within a discussion of world / order.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 1,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.439,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Φ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.466,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ρ",
+          "alternates": [
+            "Β"
+          ],
+          "confidence": 0.476,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Ω",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.54,
+          "is_word_boundary": false,
+          "note": null
+        },
+        {
+          "index": 4,
+          "principal": "Ν",
+          "alternates": [
+            "Μ"
+          ],
+          "confidence": 0.206,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.417,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Ε",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.226,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Μ",
+          "alternates": [
+            "Α"
+          ],
+          "confidence": 0.347,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": "Ι",
+          "alternates": [
+            "Υ"
+          ],
+          "confidence": 0.278,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΜΦΡ",
+        "ΩΝ",
+        "ΕΕΜ",
+        "Ι"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΠΟΛΛΩΝ",
+          "english": "Apollo",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats soul.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 2,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.399,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ψ",
+          "alternates": [
+            "Ι"
+          ],
+          "confidence": 0.353,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Υ",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.209,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Η",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.225,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Θ",
+          "alternates": [
+            "Ο"
+          ],
+          "confidence": 0.363,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Ω",
+          "alternates": [
+            "Μ"
+          ],
+          "confidence": 0.237,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Ϲ",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.25,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": "Τ",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.303,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 9,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.347,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 10,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.387,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "Μ.ΨΥΗΘΩ",
+        "ϹΤ",
+        "ΝΜ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΘΕΟΣ",
+          "english": "god",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Fragmentary clause; the visible Greek suggests virtue, possibly within a discussion of soul.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 3,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Ρ",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.237,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Η",
+          "alternates": [
+            "Ω"
+          ],
+          "confidence": 0.418,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.378,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.206,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Μ",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.247,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Ο",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.237,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Τ",
+          "alternates": [
+            "Π"
+          ],
+          "confidence": 0.214,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Ι",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.264,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 9,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.2,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 10,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.22,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΡΗΝ.ΜΟΤΙ..",
+        "."
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΑΓΑΘΟΝ",
+          "english": "the good",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats Apollo.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 4,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Μ",
+          "alternates": [
+            "Ο"
+          ],
+          "confidence": 0.456,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Τ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.256,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Ν",
+          "alternates": [
+            "Η"
+          ],
+          "confidence": 0.327,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Α",
+          "alternates": [
+            "."
+          ],
+          "confidence": 0.291,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Ε",
+          "alternates": [
+            "Σ"
+          ],
+          "confidence": 0.357,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Φ",
+          "alternates": [
+            "Ι"
+          ],
+          "confidence": 0.46,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": "Π",
+          "alternates": [
+            "Γ"
+          ],
+          "confidence": 0.248,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 9,
+          "principal": "Υ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.332,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 10,
+          "principal": "Υ",
+          "alternates": [
+            "Ψ"
+          ],
+          "confidence": 0.285,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 11,
+          "principal": "Ρ",
+          "alternates": [
+            "Β"
+          ],
+          "confidence": 0.312,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 12,
+          "principal": "Σ",
+          "alternates": [
+            "Ε"
+          ],
+          "confidence": 0.36,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 13,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.381,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 14,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.471,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΜΤΕΝΑ",
+        "ΕΙΦΠΥ",
+        "ΥΡΣΙΜ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΣΟΦΙΑ",
+          "english": "wisdom",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between soul and virtue.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    },
+    {
+      "strip_id": 5,
+      "letters": [
+        {
+          "index": 0,
+          "principal": "Η",
+          "alternates": [
+            "Ε"
+          ],
+          "confidence": 0.395,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 1,
+          "principal": "Α",
+          "alternates": [
+            "Λ"
+          ],
+          "confidence": 0.2,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 2,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.284,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 3,
+          "principal": "Η",
+          "alternates": [
+            "Ω"
+          ],
+          "confidence": 0.422,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 4,
+          "principal": "Θ",
+          "alternates": [
+            "Ο"
+          ],
+          "confidence": 0.459,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 5,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.321,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 6,
+          "principal": "Χ",
+          "alternates": [
+            "Κ"
+          ],
+          "confidence": 0.443,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 7,
+          "principal": "Μ",
+          "alternates": [
+            "Ν"
+          ],
+          "confidence": 0.446,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 8,
+          "principal": ".",
+          "alternates": [],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 9,
+          "principal": "Ι",
+          "alternates": [
+            "Τ"
+          ],
+          "confidence": 0.238,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 10,
+          "principal": "Υ",
+          "alternates": [
+            "Θ"
+          ],
+          "confidence": 0.2,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 11,
+          "principal": "Ρ",
+          "alternates": [
+            "Β"
+          ],
+          "confidence": 0.224,
+          "is_word_boundary": false,
+          "note": "shape ambiguous; alternates plausible"
+        },
+        {
+          "index": 12,
+          "principal": "Η",
+          "alternates": [
+            "Ω"
+          ],
+          "confidence": 0.392,
+          "is_word_boundary": true,
+          "note": "shape ambiguous; alternates plausible"
+        }
+      ],
+      "word_divisions": [
+        "ΗΑ",
+        "Μ",
+        "ΗΘΜ",
+        "ΧΜ.ΙΥΡΗ"
+      ],
+      "recognized_words": [
+        {
+          "greek": "ΨΥΧΗ",
+          "english": "soul",
+          "certainty": "low"
+        }
+      ],
+      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between truth and pleasure.",
+      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+    }
+  ],
+  "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."
+}

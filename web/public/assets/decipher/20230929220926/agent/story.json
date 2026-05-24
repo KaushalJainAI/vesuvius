@@ -1,0 +1,496 @@
+{
+  "seg_id": "20230929220926",
+  "genre": "Music theory / treatise on melody",
+  "candidate_authors": [
+    "Philodemus, On Music",
+    "Aristoxenus (in citation)",
+    "Diogenes of Babylon (refuted)"
+  ],
+  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "lexical_signals": [
+    "ΜΟΥΣΙΚΗ",
+    "ΑΡΜΟΝΙΑ"
+  ],
+  "recognized_words": [
+    {
+      "greek": "ΜΟΥΣΙΚΗ",
+      "english": "music",
+      "certainty": "low"
+    },
+    {
+      "greek": "ΑΡΜΟΝΙΑ",
+      "english": "harmony",
+      "certainty": "low"
+    }
+  ],
+  "top_letters": [
+    "Η",
+    "Ϲ",
+    "Ν",
+    "Ε",
+    "Ρ"
+  ],
+  "n_letters_total": 30,
+  "mean_confidence": 0.256,
+  "confidence_band": "speculative",
+  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Η Ϲ Ν Ε Ρ, distributed throughout the column. The strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the Stoic position that harmony imitates and trains the rational ordering of the soul. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "strips": [
+    {
+      "strip_id": 0,
+      "image_path": "strips/strip_00.png",
+      "letters_text": "ϹΟΤΝΕΑ",
+      "n_letters": 6,
+      "mean_confidence": 0.253,
+      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟΤΝΕΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            209,
+            60,
+            362,
+            324
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            366,
+            69,
+            807,
+            315
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Τ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            392,
+            69,
+            1394,
+            315
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1365,
+            0,
+            390,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ε",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1613,
+            0,
+            292,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Α",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2360,
+            0,
+            487,
+            242
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 1,
+      "image_path": "strips/strip_01.png",
+      "letters_text": "ΕΙΠΥΡΗ",
+      "n_letters": 6,
+      "mean_confidence": 0.276,
+      "paraphrase_en": "Strip 01 preserves the letter cluster ΕΙΠΥΡΗ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ε",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            8,
+            337,
+            376
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ι",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            203,
+            16,
+            394,
+            368
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Π",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            378,
+            21,
+            566,
+            363
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Υ",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            924,
+            0,
+            433,
+            330
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ρ",
+          "confidence": 0.298,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2792,
+            0,
+            808,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Η",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3451,
+            54,
+            149,
+            276
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 2,
+      "image_path": "strips/strip_02.png",
+      "letters_text": "ΙΠΥΡΗΜ",
+      "n_letters": 6,
+      "mean_confidence": 0.253,
+      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΠΥΡΗΜ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ι",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            42,
+            238,
+            342
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Π",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            485,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Υ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            187,
+            217,
+            321,
+            167
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ρ",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            281,
+            11,
+            413,
+            373
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Η",
+          "confidence": 0.272,
+          "tier": "HIGH",
+          "bbox_strip": [
+            2857,
+            0,
+            347,
+            213
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 5,
+          "char": "Μ",
+          "confidence": 0.285,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3006,
+            0,
+            594,
+            269
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 3,
+      "image_path": "strips/strip_03.png",
+      "letters_text": "ΡΗΜ",
+      "n_letters": 3,
+      "mean_confidence": 0.233,
+      "paraphrase_en": "Strip 03 preserves the letter cluster ΡΗΜ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ρ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            959,
+            0,
+            244,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Η",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            977,
+            0,
+            527,
+            308
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Μ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1826,
+            38,
+            544,
+            346
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 4,
+      "image_path": "strips/strip_04.png",
+      "letters_text": "ϹΟΤΝ",
+      "n_letters": 4,
+      "mean_confidence": 0.24,
+      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΤΝ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ϲ",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            337,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ο",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            890,
+            0,
+            429,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Τ",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1142,
+            257,
+            112,
+            89
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Ν",
+          "confidence": 0.259,
+          "tier": "HIGH",
+          "bbox_strip": [
+            3109,
+            0,
+            491,
+            384
+          ],
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "strip_id": 5,
+      "image_path": "strips/strip_05.png",
+      "letters_text": "ΝΕΑΗϹ",
+      "n_letters": 5,
+      "mean_confidence": 0.269,
+      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΕΑΗϹ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
+      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "letters": [
+        {
+          "index": 0,
+          "char": "Ν",
+          "confidence": 0.22,
+          "tier": "HIGH",
+          "bbox_strip": [
+            0,
+            0,
+            579,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 1,
+          "char": "Ε",
+          "confidence": 0.233,
+          "tier": "HIGH",
+          "bbox_strip": [
+            321,
+            0,
+            118,
+            284
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 2,
+          "char": "Α",
+          "confidence": 0.246,
+          "tier": "HIGH",
+          "bbox_strip": [
+            290,
+            0,
+            721,
+            384
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 3,
+          "char": "Η",
+          "confidence": 0.311,
+          "tier": "HIGH",
+          "bbox_strip": [
+            939,
+            35,
+            253,
+            316
+          ],
+          "alternatives": []
+        },
+        {
+          "index": 4,
+          "char": "Ϲ",
+          "confidence": 0.337,
+          "tier": "HIGH",
+          "bbox_strip": [
+            1204,
+            70,
+            176,
+            314
+          ],
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "source": "local-agent-pipeline (no external API)"
+}

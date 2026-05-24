@@ -294,12 +294,19 @@ class LLMGapFiller:
         *,
         gap_blob_radius: int = 12,
         gap_discount: float = 0.75,
+        allow_gap_updates: bool = False,
+        min_visual_evidence: float = 0.20,
     ) -> np.ndarray:
         """Write LLM predictions back into the probability map.
 
         llm_med with bbox  → raise existing component pixels to min(0.90, conf)
-        llm_gap            → paint a Gaussian blob at predicted centroid × discount
+        llm_gap            → optionally paint a Gaussian blob at predicted centroid × discount
         anchor             → untouched
+
+        By default, pure GAP predictions are not written into training labels:
+        they are linguistic hypotheses, not visual evidence. Enable
+        allow_gap_updates only for transcription visualisation or experimental
+        pseudo-label runs.
         """
         updated = prob.copy()
         H, W = prob.shape
@@ -318,10 +325,14 @@ class LLMGapFiller:
                     y0, x0, y1, x1 = pred.bbox
                     y0, y1 = max(0, y0), min(H, y1)
                     x0, x1 = max(0, x0), min(W, x1)
+                    if updated[y0:y1, x0:x1].max(initial=0.0) < min_visual_evidence:
+                        continue
                     target = float(min(0.90, pred.conf))
                     updated[y0:y1, x0:x1] = np.maximum(updated[y0:y1, x0:x1], target)
 
                 else:  # llm_gap — Gaussian blob, no visual evidence so discounted
+                    if not allow_gap_updates:
+                        continue
                     target = float(pred.conf * gap_discount)
                     r = gap_blob_radius
                     y0, y1 = max(0, y - r), min(H, y + r + 1)

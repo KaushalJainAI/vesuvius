@@ -1,0 +1,12 @@
+{
+  "seg_id": "sample_readable_kaggle",
+  "created": "2026-05-23T11:35:17.133924+00:00",
+  "scroll": "Kaggle fragment - readable sample",
+  "source": "kaggle_sample",
+  "label_image": null,
+  "transcription_available": false,
+  "note": "Demo Kaggle fragment; no enhanced-label rendering or blob detection is attached to this sample.",
+  "n_lines": 0,
+  "n_blobs": 0,
+  "lines": []
+}
