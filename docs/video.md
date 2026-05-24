@@ -125,6 +125,8 @@ Use the images in `docs/content/` as the visual pack for NotebookLM, slides, or 
 | `30_unwrapped_surface_view.png` | Real VC3D screenshot | Unwrapped or extended surface view from the PPT. |
 | `31_preprocessing_before_after.svg` | Comparison slide | Before/after denoising combined into one video-ready slide. |
 | `32_vc3d_correction_before_after.svg` | Comparison slide | Before/after VC3D correction combined into one video-ready slide. |
+| `33_real_unrolled_segment.png` | Real unwrapping result | Actual virtually unrolled segment output; place the attached image with this filename. |
+| `34_unrolled_segment_slide.svg` | Unwrapping result slide | Video-ready slide using the real unrolled segment image. |
 | `model/01_model_input.png` | Model section | Raw CT patch/slice input where ink is not obvious. |
 | `model/02_ground_truth_label.png` | Model section | Known ink label used as training/validation target. |
 | `model/03_model_prediction.png` | Model result | Ensemble ink probability map. |
@@ -168,10 +170,10 @@ Project title, team members with SIDs, mentor name, department, branch, and coll
 
 ### 0:45-1:08 - Our Upstream Contribution
 
-**Show:** `23_vc3d_gui.png`, `24_vc3d_initial_seed.png`, `32_vc3d_correction_before_after.svg`, and `29_surface_extension_vc3d.png` or `30_unwrapped_surface_view.png`.
+**Show:** `23_vc3d_gui.png`, `24_vc3d_initial_seed.png`, `32_vc3d_correction_before_after.svg`, and `34_unrolled_segment_slide.svg`.
 
 **Voiceover:**  
-"Our workflow uses geometric virtual unwrapping. We identify reliable seed points, trace the papyrus surface, correct tracing errors, and extend the surface into a usable unwrapped segment. This makes the later ink-detection stage possible."
+"Our workflow uses geometric virtual unwrapping. We identify reliable seed points, trace the papyrus surface, correct tracing errors, and extend the surface into a usable unwrapped segment. The unrolled result becomes the bridge between raw CT geometry and the later ink-detection model."
 
 **On-screen text:**  
 `Seed -> trace -> correct -> extend`
@@ -264,7 +266,7 @@ Use these facts:
 - The upstream work focuses on PHerc. 172 / ID 20241024131838, scanned at Diamond Light Source, with 7.91 micrometer resolution and 53 keV energy.
 - Preprocessing includes Gaussian denoising, non-local means denoising, wavelet denoising, Frangi filtering, and CLAHE.
 - VC3D is used for virtual unwrapping: seeding, tracing, correction, and surface extension.
-- Use the real PPT screenshots for this part: before/after denoising, VC3D GUI, initial seed, before/after correction, before/after scrubbing, and surface extension.
+- Use the real PPT screenshots for this part: before/after denoising, VC3D GUI, initial seed, before/after correction, before/after scrubbing, surface extension, and the real unrolled segment output.
 - After a usable surface exists, ink detection and candidate review become meaningful.
 - The ink detection stage uses a five-model soft-voting ensemble: U-Net small, ResNet-style CNN small, I3D-style 3D CNN small, Vision Transformer small, and TimeSformer-style transformer small.
 - The model input is a 64 x 64 CT patch with 17 nearby z-slices.

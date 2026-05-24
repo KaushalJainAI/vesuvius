@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Real unrolled segment output</title>
+  <desc id="desc">A video-ready slide for the real virtually unwrapped scroll segment image.</desc>
+  <rect width="1600" height="900" fill="#f8f5ee"/>
+  <text x="80" y="90" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#202b29">Virtual unwrapping output</text>
+  <text x="82" y="138" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#59625f">The curled scroll surface is converted into a flat reviewable segment</text>
+
+  <rect x="70" y="185" width="1460" height="600" rx="8" fill="#ffffff" stroke="#d8d1c6"/>
+  <image href="33_real_unrolled_segment.png" x="95" y="215" width="1410" height="540" preserveAspectRatio="xMidYMid meet"/>
+
+  <rect x="240" y="815" width="1120" height="52" rx="8" fill="#202b29"/>
+  <text x="800" y="849" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">This is the bridge between geometric preparation and ink detection.</text>
+</svg>
