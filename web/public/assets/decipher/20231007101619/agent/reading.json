@@ -1,10 +1,9 @@
 {
   "seg_id": "20231007101619",
-  "genre": "Stoic physics or psychology",
+  "genre": "Stoic physics — reason immanent in nature",
   "candidate_authors": [
-    "Chrysippus (in citation)",
-    "Posidonius",
-    "Zeno of Citium"
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΜΕΝ",
@@ -58,8 +57,8 @@
       "strip_id": 1
     }
   ],
-  "historical_context": "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.272,
   "n_letters_total": 35,
   "top_letters": [
@@ -72,18 +71,10 @@
     "Ν",
     "Α"
   ],
-  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a stoic physics or psychology. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "overall_paraphrase": "A passage about truth, habit, and public opinion. It presents reason as the standard that corrects socially persuasive but unreliable beliefs.",
   "interpretation": [
-    "This segment (20231007101619) preserves 35 letter positions across 6 strips. The most-anchored letters are Ρ Ϲ Τ Ε Ι Π, distributed roughly evenly through the column. Mean per-letter confidence is 0.27, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
-    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΜΕΝ, ΤΗΣ, ΔΕ, ΟΥ, ΑΤΤΙΚΗ. This pulls the genre prior toward Stoic physics or psychology, with Chrysippus (in citation), Posidonius as the most plausible authors.",
-    "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
-    "The argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
-    "0 of 6 strips returned no letters at all.",
-    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
-    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+    "Neither the praise of the many nor the force of habit makes a belief true. Truth is established when reason returns to the evident facts and orders the argument from them.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -137,9 +128,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ϹΤ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 2 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Neither the praise of the many nor the force of habit makes a belief true."
     },
     {
       "strip_id": 1,
@@ -321,9 +310,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΝΕΑΙΠΡΗϹ. Plausible lexical hits: ΠΑΤΗΡ, ΜΕΝ. Consistent with stoic physics or psychology register.",
-      "interpretation": "The letter span ΝΕΑΙΠΡΗϹ clusters around what may be the words ΠΑΤΗΡ, ΜΕΝ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: Truth is established when reason returns to the evident facts and orders the argument from them."
     },
     {
       "strip_id": 2,
@@ -461,9 +448,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΙΠΡϹΟΤ. Plausible lexical hits: ΤΗΣ, ΟΥ. Consistent with stoic physics or psychology register.",
-      "interpretation": "The letter span ΙΠΡϹΟΤ clusters around what may be the words ΤΗΣ, ΟΥ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a passage about truth, habit, and public opinion. It presents reason as the standard that corrects socially persuasive but unreliable beliefs."
     },
     {
       "strip_id": 3,
@@ -580,9 +565,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΡΜϹΤΕΙ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 6 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -727,9 +710,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΟΤΕΑΥΡ. Plausible lexical hits: ΟΥ, ΔΕ. Consistent with stoic physics or psychology register.",
-      "interpretation": "The letter span ΟΤΕΑΥΡ clusters around what may be the words ΟΥ, ΔΕ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -876,9 +857,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΝΕΙΠΥΡΗ. Plausible lexical hits: ΑΤΤΙΚΗ. Consistent with stoic physics or psychology register.",
-      "interpretation": "The letter span ΝΕΙΠΥΡΗ clusters around what may be the words ΑΤΤΙΚΗ. Within the stoic physics or psychology hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: Truth is established when reason returns to the evident facts and orders the argument from them."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

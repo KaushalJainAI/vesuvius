@@ -11,7 +11,6 @@ import { Skeleton } from '@/components/ui/Skeleton'
 import { formatBytes } from '@/lib/utils'
 
 type ViewMode = 'pipeline' | 'interactive' | 'decipher' | 'scholar'
-const DEMO_SEGMENT_ID = '20231221180251'
 
 export function Viewer() {
   const { id } = useParams<{ id: string }>()
@@ -101,14 +100,6 @@ export function Viewer() {
           <p className="text-xs font-mono uppercase tracking-widest mb-2" style={{ color: 'var(--text-muted)' }}>PHercParis4 record workspace</p>
           <h1 className="font-serif text-2xl sm:text-3xl font-bold mb-1 break-words" style={{ color: 'var(--text)' }}>{segment.label}</h1>
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{segment.description}</p>
-          {segment.id === DEMO_SEGMENT_ID && (
-            <div className="mt-3 rounded-lg px-4 py-3"
-                 style={{ background: 'rgba(139,26,26,0.07)', border: '1px solid rgba(139,26,26,0.18)' }}>
-              <p className="text-sm font-serif" style={{ color: 'var(--text)' }}>
-                Evaluator demo segment: the goal here is to show evidence, model disagreement, and a plausible reading path, not a final certified translation.
-              </p>
-            </div>
-          )}
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_280px] gap-6">

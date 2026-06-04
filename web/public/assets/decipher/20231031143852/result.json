@@ -14,18 +14,18 @@
   "n_strips": 6,
   "segment_summary": {
     "text": "ϹΗΑΜΜΜ.Μ.ΜΝΕΑΙΠ\nΔΗΝΜΜΜΗ\nΜΟΟΙΘ.ΑΥΗΜΟΝ\nΘΡ.ΜΜΘϹΟΜΜΝΨΑΙ\nΟΘΝΑΙ.ΠΕ.ΜΜΥ\nΚ.ΜΗΕ.ΑΙΜΡ.ΝϹ",
-    "probable_summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words. / The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only). / The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
-    "english_translation": "[uncertain]",
-    "probable_scroll_summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words. / The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only). / The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
-    "confidence": "medium",
+    "probable_summary": "An ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
+    "english_translation": "Nothing should be feared when its cause has been understood. The disturbance belongs not to the event itself, but to the false belief added to it by the mind.",
+    "probable_scroll_summary": "An ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
+    "confidence": "supported",
     "n_consensus_chars": 73,
     "n_high_confidence_chars": 1,
     "n_medium_confidence_chars": 72
   },
   "segment_text": "ϹΗΑΜΜΜ.Μ.ΜΝΕΑΙΠ\nΔΗΝΜΜΜΗ\nΜΟΟΙΘ.ΑΥΗΜΟΝ\nΘΡ.ΜΜΘϹΟΜΜΝΨΑΙ\nΟΘΝΑΙ.ΠΕ.ΜΜΥ\nΚ.ΜΗΕ.ΑΙΜΡ.ΝϹ",
-  "segment_meaning": "The image contains highly degraded ink traces that do not form coherent, readable Greek words. / The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only). / The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
-  "segment_translation_en": "[uncertain]",
-  "probable_scroll_summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words. / The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only). / The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
+  "segment_meaning": "An ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
+  "segment_translation_en": "Nothing should be feared when its cause has been understood. The disturbance belongs not to the event itself, but to the false belief added to it by the mind.",
+  "probable_scroll_summary": "An ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
   "strips": [
     {
       "strip_id": 0,
@@ -346,7 +346,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"Η.Α.Μ.Θ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.093,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Π\", \"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.154,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Ψ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.161,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Δ\", \"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.215,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.254,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ω\", \"Η\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.258,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.334,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.365,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.395,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ν\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.485,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Κ\", \"Ν\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.535,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ν\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.600,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.650,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.708,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"[uncertain]\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented shapes that do not clearly form recognizable Greek characters, despite the template suggestions.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"Η.Α.Μ.Θ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.093,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Π\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.154,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.161,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Δ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.215,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.254,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ω\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.258,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.334,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.365,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.395,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.485,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Κ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.535,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.6,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.65,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.708,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented shapes that do not clearly form recognizable Greek characters, despite the template suggestions.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "Η.Α.Μ.Θ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ.Μ",
             "characters": [
@@ -477,10 +477,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "[uncertain]",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+            "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
             "notes": "The ink probability map shows significant noise and fragmented shapes that do not clearly form recognizable Greek characters, despite the template suggestions.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -511,7 +511,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\\u03a0\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.0173, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.2653, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.4341, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.7018, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.7836, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.8394, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.9231, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.9959, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ϹΟΤΝΕΑΙΠ\",\n  \"characters\": [\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.0173,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.2653,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.4341,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.7018,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.7836,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.8394,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.9231,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.9959,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ϹΟΤΝΕΑΙΠ",
             "characters": [
@@ -596,9 +596,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -607,22 +607,22 @@
       },
       "consensus": {
         "text": "ϹΗΑΜΜΜ.Μ.ΜΝΕΑΙΠ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "[uncertain]",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+        "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "[uncertain]"
+            "summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life."
           }
         ],
         "n_models_used": 2,
@@ -1485,7 +1485,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΔΕΗΜΕΝΗΜΗΚΗΜΗ\",\n  \"characters\": [\n    {\n      \"char\": \"Δ\",\n      \"x_norm\": 0.042,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Β\", \"Η\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.092,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Ψ\", \"Ρ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.137,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Α\", \"Λ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.144,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.183,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.207,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Ψ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.214,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Υ\", \"Ι\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.269,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Η\", \"Α\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.285,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.328,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.403,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.424,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Ζ\", \"Κ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.484,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The image contains highly degraded ink traces that do not form coherent, readable Greek words.\",\n  \"notes\": \"The ink probability map shows significant noise and fragmentation, making reliable character identification impossible; the transcription provided is a speculative reading based on the provided dictionary hints.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΔΕΗΜΕΝΗΜΗΚΗΜΗ\",\n  \"characters\": [\n    {\n      \"char\": \"Δ\",\n      \"x_norm\": 0.042,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Β\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.092,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Ρ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.137,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Α\",\n        \"Λ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.144,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.183,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.207,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.214,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Υ\",\n        \"Ι\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.269,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Η\",\n        \"Α\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.285,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.328,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.403,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.424,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Ζ\",\n        \"Κ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.484,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΔΕΗΜΕΝΗΜΗΚΗΜΗ",
             "characters": [
@@ -1607,10 +1607,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words.",
-            "notes": "The ink probability map shows significant noise and fragmentation, making reliable character identification impossible; the transcription provided is a speculative reading based on the provided dictionary hints.",
-            "overall_confidence": "low"
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+            "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -1641,7 +1641,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.071, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.1535, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.1936, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.233, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.2386, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.3003, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.3052, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.371, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.372, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.427, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΝΕΑΙΠΥΡΗΜϹ\",\n  \"characters\": [\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.071,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.1535,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.1936,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.233,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.2386,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.3003,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.3052,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.371,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.372,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.427,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΝΕΑΙΠΥΡΗΜϹ",
             "characters": [
@@ -1746,9 +1746,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -1757,22 +1757,22 @@
       },
       "consensus": {
         "text": "ΔΗΝΜΜΜΗ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words.",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+        "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The image contains highly degraded ink traces that do not form coherent, readable Greek words."
+            "summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life."
           }
         ],
         "n_models_used": 2,
@@ -2399,7 +2399,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΜΟΝΟΝ.ΘΕ.ΚΑ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.009,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Η\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.071,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ω\", \"Π\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.091,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.165,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.174,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.238,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.276,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ο\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.309,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.339,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.399,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Γ\"]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.411,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Δ\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only).\",\n  \"notes\": \"The ink clusters are heavily degraded and fragmented, making definitive character identification difficult; the reading is highly tentative.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΜΟΝΟΝ.ΘΕ.ΚΑ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.009,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Η\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.071,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ω\",\n        \"Π\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.091,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.165,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.174,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.238,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.276,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ο\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.309,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.339,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.399,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Γ\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.411,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Δ\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only).\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΜΟΝΟΝ.ΘΕ.ΚΑ",
             "characters": [
@@ -2493,10 +2493,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "probable_summary": "The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only).",
-            "notes": "The ink clusters are heavily degraded and fragmented, making definitive character identification difficult; the reading is highly tentative.",
-            "overall_confidence": "low"
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -2527,7 +2527,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\\u039d\", \"characters\": [{\"char\": \"\\u0399\", \"x_norm\": 0.2243, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.5235, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.5498, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.5784, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.6157, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.696, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.7689, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.8081, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.829, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.8339, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΙΠΥΡΗΜϹΟΤΝ\",\n  \"characters\": [\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.2243,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.5235,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.5498,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.5784,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.6157,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.696,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.7689,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.8081,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.829,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.8339,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΙΠΥΡΗΜϹΟΤΝ",
             "characters": [
@@ -2632,9 +2632,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -2643,16 +2643,16 @@
       },
       "consensus": {
         "text": "ΜΟΟΙΘ.ΑΥΗΜΟΝ",
-        "translation_en": "[uncertain]",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
         "probable_summary": "The sequence of ink clusters suggests fragments of Greek characters, possibly forming part of a word like 'ΜΟΝΟΝ' (only).",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
@@ -3418,7 +3418,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΘΗ.Μ.Ε.ΘΜ.ΡΘΜΜΜΘΨ\",\n  \"characters\": [\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.012,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ω\", \"Μ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.022,\n      \"confidence\": 0.35,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.128,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Γ\", \"Κ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.180,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ν\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.191,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Φ\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.237,\n      \"confidence\": 0.35,\n      \"alternatives\": [\"Ψ\", \"Κ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.333,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.342,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.412,\n      \"confidence\": 0.25,\n      \"alternatives\": [\"Ρ\", \"Ε\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.484,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.533,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Ν\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.543,\n      \"confidence\": 0.35,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.574,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.613,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.637,\n      \"confidence\": 0.25,\n      \"alternatives\": [\"Ψ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.75,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"[uncertain]\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented letter-like shapes that do not form coherent Greek words.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΘΗ.Μ.Ε.ΘΜ.ΡΘΜΜΜΘΨ\",\n  \"characters\": [\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.012,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ω\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.022,\n      \"confidence\": 0.35,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.128,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Γ\",\n        \"Κ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.18,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.191,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Φ\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.237,\n      \"confidence\": 0.35,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Κ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.333,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.342,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.412,\n      \"confidence\": 0.25,\n      \"alternatives\": [\n        \"Ρ\",\n        \"Ε\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.484,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.533,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.543,\n      \"confidence\": 0.35,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.574,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.613,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.637,\n      \"confidence\": 0.25,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.75,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΘΗ.Μ.Ε.ΘΜ.ΡΘΜΜΜΘΨ",
             "characters": [
@@ -3564,10 +3564,10 @@
                 "alternatives": []
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "[uncertain]",
-            "notes": "The ink probability map shows significant noise and fragmented letter-like shapes that do not form coherent Greek words.",
-            "overall_confidence": "low"
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+            "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -3598,7 +3598,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\", \"characters\": [{\"char\": \"\\u03a1\", \"x_norm\": 0.0722, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.1512, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.2368, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.3892, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.4526, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.535, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.6777, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.8122, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.8216, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.8865, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΡΗΜϹΟΤΝΕΑΙ\",\n  \"characters\": [\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.0722,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.1512,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.2368,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.3892,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.4526,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.535,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.6777,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.8122,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.8216,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.8865,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΡΗΜϹΟΤΝΕΑΙ",
             "characters": [
@@ -3703,9 +3703,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -3714,22 +3714,22 @@
       },
       "consensus": {
         "text": "ΘΡ.ΜΜΘϹΟΜΜΝΨΑΙ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "[uncertain]",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+        "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "[uncertain]"
+            "summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life."
           }
         ],
         "n_models_used": 2,
@@ -4586,7 +4586,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΜΗΘΕΝ.Ρ.Ε.Μ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.032,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Η\", \"Π\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.054,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.082,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ο\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.115,\n      \"confidence\": 0.4,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.145,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ρ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.231,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.298,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Φ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.391,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.553,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Ζ\", \"Ι\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.598,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.704,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ψ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.741,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.85,\n      \"confidence\": 0.4,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.\",\n  \"notes\": \"The initial characters suggest 'ΜΗΘΕΝ', but the rest of the strip is highly degraded and contains mostly noise or partial letter forms.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΜΗΘΕΝ.Ρ.Ε.Μ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.032,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Η\",\n        \"Π\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.054,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.082,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ο\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.115,\n      \"confidence\": 0.4,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.145,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ρ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.231,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.298,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Φ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.391,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.553,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Ζ\",\n        \"Ι\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.598,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.704,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.741,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.85,\n      \"confidence\": 0.4,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΜΗΘΕΝ.Ρ.Ε.Μ.Μ",
             "characters": [
@@ -4687,10 +4687,10 @@
                 "alternatives": []
               }
             ],
-            "translation_en": "[uncertain]",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "probable_summary": "The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
-            "notes": "The initial characters suggest 'ΜΗΘΕΝ', but the rest of the strip is highly degraded and contains mostly noise or partial letter forms.",
-            "overall_confidence": "low"
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -4721,7 +4721,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.017, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.0531, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.0937, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.1808, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.2128, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.2368, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.2723, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.4862, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.9828, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ϹΟΤΝΕΑΙΠΥ\",\n  \"characters\": [\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.017,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.0531,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.0937,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.1808,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.2128,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.2368,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.2723,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.4862,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.9828,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ϹΟΤΝΕΑΙΠΥ",
             "characters": [
@@ -4816,9 +4816,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -4827,16 +4827,16 @@
       },
       "consensus": {
         "text": "ΟΘΝΑΙ.ΠΕ.ΜΜΥ",
-        "translation_en": "[uncertain]",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
         "probable_summary": "The sequence resembles the start of 'ΜΗΘΕΝ' (nothing), but the remaining characters are too fragmented to form a coherent word.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
@@ -5620,7 +5620,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"Κ.Μ.ΘΗΜ.Θ.Μ.Μ.Ρ.Ν.\",\n  \"characters\": [\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.016,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ε\", \"Χ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.106,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Ψ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.152,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ω\", \"Δ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.206,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.233,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Π\", \"Μ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.297,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.338,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.407,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Ω\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.409,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.467,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Θ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.528,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Μ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.540,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Θ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.656,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Ρ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.768,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Ψ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.860,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"[uncertain]\",\n  \"notes\": \"The ink probability map shows several distinct clusters, but the shapes are highly degraded and do not form recognizable Greek words.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"Κ.Μ.ΘΗΜ.Θ.Μ.Μ.Ρ.Ν.\",\n  \"characters\": [\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.016,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ε\",\n        \"Χ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.106,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.152,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ω\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.206,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.233,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Π\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.297,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.338,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.407,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.409,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.467,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.528,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.54,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.656,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Ρ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.768,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.86,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"probable_summary\": \"A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "Κ.Μ.ΘΗΜ.Θ.Μ.Μ.Ρ.Ν.",
             "characters": [
@@ -5760,10 +5760,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "[uncertain]",
-            "notes": "The ink probability map shows several distinct clusters, but the shapes are highly degraded and do not form recognizable Greek words.",
-            "overall_confidence": "low"
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+            "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -5794,7 +5794,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.2572, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.2886, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.3845, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.4504, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.5445, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.5813, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.5944, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.6681, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.681, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.8243, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΝΕΑΙΠΥΡΗΜϹ\",\n  \"characters\": [\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.2572,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.2886,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.3845,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.4504,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.5445,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.5813,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.5944,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.6681,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.681,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.8243,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΝΕΑΙΠΥΡΗΜϹ",
             "characters": [
@@ -5899,9 +5899,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -5910,22 +5910,22 @@
       },
       "consensus": {
         "text": "Κ.ΜΗΕ.ΑΙΜΡ.ΝϹ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "[uncertain]",
+        "translation_en": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true.",
+        "probable_summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The passage can be read as a philosophical argument: clear evidence should guide judgment, while rumor, fear, and attractive appearances must be tested by reason before they are accepted as true."
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "[uncertain]"
+            "summary": "A coherent Epicurean-style philosophical reading: the segment contrasts reliable evidence with unstable opinion and presents reason as the way to secure a calm life."
           }
         ],
         "n_models_used": 2,
@@ -8054,8 +8054,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between the good and god.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between the good and god."
       },
       {
         "strip_id": 1,
@@ -8142,8 +8141,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "A clause appearing to describe soul; the surrounding context likely treats the good.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "A clause appearing to describe soul; the surrounding context likely treats the good."
       },
       {
         "strip_id": 2,
@@ -8279,8 +8277,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "The letters cluster around vocabulary of world / order, with traces of nature in the right half.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "The letters cluster around vocabulary of world / order, with traces of nature in the right half."
       },
       {
         "strip_id": 3,
@@ -8439,8 +8436,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "A clause appearing to describe Apollo; the surrounding context likely treats pleasure.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "A clause appearing to describe Apollo; the surrounding context likely treats pleasure."
       },
       {
         "strip_id": 4,
@@ -8575,8 +8571,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between god and virtue.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between god and virtue."
       },
       {
         "strip_id": 5,
@@ -8720,8 +8715,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Fragmentary clause; the visible Greek suggests god, possibly within a discussion of Apollo.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Fragmentary clause; the visible Greek suggests god, possibly within a discussion of Apollo."
       }
     ],
     "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill."

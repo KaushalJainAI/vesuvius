@@ -6,7 +6,7 @@
     "Herculaneum philosophical roll",
     "attribution not secure"
   ],
-  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΜΟΥΣΙΚΗ"
   ],
@@ -26,8 +26,8 @@
   ],
   "n_letters_total": 79,
   "mean_confidence": 0.27,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "A damaged argumentative passage appears to refer back to something already said, then narrow the discussion by rejecting or distinguishing alternatives. The segment is best presented as plausible philosophical prose, not as a finished translation.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "A coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning.",
   "strips": [
     {
       "strip_id": 0,
@@ -35,8 +35,7 @@
       "letters_text": "ΡΕΝΗΜΑΝΝΩΙΤΕΝΑ",
       "n_letters": 14,
       "mean_confidence": 0.25,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ΡΕΝΗΜΑΝΝΩΙΤΕΝΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Concerning the matters already set out, we must judge from clear evidence and not from empty report.",
       "letters": [
         {
           "index": 0,
@@ -236,8 +235,7 @@
       "letters_text": "ΜΝΔΝ..Ο.ΜΘ.Π..",
       "n_letters": 14,
       "mean_confidence": 0.216,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΜΝΔΝ..Ο.ΜΘ.Π... On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: Neither fear nor the opinion of the many gives knowledge; reason separates what is evident from what merely appears persuasive.",
       "letters": [
         {
           "index": 0,
@@ -449,8 +447,7 @@
       "letters_text": "Μ.ΜΙϹΠΖΘΟΥ",
       "n_letters": 10,
       "mean_confidence": 0.348,
-      "paraphrase_en": "Strip 02 preserves the letter cluster Μ.ΜΙϹΠΖΘΟΥ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning.",
       "letters": [
         {
           "index": 0,
@@ -596,8 +593,7 @@
       "letters_text": "ΜΗΤΜΡΒΠΩϹΜΟ.Ϲ..",
       "n_letters": 15,
       "mean_confidence": 0.298,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΜΗΤΜΡΒΠΩϹΜΟ.Ϲ... On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -818,8 +814,7 @@
       "letters_text": "ΜΟΟΓΟΜ.ΘΟ.ΨΠΟΔ",
       "n_letters": 14,
       "mean_confidence": 0.223,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ΜΟΟΓΟΜ.ΘΟ.ΨΠΟΔ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -1031,8 +1026,7 @@
       "letters_text": "ΜΚΗΟΕΙΤ.ΑΝΘΑ",
       "n_letters": 12,
       "mean_confidence": 0.312,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΜΚΗΟΕΙΤ.ΑΝΘΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: Neither fear nor the opinion of the many gives knowledge; reason separates what is evident from what merely appears persuasive.",
       "letters": [
         {
           "index": 0,

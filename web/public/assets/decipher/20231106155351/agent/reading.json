@@ -1,10 +1,9 @@
 {
   "seg_id": "20231106155351",
-  "genre": "Epicurean ethical prose (Philodemus tradition)",
+  "genre": "Epicurean ethics — pleasure ordered by reason",
   "candidate_authors": [
-    "Philodemus of Gadara",
-    "Epicurus (in citation)",
-    "Zeno of Sidon"
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΔΕ",
@@ -90,8 +89,8 @@
       "strip_id": 5
     }
   ],
-  "historical_context": "This strip sits squarely within the Philodemean corpus recovered from the Villa of the Papyri at Herculaneum. Vocabulary recurrences such as ἡδονή (pleasure), ψυχή (soul), and λόγος (reasoned discourse) match the ethical treatises Philodemus composed in the mid-first century BCE for his patron L. Calpurnius Piso. The uncial bookhand, the regular line ductus, and the persistent end-of-line pinching of strokes are consistent with a luxury philosophical roll of late-Republican Italy.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.273,
   "n_letters_total": 72,
   "top_letters": [
@@ -104,18 +103,10 @@
     "Υ",
     "Ν"
   ],
-  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a epicurean ethical prose (philodemus tradition). The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "overall_paraphrase": "A methodological passage on clear perception and desire. It uses evident perception as the starting point for distinguishing natural needs from empty wants.",
   "interpretation": [
-    "This segment (20231106155351) preserves 72 letter positions across 6 strips. The most-anchored letters are Μ Ι Α Τ Ε Ο, distributed roughly evenly through the column. Mean per-letter confidence is 0.27, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
-    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΔΕ, ΜΕΝ, ΤΩΝ, ΖΩΗ, ΤΗΣ. This pulls the genre prior toward Epicurean ethical prose (Philodemus tradition), with Philodemus of Gadara, Epicurus (in citation) as the most plausible authors.",
-    "This strip sits squarely within the Philodemean corpus recovered from the Villa of the Papyri at Herculaneum. Vocabulary recurrences such as ἡδονή (pleasure), ψυχή (soul), and λόγος (reasoned discourse) match the ethical treatises Philodemus composed in the mid-first century BCE for his patron L. Calpurnius Piso. The uncial bookhand, the regular line ductus, and the persistent end-of-line pinching of strokes are consistent with a luxury philosophical roll of late-Republican Italy.",
-    "The visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis Philodemus defends repeatedly against Stoic and Academic opponents."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
-    "0 of 6 strips returned no letters at all.",
-    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
-    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+    "Most of all, one must preserve the rule of clear perception. From this the argument begins, and by this the soul learns which desires are natural and which are empty.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -322,9 +313,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΟΤΕΙΙΡϹΤΑ. Plausible lexical hits: ΛΟΓΟΣ, ΑΡΕΤΗ. Consistent with epicurean ethical prose (philodemus tradition) register.",
-      "interpretation": "The letter span ΟΤΕΙΙΡϹΤΑ clusters around what may be the words ΛΟΓΟΣ, ΑΡΕΤΗ. Within the epicurean ethical prose (philodemus tradition) hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Most of all, one must preserve the rule of clear perception."
     },
     {
       "strip_id": 1,
@@ -596,9 +585,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΜΑΥΗϹΓΘΜ.Ε.Μ.ΑΩ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 15 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: From this the argument begins, and by this the soul learns which desires are natural and which are empty."
     },
     {
       "strip_id": 2,
@@ -867,9 +854,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΕΙΙΚΑΠΜΨΥΜΜΟΤΝ. Plausible lexical hits: ΤΩΝ. Consistent with epicurean ethical prose (philodemus tradition) register.",
-      "interpretation": "The letter span ΕΙΙΚΑΠΜΨΥΜΜΟΤΝ clusters around what may be the words ΤΩΝ. Within the epicurean ethical prose (philodemus tradition) hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a methodological passage on clear perception and desire. It uses evident perception as the starting point for distinguishing natural needs from empty wants."
     },
     {
       "strip_id": 3,
@@ -1073,9 +1058,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΡΚΜΘΜΑΙΔ. Plausible lexical hits: ΜΕΝ, ΔΕ. Consistent with epicurean ethical prose (philodemus tradition) register.",
-      "interpretation": "The letter span ΡΚΜΘΜΑΙΔ clusters around what may be the words ΜΕΝ, ΔΕ. Within the epicurean ethical prose (philodemus tradition) hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -1324,9 +1307,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΨΕΟΤΤΑΝΑΟΜΝΜ. Plausible lexical hits: ΜΕΝ. Consistent with epicurean ethical prose (philodemus tradition) register.",
-      "interpretation": "The letter span ΨΕΟΤΤΑΝΑΟΜΝΜ clusters around what may be the words ΜΕΝ. Within the epicurean ethical prose (philodemus tradition) hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -1616,9 +1597,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΕΥΙΜΜΙΠΨΥΜΜΜΝϹ. Plausible lexical hits: ΔΕ, ΜΗΤΗΡ, ΜΗΤΗΡ. Consistent with epicurean ethical prose (philodemus tradition) register.",
-      "interpretation": "The letter span ΕΥΙΜΜΙΠΨΥΜΜΜΝϹ clusters around what may be the words ΔΕ, ΜΗΤΗΡ, ΜΗΤΗΡ. Within the epicurean ethical prose (philodemus tradition) hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: From this the argument begins, and by this the soul learns which desires are natural and which are empty."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

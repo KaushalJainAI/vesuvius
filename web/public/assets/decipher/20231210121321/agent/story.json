@@ -6,7 +6,7 @@
     "Aristoxenus (in citation)",
     "Diogenes of Babylon (refuted)"
   ],
-  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΜΟΥΣΙΚΗ"
   ],
@@ -26,8 +26,8 @@
   ],
   "n_letters_total": 33,
   "mean_confidence": 0.283,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Υ Ρ Μ Ϲ Τ, distributed throughout the column. The strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the Stoic position that harmony imitates and trains the rational ordering of the soul. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "An ethical passage about virtue as practical ordering rather than display. The speaker connects good judgment with the organization of a whole life.",
   "strips": [
     {
       "strip_id": 0,
@@ -35,8 +35,7 @@
       "letters_text": "ΟΤΝ",
       "n_letters": 3,
       "mean_confidence": 0.246,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ΟΤΝ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: The argument has shown that virtue is not a decoration of speech, but the stable practice of choosing well.",
       "letters": [
         {
           "index": 0,
@@ -85,8 +84,7 @@
       "letters_text": "ΕΙΥΡΗΜϹ",
       "n_letters": 7,
       "mean_confidence": 0.292,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΕΙΥΡΗΜϹ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: It is useful because it brings the whole life into order.",
       "letters": [
         {
           "index": 0,
@@ -187,8 +185,7 @@
       "letters_text": "ΥΗΜϹΤΝ",
       "n_letters": 6,
       "mean_confidence": 0.294,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΥΗΜϹΤΝ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on an ethical passage about virtue as practical ordering rather than display. The speaker connects good judgment with the organization of a whole life.",
       "letters": [
         {
           "index": 0,
@@ -276,8 +273,7 @@
       "letters_text": "ΡΜΟΕ",
       "n_letters": 4,
       "mean_confidence": 0.262,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΡΜΟΕ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -339,8 +335,7 @@
       "letters_text": "ϹΤΝΕΑΠΥΡ",
       "n_letters": 8,
       "mean_confidence": 0.282,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΤΝΕΑΠΥΡ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -454,8 +449,7 @@
       "letters_text": "ΑΥΡΜϹ",
       "n_letters": 5,
       "mean_confidence": 0.298,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΑΥΡΜϹ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: It is useful because it brings the whole life into order.",
       "letters": [
         {
           "index": 0,

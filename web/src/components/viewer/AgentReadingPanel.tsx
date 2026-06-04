@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { AlertTriangle, Boxes, Brain, Cpu, ImageIcon, Languages, ScrollText, Sparkles } from 'lucide-react'
+import { Boxes, Brain, Cpu, ImageIcon, Languages, ScrollText, Sparkles } from 'lucide-react'
 import { Skeleton } from '@/components/ui/Skeleton'
 
 type TranscriptionLine = {
@@ -244,17 +244,6 @@ export function AgentReadingPanel({ segmentId }: Props) {
           </div>
         )}
 
-        {reading.caveats?.length > 0 && (
-          <div className="mt-3 pt-3 border-t" style={{ borderColor: 'var(--border-light)' }}>
-            <p className="text-[10px] font-mono uppercase tracking-widest mb-2 flex items-center gap-1"
-               style={{ color: 'var(--text-muted)' }}>
-              <AlertTriangle size={11} /> Honest caveats
-            </p>
-            <ul className="text-xs space-y-1" style={{ color: 'var(--text-mid)' }}>
-              {reading.caveats.map((c, i) => <li key={i}>· {c}</li>)}
-            </ul>
-          </div>
-        )}
       </motion.div>
 
       {/* Claude comparison is shown only when the stored run contains usable readings. */}
@@ -462,12 +451,6 @@ export function AgentReadingPanel({ segmentId }: Props) {
               )}
               {s.interpretation && (
                 <p className="text-xs leading-relaxed mt-2" style={{ color: 'var(--text-mid)' }}>{s.interpretation}</p>
-              )}
-              {s.caveats && (
-                <div className="flex items-start gap-2 text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
-                  <AlertTriangle size={11} className="mt-0.5 flex-shrink-0" />
-                  <p>{s.caveats}</p>
-                </div>
               )}
             </motion.div>
           )

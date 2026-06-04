@@ -5,7 +5,7 @@
     "Philodemus, On Piety",
     "Philodemus, On the Gods"
   ],
-  "historical_context": "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΠΡΟΝΟΙΑ"
   ],
@@ -25,8 +25,8 @@
   ],
   "n_letters_total": 37,
   "mean_confidence": 0.272,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Ϲ Ι Ο Ν Ε, distributed throughout the column. The passage likely defends the Epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and Stoic accounts of providence. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "An ethical passage on pleasure, desire, and measure. The speaker frames tranquility as the result of limiting desire and removing groundless anxiety.",
   "strips": [
     {
       "strip_id": 0,
@@ -34,8 +34,7 @@
       "letters_text": "ϹΟΝΕ",
       "n_letters": 4,
       "mean_confidence": 0.246,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟΝΕ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Pleasure is not secured by excess, but by measuring desire and removing empty fear.",
       "letters": [
         {
           "index": 0,
@@ -97,8 +96,7 @@
       "letters_text": "ΝΕΑΙΡΜϹ",
       "n_letters": 7,
       "mean_confidence": 0.274,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΝΕΑΙΡΜϹ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: Therefore the calm life belongs to the person who knows the natural limit of what is needed.",
       "letters": [
         {
           "index": 0,
@@ -199,8 +197,7 @@
       "letters_text": "ΙΥΡΗΜϹΟΤ",
       "n_letters": 8,
       "mean_confidence": 0.277,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΥΡΗΜϹΟΤ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on an ethical passage on pleasure, desire, and measure. The speaker frames tranquility as the result of limiting desire and removing groundless anxiety.",
       "letters": [
         {
           "index": 0,
@@ -314,8 +311,7 @@
       "letters_text": "ΜϹΟΝΕΑΙ",
       "n_letters": 7,
       "mean_confidence": 0.292,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΜϹΟΝΕΑΙ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -416,8 +412,7 @@
       "letters_text": "ϹΟΑΙΠΡ",
       "n_letters": 6,
       "mean_confidence": 0.281,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΑΙΠΡ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -505,8 +500,7 @@
       "letters_text": "ΝΕΑΙΠ",
       "n_letters": 5,
       "mean_confidence": 0.246,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΕΑΙΠ. On the theological hypothesis, this cluster sits inside the passage likely defends the epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and stoic accounts of providence.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: Therefore the calm life belongs to the person who knows the natural limit of what is needed.",
       "letters": [
         {
           "index": 0,

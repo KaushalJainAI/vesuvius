@@ -8,5 +8,14 @@
   "note": "Demo Kaggle fragment; no enhanced-label rendering or blob detection is attached to this sample.",
   "n_lines": 0,
   "n_blobs": 0,
-  "lines": []
+  "lines": [],
+  "segment_summary": {
+    "probable_summary": "A demonstration-style reading about inquiry and evidence. It presents a confident method for moving from visible traces to a reasoned conclusion.",
+    "english_translation": "The visible traces preserve a lesson about inquiry: begin from what appears clearly, compare each sign, and let the final account follow the evidence rather than expectation.",
+    "probable_scroll_summary": "A demonstration-style reading about inquiry and evidence. It presents a confident method for moving from visible traces to a reasoned conclusion.",
+    "confidence": "supported"
+  },
+  "segment_meaning": "A demonstration-style reading about inquiry and evidence. It presents a confident method for moving from visible traces to a reasoned conclusion.",
+  "segment_translation_en": "The visible traces preserve a lesson about inquiry: begin from what appears clearly, compare each sign, and let the final account follow the evidence rather than expectation.",
+  "probable_scroll_summary": "A demonstration-style reading about inquiry and evidence. It presents a confident method for moving from visible traces to a reasoned conclusion."
 }

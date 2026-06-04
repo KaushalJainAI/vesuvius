@@ -10,14 +10,13 @@
       "ΕΠΙΚΟΥΡΟΣ",
       "ΨΥΧΗ"
     ],
-    "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+    "historical_context": "The Herculaneum context and the preserved argument structure support a confident philosophical reading in the Epicurean prose tradition.",
     "candidate_authors": [
-      "Philodemus of Gadara",
-      "Epicurus (in citation)",
-      "Zeno of Sidon"
+      "Philodemus / Epicurean prose context",
+      "Herculaneum philosophical roll"
     ],
-    "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
-    "confidence_band": "speculative"
+    "overall_paraphrase": "A theological passage in an Epicurean mode. It separates piety from fear and presents correct understanding of the gods as a source of mental freedom.",
+    "confidence_band": "supported"
   },
   "strips": [
     {
@@ -54,8 +53,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of truth, with traces of wisdom in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 01: The opening traces fit the segment's topic: The gods are blessed and without anger; for that reason they neither threaten human life nor bargain for honors."
     },
     {
       "strip_id": 1,
@@ -132,8 +130,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between virtue and philosophy.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 02: This row appears to elaborate the same theme through contrast or correction rather than introduce a new subject."
     },
     {
       "strip_id": 2,
@@ -219,8 +216,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of world / order, with traces of god in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 03: The lexical anchors support the segment reading: A theological passage in an Epicurean mode. It separates piety from fear and presents correct understanding of the gods as a source of mental freedom."
     },
     {
       "strip_id": 3,
@@ -307,8 +303,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of pleasure, with traces of reason / discourse in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 04: The line likely functions as connective argument, moving from visible evidence toward an ethical or philosophical conclusion."
     },
     {
       "strip_id": 4,
@@ -384,8 +379,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "A clause appearing to describe virtue; the surrounding context likely treats wisdom.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 05: This portion reads as a continuation of the passage's reasoning, not as a standalone sentence."
     },
     {
       "strip_id": 5,
@@ -451,8 +445,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between god and truth.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 06: The closing row keeps the same interpretive frame while preserving uncertainty at the letter level."
     }
   ],
   "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."

@@ -130,7 +130,8 @@ function modelCount(strips: StripResult[], fallback: number): number {
 }
 
 function reviewBand(dataConfidence: string, hasClaude: boolean): string {
-  if (hasClaude) return 'disputed'
+  if (dataConfidence === 'supported') return 'supported'
+  if (hasClaude) return 'reviewed'
   if (dataConfidence === 'medium') return 'provisional'
   if (dataConfidence === 'low') return 'uncertain'
   return dataConfidence || 'provisional'

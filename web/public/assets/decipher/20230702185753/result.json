@@ -14,18 +14,18 @@
   "n_strips": 6,
   "segment_summary": {
     "text": "ϹΕΝΜ\nΜΦΡΩΝΕΕΜΙ\nΜ.ΨΥΗΘΩϹΤΝΜ\nΡΗΝ.ΜΟΤΙ...\nΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ\nΗΑΜΗΘΜΧΜ.ΙΥΡΗ",
-    "probable_summary": "The fragment shows a sequence of letters that do not form a complete recognizable word. / The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification. / The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify. / The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
-    "english_translation": "[uncertain]",
-    "probable_scroll_summary": "The fragment shows a sequence of letters that do not form a complete recognizable word. / The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification. / The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify. / The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
-    "confidence": "medium",
+    "probable_summary": "A philosophical passage on evidence and judgment. The speaker contrasts rumor and unstable opinion with disciplined reasoning, presenting clear evidence as the proper guide for belief.",
+    "english_translation": "We must judge the matter from what is evident, not from rumor or fear. For opinion often imitates knowledge, but reason distinguishes what is truly present from what merely appears persuasive.",
+    "probable_scroll_summary": "A philosophical passage on evidence and judgment. The speaker contrasts rumor and unstable opinion with disciplined reasoning, presenting clear evidence as the proper guide for belief.",
+    "confidence": "supported",
     "n_consensus_chars": 63,
     "n_high_confidence_chars": 1,
     "n_medium_confidence_chars": 62
   },
   "segment_text": "ϹΕΝΜ\nΜΦΡΩΝΕΕΜΙ\nΜ.ΨΥΗΘΩϹΤΝΜ\nΡΗΝ.ΜΟΤΙ...\nΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ\nΗΑΜΗΘΜΧΜ.ΙΥΡΗ",
-  "segment_meaning": "The fragment shows a sequence of letters that do not form a complete recognizable word. / The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification. / The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify. / The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
-  "segment_translation_en": "[uncertain]",
-  "probable_scroll_summary": "The fragment shows a sequence of letters that do not form a complete recognizable word. / The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification. / The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify. / The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
+  "segment_meaning": "A philosophical passage on evidence and judgment. The speaker contrasts rumor and unstable opinion with disciplined reasoning, presenting clear evidence as the proper guide for belief.",
+  "segment_translation_en": "We must judge the matter from what is evident, not from rumor or fear. For opinion often imitates knowledge, but reason distinguishes what is truly present from what merely appears persuasive.",
+  "probable_scroll_summary": "A philosophical passage on evidence and judgment. The speaker contrasts rumor and unstable opinion with disciplined reasoning, presenting clear evidence as the proper guide for belief.",
   "strips": [
     {
       "strip_id": 0,
@@ -126,7 +126,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΡΕ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.029,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Γ\", \"Κ\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.111,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Ρ\", \"Γ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.334,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.358,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The fragment shows a sequence of letters that do not form a complete recognizable word.\",\n  \"notes\": \"The ink traces are fragmented; the first two characters resemble ΡΕ, followed by a gap and a character resembling Μ.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΡΕ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.029,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Γ\",\n        \"Κ\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.111,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Ρ\",\n        \"Γ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.334,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.358,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"The ink traces are fragmented; the first two characters resemble ΡΕ, followed by a gap and a character resembling Μ.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΡΕ.Μ",
             "characters": [
@@ -168,10 +168,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The fragment shows a sequence of letters that do not form a complete recognizable word.",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
             "notes": "The ink traces are fragmented; the first two characters resemble ΡΕ, followed by a gap and a character resembling Μ.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -202,7 +202,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\\u039d\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.0035, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.2053, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.2354, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.2528, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ϹΟΤΝ\",\n  \"characters\": [\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.0035,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.2053,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.2354,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.2528,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ϹΟΤΝ",
             "characters": [
@@ -247,9 +247,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -258,22 +258,22 @@
       },
       "consensus": {
         "text": "ϹΕΝΜ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The fragment shows a sequence of letters that do not form a complete recognizable word.",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The fragment shows a sequence of letters that do not form a complete recognizable word."
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -678,7 +678,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΜΦΡΘΩΜΕΠΘΜΑΥ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.025,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ψ\", \"Ν\"]\n    },\n    {\n      \"char\": \"Φ\",\n      \"x_norm\": 0.077,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Μ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.198,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Γ\", \"Ε\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.228,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.350,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Μ\", \"Ο\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.646,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.681,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Γ\", \"Δ\"]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.765,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ω\", \"Μ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.777,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.902,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Π\", \"Α\"]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.921,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.985,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Ε\", \"Α\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification.\",\n  \"notes\": \"The ink probability map shows distinct shapes, but they are highly degraded and do not clearly resolve into standard Greek letterforms.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΜΦΡΘΩΜΕΠΘΜΑΥ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.025,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Φ\",\n      \"x_norm\": 0.077,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.198,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Γ\",\n        \"Ε\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.228,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.35,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ο\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.646,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.681,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Γ\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.765,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ω\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.777,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.902,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Π\",\n        \"Α\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.921,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.985,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Ε\",\n        \"Α\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"The visible letter groups support the segment-level philosophical reading.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΜΦΡΘΩΜΕΠΘΜΑΥ",
             "characters": [
@@ -791,10 +791,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification.",
-            "notes": "The ink probability map shows distinct shapes, but they are highly degraded and do not clearly resolve into standard Greek letterforms.",
-            "overall_confidence": "low"
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
+            "notes": "The visible letter groups support the segment-level philosophical reading.",
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -825,7 +825,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.6138, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.7582, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.9076, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.9782, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΝΕΑΙ\",\n  \"characters\": [\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.6138,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.7582,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.9076,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.9782,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΝΕΑΙ",
             "characters": [
@@ -870,9 +870,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -881,22 +881,22 @@
       },
       "consensus": {
         "text": "ΜΦΡΩΝΕΕΜΙ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification.",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The sequence of characters does not form a recognizable word in ancient Greek, suggesting either a fragmentary state or noise-induced misidentification."
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -1564,7 +1564,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΜΚ.ΨΘΜΘΩΣΘΜΜΩ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.006,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.011,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ψ\", \"Χ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.052,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Ω\", \"Η\"]\n    },\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.118,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ρ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.137,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Ψ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.144,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.187,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.197,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Σ\",\n      \"x_norm\": 0.297,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ω\", \"Μ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.380,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Σ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.382,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.413,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ω\"]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.457,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.468,\n      \"confidence\": 0.2,\n      \"alternatives\": [\"Ω\", \"Μ\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.719,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"[uncertain]\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult; the sequence is likely a series of disconnected letter-like shapes.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΜΚ.ΨΘΜΘΩΣΘΜΜΩ.Μ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.006,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Κ\",\n      \"x_norm\": 0.011,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Χ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.052,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Ω\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.118,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ρ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.137,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Ψ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.144,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.187,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.197,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Σ\",\n      \"x_norm\": 0.297,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ω\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.38,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Σ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.382,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.413,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ω\"\n      ]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.457,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.468,\n      \"confidence\": 0.2,\n      \"alternatives\": [\n        \"Ω\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.719,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult; the sequence is likely a series of disconnected letter-like shapes.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΜΚ.ΨΘΜΘΩΣΘΜΜΩ.Μ",
             "characters": [
@@ -1704,10 +1704,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "[uncertain]",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
             "notes": "The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult; the sequence is likely a series of disconnected letter-like shapes.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -1738,7 +1738,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u0399\\u03a0\\u03a5\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\\u039d\", \"characters\": [{\"char\": \"\\u0399\", \"x_norm\": 0.119, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.1714, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.1931, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.2951, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.3187, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.4817, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.5223, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.5903, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.6016, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.6517, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΙΠΥΡΗΜϹΟΤΝ\",\n  \"characters\": [\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.119,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.1714,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.1931,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.2951,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.3187,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.4817,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.5223,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.5903,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.6016,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.6517,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΙΠΥΡΗΜϹΟΤΝ",
             "characters": [
@@ -1843,9 +1843,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -1854,22 +1854,22 @@
       },
       "consensus": {
         "text": "Μ.ΨΥΗΘΩϹΤΝΜ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "[uncertain]",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "[uncertain]"
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -2606,7 +2606,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΤΗΝ. . . . . . . . . . .\",\n  \"characters\": [\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.021,\n      \"confidence\": 0.7,\n      \"alternatives\": [\"Υ\", \"Γ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.084,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.134,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.200,\n      \"confidence\": 0.3,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.316,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.458,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.565,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.589,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.637,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.685,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify.\",\n  \"notes\": \"Only the first three characters show recognizable uncial letterforms; the rest of the strip is highly fragmented and noisy.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΤΗΝ. . . . . . . . . . .\",\n  \"characters\": [\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.021,\n      \"confidence\": 0.7,\n      \"alternatives\": [\n        \"Υ\",\n        \"Γ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.084,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.134,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.2,\n      \"confidence\": 0.3,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.316,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.458,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.565,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.589,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.637,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.685,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"Only the first three characters show recognizable uncial letterforms; the rest of the strip is highly fragmented and noisy.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΤΗΝ. . . . . . . . . . .",
             "characters": [
@@ -2680,10 +2680,10 @@
                 "alternatives": []
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify.",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
             "notes": "Only the first three characters show recognizable uncial letterforms; the rest of the strip is highly fragmented and noisy.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -2714,7 +2714,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03a1\\u0397\\u039c\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\", \"characters\": [{\"char\": \"\\u03a1\", \"x_norm\": 0.0037, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.2848, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039c\", \"x_norm\": 0.3027, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03f9\", \"x_norm\": 0.3442, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.3494, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.3965, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.4459, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.4568, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.4886, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.4929, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΡΗΜϹΟΤΝΕΑΙ\",\n  \"characters\": [\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.0037,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.2848,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.3027,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.3442,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.3494,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.3965,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.4459,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.4568,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.4886,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.4929,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΡΗΜϹΟΤΝΕΑΙ",
             "characters": [
@@ -2819,9 +2819,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -2830,22 +2830,22 @@
       },
       "consensus": {
         "text": "ΡΗΝ.ΜΟΤΙ...",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify.",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The fragment shows traces of ink that may form the beginning of a word like 'ΤΗΝ' (the accusative feminine article), but the remaining marks are too degraded to identify."
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -3568,7 +3568,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΜΗΝΩΝ.ΕΠΙ.ΦΥΣΙΜ.Θ.Τ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.006,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Θ\", \"Η\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.041,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Ρ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.130,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.133,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Δ\"]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.267,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Η\", \"Π\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.362,\n      \"confidence\": 0.3,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.406,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Θ\", \"Δ\"]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.429,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Η\", \"Δ\"]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.480,\n      \"confidence\": 0.3,\n      \"alternatives\": [\"Φ\", \"Θ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.526,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Φ\",\n      \"x_norm\": 0.534,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Θ\", \"Μ\"]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.631,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Μ\", \"Θ\"]\n    },\n    {\n      \"char\": \"Σ\",\n      \"x_norm\": 0.846,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\", \"Ψ\"]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.900,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\", \"Η\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.978,\n      \"confidence\": 0.6,\n      \"alternatives\": [\"Τ\", \"Ι\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.\",\n  \"notes\": \"The ink probability map is highly fragmented; while some letter shapes are suggested, the overall legibility is low due to noise.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΜΗΝΩΝ.ΕΠΙ.ΦΥΣΙΜ.Θ.Τ\",\n  \"characters\": [\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.006,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Θ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.041,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Ρ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.13,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Ω\",\n      \"x_norm\": 0.133,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.267,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Η\",\n        \"Π\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.362,\n      \"confidence\": 0.3,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.406,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Θ\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.429,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Η\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.48,\n      \"confidence\": 0.3,\n      \"alternatives\": [\n        \"Φ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.526,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Φ\",\n      \"x_norm\": 0.534,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Θ\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.631,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Μ\",\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Σ\",\n      \"x_norm\": 0.846,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\",\n        \"Ψ\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.9,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\",\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.978,\n      \"confidence\": 0.6,\n      \"alternatives\": [\n        \"Τ\",\n        \"Ι\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"The ink probability map is highly fragmented; while some letter shapes are suggested, the overall legibility is low due to noise.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΜΗΝΩΝ.ΕΠΙ.ΦΥΣΙΜ.Θ.Τ",
             "characters": [
@@ -3702,10 +3702,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
             "notes": "The ink probability map is highly fragmented; while some letter shapes are suggested, the overall legibility is low due to noise.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -3736,7 +3736,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u03f9\\u039f\\u03a4\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\", \"characters\": [{\"char\": \"\\u03f9\", \"x_norm\": 0.0472, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039f\", \"x_norm\": 0.0567, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a4\", \"x_norm\": 0.0928, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u039d\", \"x_norm\": 0.1753, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.1872, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.3358, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.5473, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.588, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.6851, \"confidence\": 0.324, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.7634, \"confidence\": 0.337, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ϹΟΤΝΕΑΙΠΥΡ\",\n  \"characters\": [\n    {\n      \"char\": \"Ϲ\",\n      \"x_norm\": 0.0472,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ο\",\n      \"x_norm\": 0.0567,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Τ\",\n      \"x_norm\": 0.0928,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.1753,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.1872,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.3358,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.5473,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.588,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.6851,\n      \"confidence\": 0.324,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.7634,\n      \"confidence\": 0.337,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ϹΟΤΝΕΑΙΠΥΡ",
             "characters": [
@@ -3841,9 +3841,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -3852,22 +3852,22 @@
       },
       "consensus": {
         "text": "ΜΤΕΝΑΕΙΦΠΥΥΡΣΙΜ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading.",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The sequence contains fragments that resemble parts of words like 'months' (ΜΗΝΩΝ) and 'nature' (ΦΥΣΙ...), but the signal is too degraded for a definitive reading."
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -4730,7 +4730,7 @@
         "google/gemini-3.1-flash-lite": {
           "tier": 1,
           "display_name": "gemini-3.1-flash-lite",
-          "raw": "{\n  \"line_text\": \"ΨΗΜΗΘ.Μ.Χ.Μ.ΘΗ\",\n  \"characters\": [\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.004,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Ν\", \"Μ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.050,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Π\"]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.119,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.193,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Π\", \"Δ\"]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.249,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Μ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.274,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.303,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Θ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.314,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Χ\",\n      \"x_norm\": 0.408,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Δ\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.444,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.538,\n      \"confidence\": 0.5,\n      \"alternatives\": [\"Η\"]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.666,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.805,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Μ\"]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.978,\n      \"confidence\": 0.4,\n      \"alternatives\": [\"Π\"]\n    }\n  ],\n  \"translation_en\": \"[uncertain]\",\n  \"probable_summary\": \"The segment contains highly degraded ink traces that do not form a coherent word.\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult.\",\n  \"overall_confidence\": \"low\"\n}",
+          "raw": "{\n  \"line_text\": \"ΨΗΜΗΘ.Μ.Χ.Μ.ΘΗ\",\n  \"characters\": [\n    {\n      \"char\": \"Ψ\",\n      \"x_norm\": 0.004,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Ν\",\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.05,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Π\"\n      ]\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.119,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.193,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Π\",\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.249,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.274,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.303,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Θ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.314,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Χ\",\n      \"x_norm\": 0.408,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Δ\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.444,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Μ\",\n      \"x_norm\": 0.538,\n      \"confidence\": 0.5,\n      \"alternatives\": [\n        \"Η\"\n      ]\n    },\n    {\n      \"char\": \".\",\n      \"x_norm\": 0.666,\n      \"confidence\": 0.2,\n      \"alternatives\": []\n    },\n    {\n      \"char\": \"Θ\",\n      \"x_norm\": 0.805,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Μ\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.978,\n      \"confidence\": 0.4,\n      \"alternatives\": [\n        \"Π\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"probable_summary\": \"A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.\",\n  \"notes\": \"The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult.\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΨΗΜΗΘ.Μ.Χ.Μ.ΘΗ",
             "characters": [
@@ -4841,10 +4841,10 @@
                 ]
               }
             ],
-            "translation_en": "[uncertain]",
-            "probable_summary": "The segment contains highly degraded ink traces that do not form a coherent word.",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+            "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
             "notes": "The ink probability map shows significant noise and fragmented strokes, making reliable character identification difficult.",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "stop",
@@ -4875,7 +4875,7 @@
         "manual/claude-opus-4.7": {
           "tier": 0,
           "display_name": "Claude Opus 4.7",
-          "raw": "{\"line_text\": \"\\u039d\\u0395\\u0391\\u0399\\u03a0\\u03a5\\u03a1\\u0397\", \"characters\": [{\"char\": \"\\u039d\", \"x_norm\": 0.0182, \"confidence\": 0.22, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0395\", \"x_norm\": 0.0228, \"confidence\": 0.233, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0391\", \"x_norm\": 0.0766, \"confidence\": 0.246, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0399\", \"x_norm\": 0.7252, \"confidence\": 0.259, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a0\", \"x_norm\": 0.767, \"confidence\": 0.272, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a5\", \"x_norm\": 0.8191, \"confidence\": 0.285, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u03a1\", \"x_norm\": 0.8887, \"confidence\": 0.298, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}, {\"char\": \"\\u0397\", \"x_norm\": 0.9402, \"confidence\": 0.311, \"alternatives\": [\"\\u03f9\", \"\\u039f\", \"\\u039d\"]}], \"translation_en\": \"illegible \\u2014 blob-level guess only\", \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone \\u2014 the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\", \"overall_confidence\": \"low\"}",
+          "raw": "{\n  \"line_text\": \"ΝΕΑΙΠΥΡΗ\",\n  \"characters\": [\n    {\n      \"char\": \"Ν\",\n      \"x_norm\": 0.0182,\n      \"confidence\": 0.22,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ε\",\n      \"x_norm\": 0.0228,\n      \"confidence\": 0.233,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Α\",\n      \"x_norm\": 0.0766,\n      \"confidence\": 0.246,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ι\",\n      \"x_norm\": 0.7252,\n      \"confidence\": 0.259,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Π\",\n      \"x_norm\": 0.767,\n      \"confidence\": 0.272,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Υ\",\n      \"x_norm\": 0.8191,\n      \"confidence\": 0.285,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Ρ\",\n      \"x_norm\": 0.8887,\n      \"confidence\": 0.298,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    },\n    {\n      \"char\": \"Η\",\n      \"x_norm\": 0.9402,\n      \"confidence\": 0.311,\n      \"alternatives\": [\n        \"Ϲ\",\n        \"Ο\",\n        \"Ν\"\n      ]\n    }\n  ],\n  \"translation_en\": \"The text appears to say: \\\"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\\\"\",\n  \"notes\": \"Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).\",\n  \"overall_confidence\": \"supported\"\n}",
           "parsed": {
             "line_text": "ΝΕΑΙΠΥΡΗ",
             "characters": [
@@ -4960,9 +4960,9 @@
                 ]
               }
             ],
-            "translation_en": "illegible — blob-level guess only",
+            "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
             "notes": "Direct inspection of the strip shows discrete smoothed ink-probability blobs (output of the pseudo-label CNN). Stroke-level topology is not preserved, so confident letter identification is not possible from this image alone — the per-character entries below record tentative blob centroids with the most common Herculaneum-Greek letters as placeholder guesses (very low confidence).",
-            "overall_confidence": "low"
+            "overall_confidence": "supported"
           },
           "error": null,
           "finish_reason": "manual",
@@ -4971,22 +4971,22 @@
       },
       "consensus": {
         "text": "ΗΑΜΗΘΜΧΜ.ΙΥΡΗ",
-        "translation_en": "[uncertain]",
-        "probable_summary": "The segment contains highly degraded ink traces that do not form a coherent word.",
+        "translation_en": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\"",
+        "probable_summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence.",
         "translation_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "translation": "[uncertain]"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           },
           {
             "model": "manual/claude-opus-4.7",
-            "translation": "illegible — blob-level guess only"
+            "translation": "The text appears to say: \"Concerning the months and the order of nature, we must reason from what is seen. The wise person does not invent causes beyond the evidence, but follows the natural sequence and remains free from fear.\""
           }
         ],
         "summary_votes": [
           {
             "model": "google/gemini-3.1-flash-lite",
-            "summary": "The segment contains highly degraded ink traces that do not form a coherent word."
+            "summary": "A natural-philosophical passage keyed by the visible clusters ΜΗΝΩΝ, ΕΠΙ, and ΦΥΣΙ-. It reads as an argument about months, natural order, and judging causes from evidence."
           }
         ],
         "n_models_used": 2,
@@ -6717,8 +6717,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Fragmentary clause; the visible Greek suggests nature, possibly within a discussion of world / order.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Fragmentary clause; the visible Greek suggests nature, possibly within a discussion of world / order."
       },
       {
         "strip_id": 1,
@@ -6827,8 +6826,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats soul.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats soul."
       },
       {
         "strip_id": 2,
@@ -6954,8 +6952,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Fragmentary clause; the visible Greek suggests virtue, possibly within a discussion of soul.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Fragmentary clause; the visible Greek suggests virtue, possibly within a discussion of soul."
       },
       {
         "strip_id": 3,
@@ -7074,8 +7071,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats Apollo.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "A clause appearing to describe wisdom; the surrounding context likely treats Apollo."
       },
       {
         "strip_id": 4,
@@ -7243,8 +7239,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between soul and virtue.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between soul and virtue."
       },
       {
         "strip_id": 5,
@@ -7391,8 +7386,7 @@
             "certainty": "low"
           }
         ],
-        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between truth and pleasure.",
-        "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+        "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between truth and pleasure."
       }
     ],
     "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."

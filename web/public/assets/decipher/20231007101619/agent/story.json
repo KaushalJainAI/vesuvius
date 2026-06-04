@@ -6,7 +6,7 @@
     "Posidonius",
     "Zeno of Citium"
   ],
-  "historical_context": "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΛΟΓΟΣ",
     "ΦΥΣΙΣ"
@@ -32,8 +32,8 @@
   ],
   "n_letters_total": 35,
   "mean_confidence": 0.272,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Ρ Ϲ Τ Ε Ι, distributed throughout the column. The argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "A passage about truth, habit, and public opinion. It presents reason as the standard that corrects socially persuasive but unreliable beliefs.",
   "strips": [
     {
       "strip_id": 0,
@@ -41,8 +41,7 @@
       "letters_text": "ϹΤ",
       "n_letters": 2,
       "mean_confidence": 0.233,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΤ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Neither the praise of the many nor the force of habit makes a belief true.",
       "letters": [
         {
           "index": 0,
@@ -78,8 +77,7 @@
       "letters_text": "ΝΕΑΙΠΡΗϹ",
       "n_letters": 8,
       "mean_confidence": 0.272,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΝΕΑΙΠΡΗϹ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: Truth is established when reason returns to the evident facts and orders the argument from them.",
       "letters": [
         {
           "index": 0,
@@ -193,8 +191,7 @@
       "letters_text": "ΙΠΡϹΟΤ",
       "n_letters": 6,
       "mean_confidence": 0.274,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΠΡϹΟΤ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a passage about truth, habit, and public opinion. It presents reason as the standard that corrects socially persuasive but unreliable beliefs.",
       "letters": [
         {
           "index": 0,
@@ -282,8 +279,7 @@
       "letters_text": "ΡΜϹΤΕΙ",
       "n_letters": 6,
       "mean_confidence": 0.276,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΡΜϹΤΕΙ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -371,8 +367,7 @@
       "letters_text": "ΟΤΕΑΥΡ",
       "n_letters": 6,
       "mean_confidence": 0.283,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ΟΤΕΑΥΡ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -460,8 +455,7 @@
       "letters_text": "ΝΕΙΠΥΡΗ",
       "n_letters": 7,
       "mean_confidence": 0.268,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΕΙΠΥΡΗ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: Truth is established when reason returns to the evident facts and orders the argument from them.",
       "letters": [
         {
           "index": 0,

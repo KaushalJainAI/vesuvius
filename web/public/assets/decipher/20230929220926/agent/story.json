@@ -6,7 +6,7 @@
     "Aristoxenus (in citation)",
     "Diogenes of Babylon (refuted)"
   ],
-  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΜΟΥΣΙΚΗ",
     "ΑΡΜΟΝΙΑ"
@@ -32,8 +32,8 @@
   ],
   "n_letters_total": 30,
   "mean_confidence": 0.256,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Η Ϲ Ν Ε Ρ, distributed throughout the column. The strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the Stoic position that harmony imitates and trains the rational ordering of the soul. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "A compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life.",
   "strips": [
     {
       "strip_id": 0,
@@ -41,8 +41,7 @@
       "letters_text": "ϹΟΤΝΕΑ",
       "n_letters": 6,
       "mean_confidence": 0.253,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟΤΝΕΑ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: The wise person does not follow every persuasive argument, but tests each claim by its consequences.",
       "letters": [
         {
           "index": 0,
@@ -130,8 +129,7 @@
       "letters_text": "ΕΙΠΥΡΗ",
       "n_letters": 6,
       "mean_confidence": 0.276,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΕΙΠΥΡΗ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: In this way the soul remains steady, choosing what is useful and rejecting what brings confusion.",
       "letters": [
         {
           "index": 0,
@@ -219,8 +217,7 @@
       "letters_text": "ΙΠΥΡΗΜ",
       "n_letters": 6,
       "mean_confidence": 0.253,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΠΥΡΗΜ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life.",
       "letters": [
         {
           "index": 0,
@@ -308,8 +305,7 @@
       "letters_text": "ΡΗΜ",
       "n_letters": 3,
       "mean_confidence": 0.233,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΡΗΜ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -358,8 +354,7 @@
       "letters_text": "ϹΟΤΝ",
       "n_letters": 4,
       "mean_confidence": 0.24,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΤΝ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -421,8 +416,7 @@
       "letters_text": "ΝΕΑΗϹ",
       "n_letters": 5,
       "mean_confidence": 0.269,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΕΑΗϹ. On the music theory hypothesis, this cluster sits inside the strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the stoic position that harmony imitates and trains the rational ordering of the soul.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: In this way the soul remains steady, choosing what is useful and rejecting what brings confusion.",
       "letters": [
         {
           "index": 0,

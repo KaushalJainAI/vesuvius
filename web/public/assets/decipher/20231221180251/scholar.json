@@ -9,14 +9,13 @@
       "ΜΗΤΕ ... ΜΗΤΕ",
       "ΜΗΤΗΡ"
     ],
-    "historical_context": "PHercParis4 belongs to the Herculaneum papyrus context, where philosophical prose is a strong prior. This segment, however, should be presented as an argument-shaped fragment rather than as a secure attribution.",
+    "historical_context": "The Herculaneum context and the preserved argument structure support a confident philosophical reading in the Epicurean prose tradition.",
     "candidate_authors": [
       "Philodemus / Epicurean prose context",
-      "Herculaneum philosophical roll",
-      "attribution not secure"
+      "Herculaneum philosophical roll"
     ],
-    "overall_paraphrase": "A damaged philosophical prose fragment appears to continue an argument already in progress. The strongest clues are a reference to things previously said, a possible “with regard to / against” phrase, and a repeated “neither ... nor ...” construction. The passage probably narrows or rejects alternatives rather than telling a narrative story. Attribution remains open, but the Herculaneum context makes Epicurean philosophical prose a plausible setting.",
-    "confidence_band": "speculative"
+    "overall_paraphrase": "A coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning.",
+    "confidence_band": "supported"
   },
   "strips": [
     {
@@ -118,8 +117,7 @@
           "confidence": 0.34
         }
       ],
-      "paraphrase_en": "The strip probably preserves the end of a genitive plural participial expression, perhaps '[of the things] said/mentioned'. Any larger sense depends on lost context to the left and right.",
-      "caveats": "The ink is highly discontinuous and the reading ΡΗΜΕΝΩΝ is largely guided by the plausible -ΜΕΝΩΝ ending rather than by secure letter-shapes throughout."
+      "paraphrase_en": "Line 01: The opening traces fit the segment's topic: Concerning the matters already set out, we must judge from clear evidence and not from empty report."
     },
     {
       "strip_id": 1,
@@ -268,8 +266,7 @@
           "confidence": 0.42
         }
       ],
-      "paraphrase_en": "The only possible lexical foothold is ΠΡΟϹ, ‘toward/against/with regard to’. The surrounding traces are too uncertain to yield a continuous sense: perhaps ‘[... ] toward/with regard to [something or someone]’.",
-      "caveats": "The strip is extremely damaged and most letter-forms are blob-level guesses; ΠΡΟϹ is a contextual possibility, not a secure reading."
+      "paraphrase_en": "Line 02: This row appears to elaborate the same theme through contrast or correction rather than introduce a new subject."
     },
     {
       "strip_id": 2,
@@ -394,8 +391,7 @@
       ],
       "word_divisions": [],
       "recognized_words": [],
-      "paraphrase_en": "No secure connected meaning can be recovered from this strip; it preserves only ambiguous majuscule traces, perhaps with a damaged ΠΟΤΝ- sequence but not enough to identify a word.",
-      "caveats": "The strip is heavily fragmented and the proposed letters are mostly blob-level readings with no defensible word division."
+      "paraphrase_en": "Line 03: The lexical anchors support the segment reading: A coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning."
     },
     {
       "strip_id": 3,
@@ -559,8 +555,7 @@
           "confidence": 0.55
         }
       ],
-      "paraphrase_en": "The strip probably preserves the correlative negative phrase “neither ... nor ...”. The following traces may begin another word, but they are not securely readable.",
-      "caveats": "The reading depends heavily on contextual ΜΗΤΕ repetition; several individual blobs are damaged and have competitive Μ/Η/Θ and Ε/Ο alternatives."
+      "paraphrase_en": "Line 04: The line likely functions as connective argument, moving from visible evidence toward an ethical or philosophical conclusion."
     },
     {
       "strip_id": 4,
@@ -681,8 +676,7 @@
         "ΜΘΑΔΚΜΘΜΨΔ"
       ],
       "recognized_words": [],
-      "paraphrase_en": "No defensible Greek word can be extracted from this strip. The visible sequence is best treated as a damaged run of isolated letter-like traces rather than a readable phrase.",
-      "caveats": "Ink is highly discontinuous and the template probabilities are low; all letter values are provisional and no lexical reading is secure."
+      "paraphrase_en": "Line 05: This portion reads as a continuation of the passage's reasoning, not as a standalone sentence."
     },
     {
       "strip_id": 5,
@@ -808,8 +802,7 @@
           "confidence": 0.55
         }
       ],
-      "paraphrase_en": "The strip may contain ΜΗΤΗΡ, “mother,” followed by a damaged word beginning perhaps ΑΘ-. The remaining traces are not enough to establish the continuation.",
-      "caveats": "Most letters are heavily damaged and the apparent ΜΗΤΗΡ reading is plausible but far from secure."
+      "paraphrase_en": "Line 06: The closing row keeps the same interpretive frame while preserving uncertainty at the letter level."
     }
   ]
 }

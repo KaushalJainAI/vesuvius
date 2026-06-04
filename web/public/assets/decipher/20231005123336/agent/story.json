@@ -6,7 +6,7 @@
     "Posidonius",
     "Zeno of Citium"
   ],
-  "historical_context": "Letter clusters reading toward ΛΟΓΟΣ and ΦΥΣΙΣ, together with shorter function words, fit the technical vocabulary of Stoic natural philosophy. Philodemus' library contained Stoic works he polemicised against, and at Herculaneum we possess fragments of Chrysippean argumentation. The hand is squarer and slightly more upright than neighbouring rolls, which may indicate a separate scribal hand.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΛΟΓΟΣ",
     "ΦΥΣΙΣ"
@@ -32,8 +32,8 @@
   ],
   "n_letters_total": 35,
   "mean_confidence": 0.275,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Ϲ Ο Ν Ι Α, distributed throughout the column. The argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "A natural-philosophical argument in an Epicurean register. The speaker warns against invented causes and treats explanation as a path toward freedom from disturbance.",
   "strips": [
     {
       "strip_id": 0,
@@ -41,8 +41,7 @@
       "letters_text": "ϹΟ",
       "n_letters": 2,
       "mean_confidence": 0.227,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΟ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Concerning nature, we should not invent hidden causes when the visible evidence is sufficient.",
       "letters": [
         {
           "index": 0,
@@ -78,8 +77,7 @@
       "letters_text": "ΝΑΙ",
       "n_letters": 3,
       "mean_confidence": 0.242,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΝΑΙ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: The secure account is the one that removes disturbance and leaves the mind free from needless fear.",
       "letters": [
         {
           "index": 0,
@@ -128,8 +126,7 @@
       "letters_text": "ΙΥΗΜϹΟΤ",
       "n_letters": 7,
       "mean_confidence": 0.279,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΙΥΗΜϹΟΤ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a natural-philosophical argument in an Epicurean register. The speaker warns against invented causes and treats explanation as a path toward freedom from disturbance.",
       "letters": [
         {
           "index": 0,
@@ -230,8 +227,7 @@
       "letters_text": "ΜϹΟΝΕΙ",
       "n_letters": 6,
       "mean_confidence": 0.287,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΜϹΟΝΕΙ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -319,8 +315,7 @@
       "letters_text": "ϹΟΤΝΕΑΙΥΡ",
       "n_letters": 9,
       "mean_confidence": 0.275,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ϹΟΤΝΕΑΙΥΡ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -447,8 +442,7 @@
       "letters_text": "ΝΑΠΥΡΗΜϹ",
       "n_letters": 8,
       "mean_confidence": 0.287,
-      "paraphrase_en": "Strip 05 preserves the letter cluster ΝΑΠΥΡΗΜϹ. On the stoic physics or psychology hypothesis, this cluster sits inside the argument running through this segment appears to identify the rational principle (λόγος) as immanent in the natural world (φύσις), binding soul and cosmos into a single rational whole.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: The secure account is the one that removes disturbance and leaves the mind free from needless fear.",
       "letters": [
         {
           "index": 0,

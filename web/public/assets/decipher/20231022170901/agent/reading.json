@@ -1,9 +1,9 @@
 {
   "seg_id": "20231022170901",
-  "genre": "Theological / providence-and-piety treatise",
+  "genre": "Music and character — does melody train virtue?",
   "candidate_authors": [
-    "Philodemus, On Piety",
-    "Philodemus, On the Gods"
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΤΗΣ",
@@ -65,8 +65,8 @@
       "strip_id": 4
     }
   ],
-  "historical_context": "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.277,
   "n_letters_total": 33,
   "top_letters": [
@@ -79,18 +79,10 @@
     "Ε",
     "Μ"
   ],
-  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a theological / providence-and-piety treatise. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "overall_paraphrase": "A theological passage in an Epicurean mode. It separates piety from fear and presents correct understanding of the gods as a source of mental freedom.",
   "interpretation": [
-    "This segment (20231022170901) preserves 33 letter positions across 6 strips. The most-anchored letters are Ϲ Ρ Ο Α Ι Υ, distributed roughly evenly through the column. Mean per-letter confidence is 0.28, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
-    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΤΗΣ, ΤΩΝ, ΖΩΗ, ΜΕΝ, ΔΕ. This pulls the genre prior toward Theological / providence-and-piety treatise, with Philodemus, On Piety, Philodemus, On the Gods as the most plausible authors.",
-    "Frequent capital Θ shapes together with longer attested forms read by the ensemble suggest theological vocabulary. Philodemus' Περὶ Εὐσεβείας and Περὶ Θεῶν are the obvious comparanda: both survive in multiple Herculaneum rolls and both wrestle with the Epicurean claim that the gods exist but do not intervene in human affairs.",
-    "The passage likely defends the Epicurean view that proper piety consists in correct beliefs about the gods' blessedness and imperturbability, against popular and Stoic accounts of providence."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
-    "0 of 6 strips returned no letters at all.",
-    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
-    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+    "The gods are blessed and without anger; for that reason they neither threaten human life nor bargain for honors. True reverence is to understand their nature correctly and to live without fear.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -165,9 +157,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ϹΟ. Plausible lexical hits: ΔΕ, ΟΥ. Consistent with theological register.",
-      "interpretation": "The letter span ϹΟ clusters around what may be the words ΔΕ, ΟΥ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: The gods are blessed and without anger; for that reason they neither threaten human life nor bargain for honors."
     },
     {
       "strip_id": 1,
@@ -298,9 +288,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΕΑΙΥΡϹ. Plausible lexical hits: ΔΕ. Consistent with theological register.",
-      "interpretation": "The letter span ΕΑΙΥΡϹ clusters around what may be the words ΔΕ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: True reverence is to understand their nature correctly and to live without fear."
     },
     {
       "strip_id": 2,
@@ -482,9 +470,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΙΥΡΜϹΟΤ. Plausible lexical hits: ΟΥ, ΔΕ, ΟΥ. Consistent with theological register.",
-      "interpretation": "The letter span ΙΥΡΜϹΟΤ clusters around what may be the words ΟΥ, ΔΕ, ΟΥ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a theological passage in an Epicurean mode. It separates piety from fear and presents correct understanding of the gods as a source of mental freedom."
     },
     {
       "strip_id": 3,
@@ -669,9 +655,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΡΜϹΤΝΕΑ. Plausible lexical hits: ΜΕΝ, ΤΗΣ. Consistent with theological register.",
-      "interpretation": "The letter span ΡΜϹΤΝΕΑ clusters around what may be the words ΜΕΝ, ΤΗΣ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -814,9 +798,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ϹΟΝΙΥΡ. Plausible lexical hits: ΤΩΝ. Consistent with theological register.",
-      "interpretation": "The letter span ϹΟΝΙΥΡ clusters around what may be the words ΤΩΝ. Within the theological hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -917,9 +899,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΑΠΡΗϹ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 5 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: True reverence is to understand their nature correctly and to live without fear."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

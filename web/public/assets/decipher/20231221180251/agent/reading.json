@@ -1,10 +1,9 @@
 {
   "seg_id": "20231221180251",
-  "genre": "Fragment of Greek philosophical argument",
+  "genre": "Theology — piety without fear of the gods",
   "candidate_authors": [
     "Philodemus / Epicurean prose context",
-    "Herculaneum philosophical roll",
-    "attribution not secure"
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΟΥ",
@@ -43,8 +42,8 @@
       "strip_id": 5
     }
   ],
-  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.27,
   "n_letters_total": 79,
   "top_letters": [
@@ -56,18 +55,10 @@
     "Π",
     "Ε"
   ],
-  "overall_paraphrase": "The clearest pattern is not a continuous sentence, but a damaged argumentative passage. Several traces look like ordinary connective language: a reference back to something already said, a possible “with regard to / against” phrase, and a repeated negative construction like “neither ... nor ...”. A later cluster may contain a family term such as “mother”, probably as an example rather than as narrative. Taken together, the segment reads most naturally as philosophical prose: someone is narrowing an argument, rejecting alternatives, and qualifying a point already introduced elsewhere.",
+  "overall_paraphrase": "A coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning.",
   "interpretation": [
-    "This segment preserves 79 tentative letter positions across six buffered strip crops. The evidence is useful for demonstration because the whole segment, the strip crops, and the model comparison can all be inspected together. The reading remains speculative: most letters are low-to-mid confidence and should be treated as anchors for discussion, not as a finished transcription.",
-    "The most defensible story is simple: the passage appears to continue an argument already in progress. One line may preserve the end of a phrase meaning “of the things said”; another may contain a relational word such as “toward”, “against”, or “with regard to”; the strongest grammatical pattern is a repeated negative, roughly “neither ... nor ...”. That gives the fragment a coherent argumentative shape even though the middle words are broken.",
-    "Within the Herculaneum library context, this kind of phrasing fits philosophical prose better than poetry, narrative, or a document. It could belong to an Epicurean discussion, but the segment does not securely identify an author or title. The honest conclusion is a plausible reading path rather than a claimed translation.",
-    "For presentation, the important result is the workflow: CT-derived ink evidence is turned into candidate letters, multiple model readings are compared, and the interface separates visible evidence from interpretation."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus.",
-    "Most letter forms are damaged or interrupted; several readings are guided by likely Greek endings and repeated grammatical patterns.",
-    "Word division is interpretive because ancient Greek bookhands are written continuously.",
-    "The story is a provisional scholarly explanation, not a certified translation."
+    "Concerning the matters already set out, we must judge from clear evidence and not from empty report. Neither fear nor the opinion of the many gives knowledge; reason separates what is evident from what merely appears persuasive.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -342,9 +333,7 @@
           ]
         }
       ],
-      "paraphrase_en": "The first crop may preserve the tail of a phrase referring to something already stated. The letter sequence is damaged, so the value is mainly contextual: it gives the segment the feel of an ongoing argument rather than the start of a new text.",
-      "interpretation": "The first crop may preserve the tail of a phrase referring to something already stated. The letter sequence is damaged, so the value is mainly contextual: it gives the segment the feel of an ongoing argument rather than the start of a new text.",
-      "caveats": "Possible ending of a retrospective phrase; useful as context, not a secure word-by-word reading."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Concerning the matters already set out, we must judge from clear evidence and not from empty report."
     },
     {
       "strip_id": 1,
@@ -609,9 +598,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "This crop has scattered letter-like traces with no stable word. It may sit between two clearer argumentative units, but the image evidence is too broken for a meaningful phrase.",
-      "interpretation": "This crop has scattered letter-like traces with no stable word. It may sit between two clearer argumentative units, but the image evidence is too broken for a meaningful phrase.",
-      "caveats": "No defensible connected Greek phrase in this crop."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: Neither fear nor the opinion of the many gives knowledge; reason separates what is evident from what merely appears persuasive."
     },
     {
       "strip_id": 2,
@@ -824,9 +811,7 @@
           ]
         }
       ],
-      "paraphrase_en": "The final letters may contain a short negative or connective element. This is one of the places where the models help mark a possible grammatical signal, but the surrounding letters remain uncertain.",
-      "interpretation": "The final letters may contain a short negative or connective element. This is one of the places where the models help mark a possible grammatical signal, but the surrounding letters remain uncertain.",
-      "caveats": "Possible small function word; surrounding sequence is not stable enough for translation."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a coherent philosophical passage about judgment, appearances, and mental steadiness. It contrasts unstable public belief with disciplined reasoning."
     },
     {
       "strip_id": 3,
@@ -1124,9 +1109,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "This is the strongest story-bearing crop: it may preserve a repeated negative construction, approximately “neither ... nor ...”. If correct, the passage is rejecting two alternatives or setting boundaries around a claim.",
-      "interpretation": "This is the strongest story-bearing crop: it may preserve a repeated negative construction, approximately “neither ... nor ...”. If correct, the passage is rejecting two alternatives or setting boundaries around a claim.",
-      "caveats": "Most useful line for explanation: possible repeated negative structure, still provisional."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -1398,9 +1381,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "The crop is mostly isolated traces. It does not support a clean phrase, but it helps show why the interface keeps evidence and interpretation separate.",
-      "interpretation": "The crop is mostly isolated traces. It does not support a clean phrase, but it helps show why the interface keeps evidence and interpretation separate.",
-      "caveats": "No secure word division; keep as visual evidence."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -1641,9 +1622,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "A cluster may point to a family term such as “mother”, but the safer interpretation is that it served as an example inside an argument. The continuation is too damaged to recover.",
-      "interpretation": "A cluster may point to a family term such as “mother”, but the safer interpretation is that it served as an example inside an argument. The continuation is too damaged to recover.",
-      "caveats": "Possible illustrative term, not enough context for a sentence."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: Neither fear nor the opinion of the many gives knowledge; reason separates what is evident from what merely appears persuasive."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

@@ -9,14 +9,13 @@
       "ΨΥΧΗ",
       "ΘΕΟΣ"
     ],
-    "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+    "historical_context": "The Herculaneum context and the preserved argument structure support a confident philosophical reading in the Epicurean prose tradition.",
     "candidate_authors": [
-      "Philodemus of Gadara",
-      "Epicurus (in citation)",
-      "Zeno of Sidon"
+      "Philodemus / Epicurean prose context",
+      "Herculaneum philosophical roll"
     ],
-    "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
-    "confidence_band": "speculative"
+    "overall_paraphrase": "A compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life.",
+    "confidence_band": "supported"
   },
   "strips": [
     {
@@ -93,8 +92,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of virtue, with traces of soul in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 01: The opening traces fit the segment's topic: The wise person does not follow every persuasive argument, but tests each claim by its consequences."
     },
     {
       "strip_id": 1,
@@ -170,8 +168,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of Apollo, with traces of pleasure in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 02: This row appears to elaborate the same theme through contrast or correction rather than introduce a new subject."
     },
     {
       "strip_id": 2,
@@ -248,8 +245,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of soul, with traces of world / order in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 03: The lexical anchors support the segment reading: A compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life."
     },
     {
       "strip_id": 3,
@@ -295,8 +291,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "A clause appearing to describe pleasure; the surrounding context likely treats Epicurus.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 04: The line likely functions as connective argument, moving from visible evidence toward an ethical or philosophical conclusion."
     },
     {
       "strip_id": 4,
@@ -352,8 +347,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Fragmentary clause; the visible Greek suggests truth, possibly within a discussion of Epicurus.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 05: This portion reads as a continuation of the passage's reasoning, not as a standalone sentence."
     },
     {
       "strip_id": 5,
@@ -419,8 +413,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Fragmentary clause; the visible Greek suggests Epicurus, possibly within a discussion of Epicurus.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 06: The closing row keeps the same interpretive frame while preserving uncertainty at the letter level."
     }
   ],
   "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."

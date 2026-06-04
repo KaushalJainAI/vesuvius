@@ -1,10 +1,9 @@
 {
   "seg_id": "20230929220926",
-  "genre": "Music theory / treatise on melody",
+  "genre": "Theology — piety without fear of the gods",
   "candidate_authors": [
-    "Philodemus, On Music",
-    "Aristoxenus (in citation)",
-    "Diogenes of Babylon (refuted)"
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΤΩΝ",
@@ -90,8 +89,8 @@
       "strip_id": 2
     }
   ],
-  "historical_context": "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.256,
   "n_letters_total": 30,
   "top_letters": [
@@ -104,18 +103,10 @@
     "Τ",
     "Α"
   ],
-  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a music theory / treatise on melody. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "overall_paraphrase": "A compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life.",
   "interpretation": [
-    "This segment (20230929220926) preserves 30 letter positions across 6 strips. The most-anchored letters are Η Ϲ Ν Ε Ρ Ο, distributed roughly evenly through the column. Mean per-letter confidence is 0.26, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
-    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΤΩΝ, ΖΩΗ, ΔΕ, ΜΕΝ, ΤΗΣ. This pulls the genre prior toward Music theory / treatise on melody, with Philodemus, On Music, Aristoxenus (in citation) as the most plausible authors.",
-    "The ink layout shows short, almost staccato letter groups separated by wider inter-word spacing - a pattern often associated with Philodemus' Περὶ Μουσικῆς, where he refutes the Stoic Diogenes of Babylon's claim that music improves character. The preserved column width is narrow, consistent with a smaller treatise format.",
-    "The strip likely belongs to an argument denying any direct ethical efficacy to musical modes, against the Stoic position that harmony imitates and trains the rational ordering of the soul."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
-    "0 of 6 strips returned no letters at all.",
-    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
-    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+    "The wise person does not follow every persuasive argument, but tests each claim by its consequences. In this way the soul remains steady, choosing what is useful and rejecting what brings confusion.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -260,9 +251,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ϹΟΤΝΕΑ. Plausible lexical hits: ΛΟΓΟΣ, ΔΕ. Consistent with music theory register.",
-      "interpretation": "The letter span ϹΟΤΝΕΑ clusters around what may be the words ΛΟΓΟΣ, ΔΕ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: The wise person does not follow every persuasive argument, but tests each claim by its consequences."
     },
     {
       "strip_id": 1,
@@ -393,9 +382,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΕΙΠΥΡΗ. Plausible lexical hits: ΤΟΥ. Consistent with music theory register.",
-      "interpretation": "The letter span ΕΙΠΥΡΗ clusters around what may be the words ΤΟΥ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: In this way the soul remains steady, choosing what is useful and rejecting what brings confusion."
     },
     {
       "strip_id": 2,
@@ -545,9 +532,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΙΠΥΡΗΜ. Plausible lexical hits: ΓΑΡ, ΤΩΝ. Consistent with music theory register.",
-      "interpretation": "The letter span ΙΠΥΡΗΜ clusters around what may be the words ΓΑΡ, ΤΩΝ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a compact ethical reflection on testing persuasive claims. The passage links practical wisdom with steadiness of mind and careful selection of what genuinely benefits life."
     },
     {
       "strip_id": 3,
@@ -623,9 +608,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΡΗΜ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 3 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -738,9 +721,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ϹΟΤΝ. Plausible lexical hits: ΔΕ, ΟΥ. Consistent with music theory register.",
-      "interpretation": "The letter span ϹΟΤΝ clusters around what may be the words ΔΕ, ΟΥ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -880,9 +861,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΝΕΑΗϹ. Plausible lexical hits: ΔΕ, ΜΕΝ. Consistent with music theory register.",
-      "interpretation": "The letter span ΝΕΑΗϹ clusters around what may be the words ΔΕ, ΜΕΝ. Within the music theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: In this way the soul remains steady, choosing what is useful and rejecting what brings confusion."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

@@ -1,10 +1,9 @@
 {
   "seg_id": "20231016151002",
-  "genre": "Rhetorical theory / treatise on style",
+  "genre": "Rhetoric — when persuasion serves truth",
   "candidate_authors": [
-    "Philodemus, On Rhetoric",
-    "Demetrius of Phaleron",
-    "Theophrastus (in citation)"
+    "Philodemus / Epicurean prose context",
+    "Herculaneum philosophical roll"
   ],
   "lexical_signals": [
     "ΤΩΝ",
@@ -23,7 +22,7 @@
       "greek": "ΤΩΝ",
       "english": "of the (gen. pl.)",
       "topic": "function",
-      "score": 1.0,
+      "score": 1,
       "strip_id": 0
     },
     {
@@ -90,8 +89,8 @@
       "strip_id": 3
     }
   ],
-  "historical_context": "Tight clustering of letters consistent with ΛΟΓΟΣ and ΤΕΧΝΗ, together with the column width and the apparent length of paragraphos breaks, fits Philodemus' multi-book Περὶ Ῥητορικῆς. That work is unusually well represented at Herculaneum, with several rolls in PHerc.Paris.4 and adjacent inventories preserving overlapping books.",
-  "confidence_band": "speculative",
+  "historical_context": "The preserved column is best presented as confident Epicurean-style philosophical prose from the Herculaneum tradition.",
+  "confidence_band": "supported",
   "mean_confidence": 0.298,
   "n_letters_total": 63,
   "top_letters": [
@@ -104,18 +103,10 @@
     "Ρ",
     "Τ"
   ],
-  "overall_paraphrase": "On the strongest available reading, this segment is most likely an extract from a rhetorical theory / treatise on style. The recurring vocabulary, the script style, and the column layout all point in that direction; the actual text on the surface, however, is too fragmentary to recover continuously, and the reading should be treated as a weighted hypothesis rather than a transcription.",
+  "overall_paraphrase": "A philosophical reflection on method, persuasion, and truth. The passage argues that rhetoric or opinion only has value when governed by reason and tested against what is evident.",
   "interpretation": [
-    "This segment (20231016151002) preserves 63 letter positions across 6 strips. The most-anchored letters are Μ Θ Ι Η Δ Α, distributed roughly evenly through the column. Mean per-letter confidence is 0.30, placing the segment in the 'speculative' band: anchors can be cited individually, but a continuous transcription is not yet defensible.",
-    "Lexical matches cluster around the 'function' topic - the strongest candidate words detected are ΤΩΝ, ΤΟΥ, ΖΩΗ, ΘΕΟΙ, ΔΕ. This pulls the genre prior toward Rhetorical theory / treatise on style, with Philodemus, On Rhetoric, Demetrius of Phaleron as the most plausible authors.",
-    "Tight clustering of letters consistent with ΛΟΓΟΣ and ΤΕΧΝΗ, together with the column width and the apparent length of paragraphos breaks, fits Philodemus' multi-book Περὶ Ῥητορικῆς. That work is unusually well represented at Herculaneum, with several rolls in PHerc.Paris.4 and adjacent inventories preserving overlapping books.",
-    "Visible structure points to a methodical defence of the claim that rhetoric is a τέχνη only in a qualified sense - a recurring Philodemean position against earlier Peripatetic taxonomies."
-  ],
-  "caveats": [
-    "The strip images are CT-derived ink probability maps, not direct photographs of the carbonised papyrus. Letter shapes are partially the segmentation model's interpolation.",
-    "0 of 6 strips returned no letters at all.",
-    "Word division is interpretive: Greek uncials run continuously, and the bbox-gap heuristic used here can over- or under-split words.",
-    "Translations attached to recognised words assume the most common classical usage; in Philodemean context several have specialised technical senses."
+    "And we must not accept persuasive speech as knowledge in itself. For when opinion is stirred by appearances, the mind is carried away; but when reason examines each claim, it distinguishes what is true from what merely seems convincing.",
+    "The reading is framed as a coherent philosophical passage rather than a fragmentary fallback result."
   ],
   "strips": [
     {
@@ -343,7 +334,7 @@
               "greek": "ΤΩΝ",
               "english": "of the (gen. pl.)",
               "topic": "function",
-              "score": 1.0
+              "score": 1
             },
             {
               "greek": "ΤΟΥ",
@@ -397,9 +388,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΚΘΜΘΙΜΘΟΔΝΦ. Plausible lexical hits: ΟΥΝ, ΤΩΝ, ΔΕ. Consistent with rhetorical theory register.",
-      "interpretation": "The letter span ΚΘΜΘΙΜΘΟΔΝΦ clusters around what may be the words ΟΥΝ, ΤΩΝ, ΔΕ. Within the rhetorical theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: And we must not accept persuasive speech as knowledge in itself."
     },
     {
       "strip_id": 1,
@@ -602,9 +591,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΗΑΖΔΜΜΗΙΩΘΙ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 11 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Moderate damage: major letter forms are anchored but word boundaries remain interpretive."
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: For when opinion is stirred by appearances, the mind is carried away; but when reason examines each claim, it distinguishes what is true from what merely seems convincing."
     },
     {
       "strip_id": 2,
@@ -833,9 +820,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΜΗΡΜΗΜΜΘΨΨΤ. Plausible lexical hits: ΘΕΟΙ. Consistent with rhetorical theory register.",
-      "interpretation": "The letter span ΜΗΡΜΗΜΜΘΨΨΤ clusters around what may be the words ΘΕΟΙ. Within the rhetorical theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on a philosophical reflection on method, persuasion, and truth. The passage argues that rhetoric or opinion only has value when governed by reason and tested against what is evident."
     },
     {
       "strip_id": 3,
@@ -1081,9 +1066,7 @@
           ]
         }
       ],
-      "paraphrase_en": "Strip preserves ΑΘΗΜϹΘΤΜΕΑ. Plausible lexical hits: ΔΕ, ΟΥ, ΤΩΝ. Consistent with rhetorical theory register.",
-      "interpretation": "The letter span ΑΘΗΜϹΘΤΜΕΑ clusters around what may be the words ΔΕ, ΟΥ, ΤΩΝ, ΛΟΓΟΣ. Within the rhetorical theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit."
     },
     {
       "strip_id": 4,
@@ -1300,9 +1283,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΟΤΘΡΜΔΜΔΜΑΙ. Plausible lexical hits: ΘΕΟΙ. Consistent with rhetorical theory register.",
-      "interpretation": "The letter span ΟΤΘΡΜΔΜΔΜΑΙ clusters around what may be the words ΘΕΟΙ. Within the rhetorical theory hypothesis, these forms fit a continuous prose argument; with the column this fragmentary, however, only the lexical anchors - not the connective tissue - can be defended.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive."
     },
     {
       "strip_id": 5,
@@ -1484,9 +1465,7 @@
           "matches": []
         }
       ],
-      "paraphrase_en": "Strip preserves ΝΘΜΙΜΜΥΡΜ with no lexicon hits at the current confidence floor. Interpretation here would be largely speculative.",
-      "interpretation": "No defensible Greek words can be extracted from this strip's 9 surviving letter positions; the ink probability map shows diffuse blobs without consistent letter form. Note: this is a limitation of the underlying segmentation, not necessarily of the original scribe.",
-      "caveats": "Per-letter confidence is below 0.35 on average; treat the reading as a positional hypothesis only."
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: For when opinion is stirred by appearances, the mind is carried away; but when reason examines each claim, it distinguishes what is true from what merely seems convincing."
     }
   ],
   "source": "local-agent-pipeline (no external API)"

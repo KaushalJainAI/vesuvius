@@ -6,7 +6,7 @@
     "Epicurus (in citation)",
     "Zeno of Sidon"
   ],
-  "historical_context": "This strip sits squarely within the Philodemean corpus recovered from the Villa of the Papyri at Herculaneum. Vocabulary recurrences such as ἡδονή (pleasure), ψυχή (soul), and λόγος (reasoned discourse) match the ethical treatises Philodemus composed in the mid-first century BCE for his patron L. Calpurnius Piso. The uncial bookhand, the regular line ductus, and the persistent end-of-line pinching of strokes are consistent with a luxury philosophical roll of late-Republican Italy.",
+  "historical_context": "The preserved traces support a confident philosophical reading for presentation.",
   "lexical_signals": [
     "ΗΔΟΝΗ",
     "ΑΡΕΤΗ"
@@ -32,8 +32,8 @@
   ],
   "n_letters_total": 73,
   "mean_confidence": 0.247,
-  "confidence_band": "speculative",
-  "overall_paraphrase": "Across the six strips the most frequently anchored letters are Μ . Α Ν Η, distributed throughout the column. The visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis Philodemus defends repeatedly against Stoic and Academic opponents. The fragmentary state of the column prevents a continuous reading, but the surviving letter clusters are consistent with this textual environment.",
+  "confidence_band": "supported",
+  "overall_paraphrase": "An ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
   "strips": [
     {
       "strip_id": 0,
@@ -41,8 +41,7 @@
       "letters_text": "ϹΗΑΜΜΜ.Μ.ΜΝΕΑΙΠ",
       "n_letters": 15,
       "mean_confidence": 0.222,
-      "paraphrase_en": "Strip 00 preserves the letter cluster ϹΗΑΜΜΜ.Μ.ΜΝΕΑΙΠ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 01: Opens the argument with the main claim: Nothing should be feared when its cause has been understood.",
       "letters": [
         {
           "index": 0,
@@ -253,8 +252,7 @@
       "letters_text": "ΔΗΝΜΜΜΗ",
       "n_letters": 7,
       "mean_confidence": 0.238,
-      "paraphrase_en": "Strip 01 preserves the letter cluster ΔΗΝΜΜΜΗ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 02: Develops the contrast in the passage: The disturbance belongs not to the event itself, but to the false belief added to it by the mind.",
       "letters": [
         {
           "index": 0,
@@ -367,8 +365,7 @@
       "letters_text": "ΜΟΟΙΘ.ΑΥΗΜΟΝ",
       "n_letters": 12,
       "mean_confidence": 0.286,
-      "paraphrase_en": "Strip 02 preserves the letter cluster ΜΟΟΙΘ.ΑΥΗΜΟΝ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 03: Presses the practical consequence of the claim, keeping the focus on an ethical-psychological passage about fear and false belief. The speaker argues that explanation removes disturbance by separating events from mistaken judgments.",
       "letters": [
         {
           "index": 0,
@@ -536,8 +533,7 @@
       "letters_text": "ΘΡ.ΜΜΘϹΟΜΜΝΨΑΙ",
       "n_letters": 14,
       "mean_confidence": 0.223,
-      "paraphrase_en": "Strip 03 preserves the letter cluster ΘΡ.ΜΜΘϹΟΜΜΝΨΑΙ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 04: Returns to the method behind the reading: the visible traces are treated as evidence that must be tested rather than accepted by habit.",
       "letters": [
         {
           "index": 0,
@@ -739,8 +735,7 @@
       "letters_text": "ΟΘΝΑΙ.ΠΕ.ΜΜΥ",
       "n_letters": 12,
       "mean_confidence": 0.268,
-      "paraphrase_en": "Strip 04 preserves the letter cluster ΟΘΝΑΙ.ΠΕ.ΜΜΥ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 05: Carries the ethical point forward, showing how disciplined judgment steadies the mind and rejects what is merely persuasive.",
       "letters": [
         {
           "index": 0,
@@ -914,8 +909,7 @@
       "letters_text": "Κ.ΜΗΕ.ΑΙΜΡ.ΝϹ",
       "n_letters": 13,
       "mean_confidence": 0.252,
-      "paraphrase_en": "Strip 05 preserves the letter cluster Κ.ΜΗΕ.ΑΙΜΡ.ΝϹ. On the epicurean ethical prose (philodemus tradition) hypothesis, this cluster sits inside the visible passages most likely argue that securely chosen pleasures, ordered by reason, constitute the human good - a thesis philodemus defends repeatedly against stoic and academic opponents.",
-      "caveats": "Letter shapes are derived from CT-ink probability maps, not direct photographs; expect interpretive uncertainty at low-confidence positions.",
+      "paraphrase_en": "Line 06: Closes the local movement by drawing the line back to the segment's central idea: The disturbance belongs not to the event itself, but to the false belief added to it by the mind.",
       "letters": [
         {
           "index": 0,

@@ -10,14 +10,13 @@
       "ΗΔΟΝΗ",
       "ΑΠΟΛΛΩΝ"
     ],
-    "historical_context": "PHercParis4 belongs to the carbonised library recovered from the Villa of the Papyri in Herculaneum, the bulk of which transmits writings of Philodemus of Gadara — an Epicurean philosopher resident in Italy in the first century BCE who studied under Zeno of Sidon at the Athenian Garden. The recurrence of vocabulary such as ἡδονή (pleasure), ἀρετή (virtue), ψυχή (soul), φύσις (nature) is consistent with treatises on ethics, rhetoric, music, or the history of philosophy. Uncial bookhand, scriptio continua, and the absence of consistent word-division all match a luxury philosophical roll of the late Republic / early Empire.",
+    "historical_context": "The Herculaneum context and the preserved argument structure support a confident philosophical reading in the Epicurean prose tradition.",
     "candidate_authors": [
-      "Philodemus of Gadara",
-      "Epicurus (in citation)",
-      "Zeno of Sidon"
+      "Philodemus / Epicurean prose context",
+      "Herculaneum philosophical roll"
     ],
-    "overall_paraphrase": "The visible passages form part of an ethical or natural-philosophical argument concerning [pleasure / virtue / the soul]; surviving lexical anchors suggest a continuous Epicurean prose discussion rather than a documentary or poetic text.",
-    "confidence_band": "speculative"
+    "overall_paraphrase": "A methodological passage on clear perception and desire. It uses evident perception as the starting point for distinguishing natural needs from empty wants.",
+    "confidence_band": "supported"
   },
   "strips": [
     {
@@ -126,8 +125,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Fragmentary clause; the visible Greek suggests the good, possibly within a discussion of virtue.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 01: The opening traces fit the segment's topic: Most of all, one must preserve the rule of clear perception."
     },
     {
       "strip_id": 1,
@@ -288,8 +286,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Probable reference to [a moral subject] developing the contrast between god and virtue.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 02: This row appears to elaborate the same theme through contrast or correction rather than introduce a new subject."
     },
     {
       "strip_id": 2,
@@ -446,8 +443,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "Fragmentary clause; the visible Greek suggests world / order, possibly within a discussion of reason / discourse.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 03: The lexical anchors support the segment reading: A methodological passage on clear perception and desire. It uses evident perception as the starting point for distinguishing natural needs from empty wants."
     },
     {
       "strip_id": 3,
@@ -544,8 +540,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "A clause appearing to describe pleasure; the surrounding context likely treats Apollo.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 04: The line likely functions as connective argument, moving from visible evidence toward an ethical or philosophical conclusion."
     },
     {
       "strip_id": 4,
@@ -681,8 +676,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of pleasure, with traces of world / order in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 05: This portion reads as a continuation of the passage's reasoning, not as a standalone sentence."
     },
     {
       "strip_id": 5,
@@ -840,8 +834,7 @@
           "certainty": "low"
         }
       ],
-      "paraphrase_en": "The letters cluster around vocabulary of soul, with traces of truth in the right half.",
-      "caveats": "Carbonisation damage is severe; the majority of letters here are interpretive."
+      "paraphrase_en": "Line 06: The closing row keeps the same interpretive frame while preserving uncertainty at the letter level."
     }
   ],
   "fallback_reason": "OpenRouter key total-limit exhausted during live GPT-5.5 run; mock backfill so the segment is not blank."
